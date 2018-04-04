@@ -3,7 +3,7 @@ email: avinash.jvm10@gmail.com
 description: This is where I share and discuss about software. The challenges, interesting problems I solve, findings, tips and tricks I learn in day-to-day life.
 permalink: ':title/'
 baseurl: "techsavi.blog/"
-url: "https://avinasherupaka.github.io/techsavi.blog/"
+url: "https://avinasherupaka.github.io/"
 
 author: Avinash Erupaka
 author-pic: Avinash_4.jpg
