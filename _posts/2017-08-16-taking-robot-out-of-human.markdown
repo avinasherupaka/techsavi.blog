@@ -2,7 +2,6 @@
 layout: post
 title: "Robotic Process Automation - Taking Robot Out Of Human"
 subtitle: "A brief introduction to Robotic Process Automation."
-description: "Robotic Process Automation is a computer software that helps automate a lot of repetitive, routine tasks that are dreary, uninteresting and rule driven."
 img: RPA_Avinash.jpg
 tags: [robotic process automation, intelligent automation, AI, machine learning, autonomics]
 author: Avinash Reddy Erupaka
@@ -10,11 +9,13 @@ author: Avinash Reddy Erupaka
 
 # What is RPA ?
 
-`Robotic Process Automation` is essentially a computer software that helps automate a lot of repetitive, routine tasks that are rule driven. The software mimics activity of a human in carrying out a task within a process, thus extracting robotic(repetitive) activities. "It can perform task more efficiently, accurately than humans, thus freeing them for tasks requiring cognitive intelligence, reasoning, judgment". Encompassing cognitive/autonomic computing capabilities like AI and machine learning, etc. it is referred as Intelligent Automation(More details in Part-2 of this series).
+**Robotic Process Automation** is essentially a computer software that helps automate a lot of repetitive, routine tasks that are rule driven. The software mimics activity of a human in carrying out a task within a process, thus extracting robotic(repetitive) activities. "It can perform task more efficiently, accurately than humans, thus freeing them for tasks requiring cognitive intelligence, reasoning, judgment". Encompassing cognitive/autonomic computing capabilities like AI and machine learning, etc. it is referred as Intelligent Automation(More details in Part-2 of this series).
 
 # Why is this important now?
 
-The era of digital transformation will accelerate in the coming years to address the changing business landscape. Automation using artificial intelligence might be the next game changer as part of digital transformation to achieve efficiency. RPA (aka Intelligent automation) is starting to change the way business processes are carried out in nearly every sector. Advances in techniques like machine learning, autonomics, machine vision, natural language processing, improvement in sensor, greater and cheaper computing power and cloud infrastructures have helped create a new generation of robots with practical application in nearly every domain.
+>The era of digital transformation will accelerate in the coming years to address the changing business landscape.
+
+Automation using artificial intelligence might be the next game changer as part of digital transformation to achieve efficiency. RPA (aka Intelligent automation) is starting to change the way business processes are carried out in nearly every sector. Advances in techniques like machine learning, autonomics, machine vision, natural language processing, improvement in sensor, greater and cheaper computing power and cloud infrastructures have helped create a new generation of robots with practical application in nearly every domain.
 
 # How would you differentiate RPA from other Automations?
 
@@ -24,8 +25,8 @@ RPA is very different from conventional process automations, it is `system agnos
 
 It’s faster to implement, non disruptive, and ready to use with almost any software, and easily altered or updated to adapt to change.
 
-![RPA_vs_Other_Automation]({{baseurl}}/assets/img/RPA/RPA_vs_Other.png)
-![RPA Sample Work Flow]({{baseurl}}/assets/img/RPA/Sample_RPA.png)
+![RPA_vs_Other_Automation]({{site.baseurl}}/assets/img/RPA/RPA_vs_Other.png)
+![RPA Sample Work Flow]({{site.baseurl}}/assets/img/RPA/Sample_RPA.png)
 <small><i>img-source: [roboyo](https://www.roboyo.de/en/robotic-process-automation/)</i></small>
 
 # What are the most powerful benefits of RPA ?
@@ -108,7 +109,7 @@ Processes that require a lot of volume, repetition, and rules to get the job don
 # Lets looks at a real world implementation, because we all like examples !
 
 Enterprise IT systems overtime…
-![Enterprise_IT]({{baseurl}}/assets/img/RPA/Tangled_Systems.jpg)
+![Enterprise_IT]({{site.baseurl}}/assets/img/RPA/Tangled_Systems.jpg)
 
 Large enterprise IT usually have a tangle of legacy systems. Considering the priority, complexity, immediate value, budget and risks, these systems will never be integrated. Also manual processes like mining, transforming and storing of such legacy data to enterprise repositories is in-effieicent, resource intensive, time-consuming, expensive and error-prone. This is where RPA can be the savior.
 >"Following is the link to an use-case in which UiPath, a Forrester Wave top supplier, delivered a RPA solution to the car manufacturer Volvo".
@@ -123,7 +124,10 @@ Large enterprise IT usually have a tangle of legacy systems. Considering the pri
 
 # Conclusion
 ### The journey has begun...
-In a very short time since its inception, RPA has come a long way. "Some automation solutions helped organizations achieve operational and financial benefits, but they have reached a point of diminishing returns in an effort to reduce manual work". This is where RPA can be leveraged. Organizations should leverage new automation platforms that go beyond traditional process and embrace more robust solutions like RPA, cognitive/autonomic automation. The focus should be to reduce/eliminate manual work. Also technologies like artificial intelligence, machine learning should be part of organization’s core efforts to automate manual tasks, freeing up human resources for cognitive intensive activities.  
+In a very short time since its inception, RPA has come a long way.
+>"Some automation solutions helped organizations achieve operational and financial benefits, but they have reached a point of diminishing returns in an effort to reduce manual work". 
+
+This is where RPA can be leveraged. Organizations should leverage new automation platforms that go beyond traditional process and embrace more robust solutions like RPA, cognitive/autonomic automation. The focus should be to reduce/eliminate manual work. Also technologies like artificial intelligence, machine learning should be part of organization’s core efforts to automate manual tasks, freeing up human resources for cognitive intensive activities.  
 
 References:  
 

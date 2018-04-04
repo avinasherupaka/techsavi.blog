@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/techsavi.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/techsavi.blog/" rel="alternate" type="text/html" /><updated>2018-04-03T21:49:05-05:00</updated><id>http://localhost:4000/techsavi.blog/</id><title type="html">techsAvi Blog</title><subtitle>This is where I share and discuss about software. The challenges, interesting problems I solve, findings, tips and tricks I learn in day-to-day life.</subtitle><author><name>Avinash Erupaka</name></author><entry><title type="html">Robotic Process Automation - Taking Robot Out Of Human</title><link href="http://localhost:4000/techsavi.blog/taking-robot-out-of-human/" rel="alternate" type="text/html" title="Robotic Process Automation - Taking Robot Out Of Human" /><published>2017-08-16T00:00:00-05:00</published><updated>2017-08-16T00:00:00-05:00</updated><id>http://localhost:4000/techsavi.blog/taking-robot-out-of-human</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/taking-robot-out-of-human/">&lt;h1 id=&quot;what-is-rpa-&quot;&gt;What is RPA ?&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/techsavi.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/techsavi.blog/" rel="alternate" type="text/html" /><updated>2018-04-03T22:23:05-05:00</updated><id>http://localhost:4000/techsavi.blog/</id><title type="html">techsAvi Blog</title><subtitle>This is where I share and discuss about software. The challenges, interesting problems I solve, findings, tips and tricks I learn in day-to-day life.</subtitle><author><name>Avinash Erupaka</name></author><entry><title type="html">Robotic Process Automation - Taking Robot Out Of Human</title><link href="http://localhost:4000/techsavi.blog/taking-robot-out-of-human/" rel="alternate" type="text/html" title="Robotic Process Automation - Taking Robot Out Of Human" /><published>2017-08-16T00:00:00-05:00</published><updated>2017-08-16T00:00:00-05:00</updated><id>http://localhost:4000/techsavi.blog/taking-robot-out-of-human</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/taking-robot-out-of-human/">&lt;h1 id=&quot;what-is-rpa-&quot;&gt;What is RPA ?&lt;/h1&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Robotic Process Automation&lt;/code&gt; is essentially a computer software that helps automate a lot of repetitive, routine tasks that are rule driven. The software mimics activity of a human in carrying out a task within a process, thus extracting robotic(repetitive) activities. “It can perform task more efficiently, accurately than humans, thus freeing them for tasks requiring cognitive intelligence, reasoning, judgment”. Encompassing cognitive/autonomic computing capabilities like AI and machine learning, etc. it is referred as Intelligent Automation(More details in Part-2 of this series).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Robotic Process Automation&lt;/strong&gt; is essentially a computer software that helps automate a lot of repetitive, routine tasks that are rule driven. The software mimics activity of a human in carrying out a task within a process, thus extracting robotic(repetitive) activities. “It can perform task more efficiently, accurately than humans, thus freeing them for tasks requiring cognitive intelligence, reasoning, judgment”. Encompassing cognitive/autonomic computing capabilities like AI and machine learning, etc. it is referred as Intelligent Automation(More details in Part-2 of this series).&lt;/p&gt;
 
 &lt;h1 id=&quot;why-is-this-important-now&quot;&gt;Why is this important now?&lt;/h1&gt;
 
-&lt;p&gt;The era of digital transformation will accelerate in the coming years to address the changing business landscape. Automation using artificial intelligence might be the next game changer as part of digital transformation to achieve efficiency. RPA (aka Intelligent automation) is starting to change the way business processes are carried out in nearly every sector. Advances in techniques like machine learning, autonomics, machine vision, natural language processing, improvement in sensor, greater and cheaper computing power and cloud infrastructures have helped create a new generation of robots with practical application in nearly every domain.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The era of digital transformation will accelerate in the coming years to address the changing business landscape.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Automation using artificial intelligence might be the next game changer as part of digital transformation to achieve efficiency. RPA (aka Intelligent automation) is starting to change the way business processes are carried out in nearly every sector. Advances in techniques like machine learning, autonomics, machine vision, natural language processing, improvement in sensor, greater and cheaper computing power and cloud infrastructures have helped create a new generation of robots with practical application in nearly every domain.&lt;/p&gt;
 
 &lt;h1 id=&quot;how-would-you-differentiate-rpa-from-other-automations&quot;&gt;How would you differentiate RPA from other Automations?&lt;/h1&gt;
 
@@ -16,8 +20,8 @@
 
 &lt;p&gt;It’s faster to implement, non disruptive, and ready to use with almost any software, and easily altered or updated to adapt to change.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/RPA/RPA_vs_Other.png&quot; alt=&quot;RPA_vs_Other_Automation&quot; /&gt;
-&lt;img src=&quot;/assets/img/RPA/Sample_RPA.png&quot; alt=&quot;RPA Sample Work Flow&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/RPA/RPA_vs_Other.png&quot; alt=&quot;RPA_vs_Other_Automation&quot; /&gt;
+&lt;img src=&quot;/techsavi.blog/assets/img/RPA/Sample_RPA.png&quot; alt=&quot;RPA Sample Work Flow&quot; /&gt;
 &lt;small&gt;&lt;i&gt;img-source: &lt;a href=&quot;https://www.roboyo.de/en/robotic-process-automation/&quot;&gt;roboyo&lt;/a&gt;&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;what-are-the-most-powerful-benefits-of-rpa-&quot;&gt;What are the most powerful benefits of RPA ?&lt;/h1&gt;
@@ -108,7 +112,7 @@ RPA offers the same thing to business processes. A well programmed software is l
 &lt;h1 id=&quot;lets-looks-at-a-real-world-implementation-because-we-all-like-examples-&quot;&gt;Lets looks at a real world implementation, because we all like examples !&lt;/h1&gt;
 
 &lt;p&gt;Enterprise IT systems overtime…
-&lt;img src=&quot;/assets/img/RPA/Tangled_Systems.jpg&quot; alt=&quot;Enterprise_IT&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/techsavi.blog/assets/img/RPA/Tangled_Systems.jpg&quot; alt=&quot;Enterprise_IT&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Large enterprise IT usually have a tangle of legacy systems. Considering the priority, complexity, immediate value, budget and risks, these systems will never be integrated. Also manual processes like mining, transforming and storing of such legacy data to enterprise repositories is in-effieicent, resource intensive, time-consuming, expensive and error-prone. This is where RPA can be the savior.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -127,7 +131,12 @@ RPA offers the same thing to business processes. A well programmed software is l
 
 &lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
 &lt;h3 id=&quot;the-journey-has-begun&quot;&gt;The journey has begun…&lt;/h3&gt;
-&lt;p&gt;In a very short time since its inception, RPA has come a long way. “Some automation solutions helped organizations achieve operational and financial benefits, but they have reached a point of diminishing returns in an effort to reduce manual work”. This is where RPA can be leveraged. Organizations should leverage new automation platforms that go beyond traditional process and embrace more robust solutions like RPA, cognitive/autonomic automation. The focus should be to reduce/eliminate manual work. Also technologies like artificial intelligence, machine learning should be part of organization’s core efforts to automate manual tasks, freeing up human resources for cognitive intensive activities.  &lt;/p&gt;
+&lt;p&gt;In a very short time since its inception, RPA has come a long way.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Some automation solutions helped organizations achieve operational and financial benefits, but they have reached a point of diminishing returns in an effort to reduce manual work”. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is where RPA can be leveraged. Organizations should leverage new automation platforms that go beyond traditional process and embrace more robust solutions like RPA, cognitive/autonomic automation. The focus should be to reduce/eliminate manual work. Also technologies like artificial intelligence, machine learning should be part of organization’s core efforts to automate manual tasks, freeing up human resources for cognitive intensive activities.  &lt;/p&gt;
 
 &lt;p&gt;References:&lt;/p&gt;
 
