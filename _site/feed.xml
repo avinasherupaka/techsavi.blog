@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-03T19:47:08-05:00</updated><id>http://localhost:4000/</id><title type="html">My personal blog - Avinash Erupaka</title><subtitle>This is where I share and discuss about software. The challenges, interesting problems I solve, findings, tips and tricks I learn in day-to-day life.</subtitle><author><name>Avinash Erupaka</name></author><entry><title type="html">Robotic Process Automation - Taking Robot Out Of Human</title><link href="http://localhost:4000/taking-robot-out-of-human/" rel="alternate" type="text/html" title="Robotic Process Automation - Taking Robot Out Of Human" /><published>2017-08-16T00:00:00-05:00</published><updated>2017-08-16T00:00:00-05:00</updated><id>http://localhost:4000/taking-robot-out-of-human</id><content type="html" xml:base="http://localhost:4000/taking-robot-out-of-human/">&lt;h1 id=&quot;what-is-rpa-&quot;&gt;What is RPA ?&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Robotic Process Automation&lt;/code&gt; is essentially a computer software that helps automate a lot of repetitive, routine tasks that are rule driven. The software mimics activity of a human in carrying out a task within a process, thus extracting robotic(repetitive) activities. “It can perform task more efficiently, accurately than humans, thus freeing them for tasks requiring cognitive intelligence, reasoning, judgment”. Encompassing cognitive/autonomic computing capabilities like AI and machine learning, etc. it is referred as Intelligent Automation(More details in Part-2 of this series).&lt;/p&gt;
+
+&lt;h1 id=&quot;why-is-this-important-now&quot;&gt;Why is this important now?&lt;/h1&gt;
+
+&lt;p&gt;The era of digital transformation will accelerate in the coming years to address the changing business landscape. Automation using artificial intelligence might be the next game changer as part of digital transformation to achieve efficiency. RPA (aka Intelligent automation) is starting to change the way business processes are carried out in nearly every sector. Advances in techniques like machine learning, autonomics, machine vision, natural language processing, improvement in sensor, greater and cheaper computing power and cloud infrastructures have helped create a new generation of robots with practical application in nearly every domain.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-would-you-differentiate-rpa-from-other-automations&quot;&gt;How would you differentiate RPA from other Automations?&lt;/h1&gt;
+
+&lt;p&gt;RPA is very different from conventional process automations, it is &lt;code class=&quot;highlighter-rouge&quot;&gt;system agnostic&lt;/code&gt;. BPM for example ensures the infrastructure of a business process that is lengthy, costly and disruptive.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“RPA, on the other hand, is designed to operate processes as a human would, so it exists on a more surface level”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s faster to implement, non disruptive, and ready to use with almost any software, and easily altered or updated to adapt to change.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/RPA/RPA_vs_Other.png&quot; alt=&quot;RPA_vs_Other_Automation&quot; /&gt;
+&lt;img src=&quot;/assets/img/RPA/Sample_RPA.png&quot; alt=&quot;RPA Sample Work Flow&quot; /&gt;
+&lt;small&gt;&lt;i&gt;img-source: &lt;a href=&quot;https://www.roboyo.de/en/robotic-process-automation/&quot;&gt;roboyo&lt;/a&gt;&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-are-the-most-powerful-benefits-of-rpa-&quot;&gt;What are the most powerful benefits of RPA ?&lt;/h1&gt;
+
+&lt;h3 id=&quot;automate-back-office-processes&quot;&gt;Automate back-office processes&lt;/h3&gt;
+&lt;p&gt;RPA can expedite back-office work that are rule driven, repetitive and involve interaction with multiple systems. The tasks usually  require swivel-chair boring work like clicking multiple systems, gathering data from them and storing it in another system. Automating such tasks are good for company and employees.&lt;/p&gt;
+
+&lt;h3 id=&quot;infrastructure-support-and-management&quot;&gt;Infrastructure Support and Management&lt;/h3&gt;
+&lt;p&gt;Tasks like network device monitoring, IT support and security can be handled efficiently with RPA. These task demand human resources to carryout lot of repetitive and rule driven activities. Automating such processes can free up human resources and save companies from extra recruiting or training.&lt;/p&gt;
+
+&lt;h3 id=&quot;efficiency&quot;&gt;Efficiency&lt;/h3&gt;
+&lt;p&gt;It is proven that physical robots increase efficiency on a factory production line as the process is streamlined. RPA brings the same thing to IT business process. Unlike humans Robots can operate 24/7, this is an unique strength of RPA. RPA can handle far more  tasks compared to humans in a given time, which mean more complete tasks in less time. This allows increase your businesses efficiency and allow to concentrate on more critical challenges.&lt;/p&gt;
+
+&lt;h3 id=&quot;analytical-value&quot;&gt;Analytical Value&lt;/h3&gt;
+&lt;p&gt;With huge volumes of data flowing in, gathering, organizing and mining it is a challenge. Data is crucial in determining an organizations performance, areas of improvement, future outcomes and  ways to optimize processes. RPA as a software robot introduced in a system, not only automates the process but comes back with most valuable analytic information of “how it performed” and “challenges encountered”. Such information can further enriched and presented through a pleasing interface.
+In turn these analytic helps achieve more robust and streamlined process, some of which are regulatory compliance, cost effective growth and optimized operations. For example implementing RPA, can yield centralized log files and storage rules that conform and integrate with log files from BPMS, ERP and ITPA systems creating an enterprise wide data repository. This enables handling some of the regulatory compliance challenges.&lt;/p&gt;
+
+&lt;h3 id=&quot;higher-performance--quality-of-task-completion&quot;&gt;Higher Performance &amp;amp; Quality of task completion&lt;/h3&gt;
+&lt;p&gt;Lets answer this with couple questions,             &lt;br /&gt;
+What is the major advantage of self driving cars ? &lt;code class=&quot;highlighter-rouge&quot;&gt;SAFTEY!&lt;/code&gt;, it is achieved by precisely programmed computer software.&lt;/p&gt;
+
+&lt;p&gt;Why is it better than human driver ? Quality, it has no Distractions and Recklessness.            &lt;br /&gt;
+RPA offers the same thing to business processes. A well programmed software is less likely to make mistakes and its performance does not vary by any external parameters.&lt;/p&gt;
+
+&lt;h3 id=&quot;cyber-security&quot;&gt;Cyber-Security&lt;/h3&gt;
+&lt;p&gt;The biggest challenge many organizations face today is cyber security. The acute shortage of qualified professionals is further amplifying the challenge. &lt;code class=&quot;highlighter-rouge&quot;&gt;Alert fatigue&lt;/code&gt; is another huge problem, where security teams struggle to sort through numerous security events to identify the actual incidents. RPA with AI helps to bridge this gap of human resource shortage and manual process of threat detection.&lt;/p&gt;
+
+&lt;h3 id=&quot;reduced-costs&quot;&gt;Reduced Costs&lt;/h3&gt;
+&lt;p&gt;Human resources are expensive and using expensive commodity for routine and rule driven task has very less return for an organization. In todays changing demographics outsourcing is not always a viable option. This is where RPA can be leveraged as a one time solution that can create a &lt;code class=&quot;highlighter-rouge&quot;&gt;25-50% cost&lt;/code&gt; savings based on its deploy capabilities and use case.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-to-get-started-&quot;&gt;How to get started ?&lt;/h1&gt;
+
+&lt;p&gt;There are three phases in getting started with RPA solution.&lt;/p&gt;
+
+&lt;h3 id=&quot;proof-of-concept-poc&quot;&gt;Proof of Concept (POC)&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Identify and prioritize ideal and most simple use-case to start with.&lt;/li&gt;
+  &lt;li&gt;Evaluate and select RPA tool that fits your requirement. &lt;small&gt;&lt;i&gt;&lt;a href=&quot;http://www.askeygeek.com/robotic-process-automation-rpa-what-why-how-all-you-need-to-know/&quot;&gt;Some RPA vendors &amp;amp; &lt;/a&gt;&lt;/i&gt;&lt;/small&gt;&lt;small&gt;&lt;i&gt;&lt;a href=&quot;http://www.askeygeek.com/companies-using-robotic-process-automation/&quot;&gt;Companies using RPA&lt;/a&gt;&lt;/i&gt;&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;Estimate value impact.&lt;/li&gt;
+  &lt;li&gt;Work with SME’s to gather information around the process and tasks performed.&lt;/li&gt;
+  &lt;li&gt;Document the use case, work flows and expected outcome, then take sign off from stake holders.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;implementation&quot;&gt;Implementation&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Set up infrastructure (Software set up in dev, test and production)&lt;/li&gt;
+  &lt;li&gt;Leverage agile methodology for project planning and tracking.&lt;/li&gt;
+  &lt;li&gt;Meet with stake holders and review process updates.&lt;/li&gt;
+  &lt;li&gt;Evaluate efficiency being delivered in each iteration.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;roll-out&quot;&gt;Roll Out&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Through testing before moving to production, because you are automating a valuable business process.&lt;/li&gt;
+  &lt;li&gt;Roll out application to production.&lt;/li&gt;
+  &lt;li&gt;Monitor tasks being handled for any bugs or inefficiencies.&lt;/li&gt;
+  &lt;li&gt;Make sure all the business cases handled as expected.&lt;/li&gt;
+  &lt;li&gt;Build a feedback loop with simple analytics that capture efficiency metrics.&lt;/li&gt;
+  &lt;li&gt;Advertise the success and look for next potential candidate.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;potential-candidates-for-rpa-&quot;&gt;Potential candidates for RPA ?&lt;/h1&gt;
+&lt;p&gt;Processes that require a lot of volume, repetition, and rules to get the job done are good ones to start with. &lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;IT Tech Support&lt;/li&gt;
+  &lt;li&gt;W4 management&lt;/li&gt;
+  &lt;li&gt;Benefits administration&lt;/li&gt;
+  &lt;li&gt;Employee On-boarding&lt;/li&gt;
+  &lt;li&gt;System access and setup&lt;/li&gt;
+  &lt;li&gt;Shipping notifications and related actions&lt;/li&gt;
+  &lt;li&gt;Supply chain management&lt;/li&gt;
+  &lt;li&gt;Customer registration and profile updates&lt;/li&gt;
+  &lt;li&gt;Generating contract renewals&lt;/li&gt;
+  &lt;li&gt;Contract administration and violation loops&lt;/li&gt;
+  &lt;li&gt;Complaint processing&lt;/li&gt;
+  &lt;li&gt;Inventory Management&lt;/li&gt;
+  &lt;li&gt;Billing Management, Transaction processing.&lt;/li&gt;
+  &lt;li&gt;Customer complaints processing&lt;/li&gt;
+  &lt;li&gt;Straight-through processing of customer orders&lt;/li&gt;
+  &lt;li&gt;Order updates&lt;/li&gt;
+  &lt;li&gt;Compliance and Governance, etc.&lt;/li&gt;
+  &lt;li&gt;Regulation changes&lt;/li&gt;
+  &lt;li&gt;Data mining, etc.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;lets-looks-at-a-real-world-implementation-because-we-all-like-examples-&quot;&gt;Lets looks at a real world implementation, because we all like examples !&lt;/h1&gt;
+
+&lt;p&gt;Enterprise IT systems overtime…
+&lt;img src=&quot;/assets/img/RPA/Tangled_Systems.jpg&quot; alt=&quot;Enterprise_IT&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Large enterprise IT usually have a tangle of legacy systems. Considering the priority, complexity, immediate value, budget and risks, these systems will never be integrated. Also manual processes like mining, transforming and storing of such legacy data to enterprise repositories is in-effieicent, resource intensive, time-consuming, expensive and error-prone. This is where RPA can be the savior.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Following is the link to an use-case in which UiPath, a Forrester Wave top supplier, delivered a RPA solution to the car manufacturer Volvo”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;big&gt;&lt;i&gt;&lt;a href=&quot;https://you-get.com/en/use-case-robotic-process-automation/&quot;&gt;Robotic Process Automation Use Case&lt;/a&gt;&lt;/i&gt;&lt;/big&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;things-to-keep-in-mind-while-developing-a-rpa-solution&quot;&gt;Things to keep in mind while developing a RPA solution&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Build globally at an enterprise scale.&lt;/li&gt;
+  &lt;li&gt;Involve all stake holders at early stages: Ensure governance, control, audit and security.&lt;/li&gt;
+  &lt;li&gt;Educate workforce the value this solution will add.&lt;/li&gt;
+  &lt;li&gt;Contributing to RPA community.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+&lt;h3 id=&quot;the-journey-has-begun&quot;&gt;The journey has begun…&lt;/h3&gt;
+&lt;p&gt;In a very short time since its inception, RPA has come a long way. “Some automation solutions helped organizations achieve operational and financial benefits, but they have reached a point of diminishing returns in an effort to reduce manual work”. This is where RPA can be leveraged. Organizations should leverage new automation platforms that go beyond traditional process and embrace more robust solutions like RPA, cognitive/autonomic automation. The focus should be to reduce/eliminate manual work. Also technologies like artificial intelligence, machine learning should be part of organization’s core efforts to automate manual tasks, freeing up human resources for cognitive intensive activities.  &lt;/p&gt;
+
+&lt;p&gt;References:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://irpaai.com/knowledge-forum/&quot;&gt;http://irpaai.com/knowledge-forum/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.uipath.com/blog/&quot;&gt;https://www.uipath.com/blog/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The IT Function and Robotic Process Automation by Professor Leslie Willcocks, Professor Mary Lacity and Andrew Craig&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.huffingtonpost.com/entry/taking-the-robot-out-of-the-human_us_58c01659e4b070e55af9e9ca&quot;&gt;http://www.huffingtonpost.com/entry/taking-the-robot-out-of-the-human_us_58c01659e4b070e55af9e9ca&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="robotic process automation" /><category term="intelligent automation" /><category term="AI" /><category term="machine learning" /><category term="autonomics" /><summary type="html">What is RPA ?</summary></entry></feed>
