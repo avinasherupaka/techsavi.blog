@@ -4,6 +4,14 @@ layout: default
 <div class="flex-container">
   {% include header.html %}
   <div class="content wrapper">
+    {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+    {% assign tag_words = site_tags | split:',' | sort %}
+      <ul class="tags" style="display:block">
+      {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+        {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+        <li style="display:inline-block"><a href="#{{ this_word | cgi_escape }}" class="tag">{{ this_word }} <span>({{ site.tags[this_word].size }})</span></a></li>
+      {% endunless %}{% endfor %}
+      </ul>
     {{ content }}
   {% include search.html %}
   {% include pagination.html %}
