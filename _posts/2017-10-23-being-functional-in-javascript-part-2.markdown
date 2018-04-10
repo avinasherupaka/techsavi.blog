@@ -156,4 +156,4 @@ export default SliderWithLabel;
 7. Underscore.js
 8. Lazy.js
 
-Cheers and Happy Coding :metal:
+Cheers and Happy Coding 🤘
