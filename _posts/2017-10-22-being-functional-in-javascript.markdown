@@ -173,4 +173,4 @@ That being said if you're talking about an application that has to store data in
 #### Recursive Looping
 In functional languages looping and iteration are replaced/implemented via recursive function calls. Many such languages guarantee that function calls made in tail position do not consume stack space, and thus recursive loops utilize constant space.
 
-Cheers and Happy Coding :metal:
+Cheers and Happy Coding 🤘
