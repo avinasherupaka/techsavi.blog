@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Deep Dive into Functional ocean, Be more adventurous and awesome !!!",
+      "category" : "",
+      "tags"     : "Functional Programming, Javascript, Immutability, Higher Order Functions, Closure, Partial Functions, Currying",
+      "url"      : "/techsavi.blog/being-functional-in-javascript-part-2/",
+      "date"     : "2017-10-23 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Be functional, Be awesome !!!",
+      "category" : "",
+      "tags"     : "Functional Programming, Javascript, Immutability, Higher Order Functions",
+      "url"      : "/techsavi.blog/being-functional-in-javascript/",
+      "date"     : "2017-10-22 00:00:00 -0500"
+    } ,
+  
+    {
       "title"    : "DevOps-Tooling-360 - A complete collection of all open source DevOps tools",
       "category" : "",
       "tags"     : "DevOps, Cloud Computing, Tools, Infrastructure",

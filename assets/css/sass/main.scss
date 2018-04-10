@@ -93,6 +93,13 @@ pre {
   position: relative;
 }
 
+.post-wrapper {
+  width: 1000px;
+  max-width: 95%;
+  margin: 0 auto;
+  position: relative;
+}
+
 ::-moz-selection {
   background: rgba(49, 30, 62, 0.7);
   color: #ffffff;
