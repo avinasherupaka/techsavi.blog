@@ -140,10 +140,10 @@ Is there is way we can seal this gap ? Yes, there are libraries like [ImmutabeJS
 ```
 If you observe, `rollNumbers.pop()` did not mutate `rollNumbers` data structure.
 
-### _Check out more in-depth functional programming concepts in [part 2]({{site.baseurl/being-functional-in-javascript-part-2/}})_
+## Check out more in-depth functional programming concepts in [part 2]({{ site.baseurl }}{% post_url 2017-11-06-functional-javascript-indepth %})
 
 
-## Lets summarize on some benefits of functional programming
+# Lets summarize on some benefits of functional programming
 
 #### Functional software is easy to reason about
 Your software is more reasonable with pure functions as you eliminate things like interfacing with outside state and having hidden inputs. Your function will do one thing and function signature can tell you exactly what that is. That way your software is easy to read and understand. That way you can list out all possible units required to build a block and start converting each unit into a function.
