@@ -30,3 +30,5 @@ Contrary to monolithic applications, micro-services have variable number of indi
 
 
 ### In the [next]({{ site.baseurl }}{% post_url 2018-01-05-micro-services-with-docker-part-2 %}) tutorial lets dive into action by building micro services.
+
+Cheers and Happy Coding 🤘
