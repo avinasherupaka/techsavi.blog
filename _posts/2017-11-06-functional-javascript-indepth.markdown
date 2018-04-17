@@ -140,10 +140,9 @@ export default SliderWithLabel;
 2. Clojure Script (Front-end-This complies to javascript)
 3. Scala/Akka (Back-end)
 4. Javascript (Front-end & Back-end, needs some library support to make it more effective)
-5. Java 8 (not 100% functional)
-6. Python
-7. R
-8. Elm (I did not use this, but heard good things about it)
+5. Python
+6. R
+7. Elm (I did not use this, but heard good things about it)
 
 #### Frameworks and Libraries:
 
