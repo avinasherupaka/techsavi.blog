@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "Rest API&#39;s with AKKA-HTTP(Part-3)",
+      "category" : "",
+      "tags"     : "Akka, Micro Services, Rest, http, Scala",
+      "url"      : "/techsavi.blog/building-rest-apis-with-akka-http-part-3/",
+      "date"     : "2018-02-15 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"    : "Rest API&#39;s with AKKA-HTTP(Part-2)",
+      "category" : "",
+      "tags"     : "Akka, Micro Services, Rest, http, Scala",
+      "url"      : "/techsavi.blog/building-rest-apis-with-akka-http-part-2/",
+      "date"     : "2018-02-07 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"    : "Rest API&#39;s with AKKA-HTTP(Part-1)",
+      "category" : "",
+      "tags"     : "Akka, Micro Services, Rest, http, Scala",
+      "url"      : "/techsavi.blog/building-rest-apis-with-akka-http/",
+      "date"     : "2018-02-03 00:00:00 -0600"
+    } ,
+  
+    {
       "title"    : "Docking micro Services (Part-3)",
       "category" : "",
       "tags"     : "Micro Services, Docker, http4s, Scala, REST, Quill, Cassandra",
