@@ -6,7 +6,7 @@ tags: [Akka, Micro Services, Rest, http, Scala]
 author: Avinash Reddy Erupaka
 ---
 
-### In the [part 1]({{ site.baseurl }}{% post_url 2018-02-03-building-rest-apis-with-akka-http %}) and [part 2]({{ site.baseurl }}{% post_url 2018-02-07-building-rest-apis-with-akka-http-part-2 %}) we discussed about some core concepts of Akka Http. In this final part lets looks at some customizations we can utilize to make wer code more powerful and how to test Akka Http services.
+### In the [part 1]({{ site.baseurl }}{% post_url 2018-04-15-building-rest-apis-with-akka-http %}) and [part 2]({{ site.baseurl }}{% post_url 2018-04-22-building-rest-apis-with-akka-http-part-2 %}) we discussed about some core concepts of Akka Http. In this final part lets looks at some customizations we can utilize to make wer code more powerful and how to test Akka Http services.
 
 ### Custom directives
 
@@ -108,7 +108,7 @@ Lets break down the code..
 2. These libraries includes almost all the unit testing patterns making our tests look tight and to the point.
 3. If necessary you can also utilize other popular libraries like `Mockito`, [scalatest](http://www.scalatest.org/) etc.
 
-Lets write simple tests for `UserService` example we discussed above and [part 2]({{ site.baseurl }}{% post_url 2018-02-07-building-rest-apis-with-akka-http-part-2 %})
+Lets write simple tests for `UserService` example we discussed above and [part 2]({{ site.baseurl }}{% post_url 2018-04-22-building-rest-apis-with-akka-http-part-2 %})
 
 ```scala
 

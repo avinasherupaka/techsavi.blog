@@ -199,6 +199,6 @@ Let's look at the power of high-level Akka-http.
 
 Above Example-1 and Example-2 are some ways you can define Http endpoints, but if you see the handler methods logic gets redundant and uneasy with params like `Uri` etc. These problems are elegantly handled by high-level Akka-http api's.
 
-### In the [part 2]({{ site.baseurl }}{% post_url 2018-02-07-building-rest-apis-with-akka-http-part-2 %}) of this series we will look at some more advanced Akka Http concepts.
+### In the [part 2]({{ site.baseurl }}{% post_url 2018-04-22-building-rest-apis-with-akka-http-part-2 %}) of this series we will look at some more advanced Akka Http concepts.
 
 Cheers and Happy Coding 🤘

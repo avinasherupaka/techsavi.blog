@@ -5,7 +5,7 @@ img: akka-http-2.jpg
 tags: [Akka, Micro Services, Rest, http, Scala]
 author: Avinash Reddy Erupaka
 ---
-### In the [part 1]({{ site.baseurl }}{% post_url 2018-02-03-building-rest-apis-with-akka-http %}) we discussed about some core concepts of Akka Http. Towards the end we were looking for better ways to eliminate boilerplate declaration from service methods.
+### In the [part 1]({{ site.baseurl }}{% post_url 2018-04-15-building-rest-apis-with-akka-http %}) we discussed about some core concepts of Akka Http. Towards the end we were looking for better ways to eliminate boilerplate declaration from service methods.
 
 ## Route from Routing DSL
 > Akka HTTP provides a very flexible “Routing DSL” for elegantly defining RESTful web services. It picks up where the low-level API leaves off and offers much of the higher-level functionality of typical web servers or frameworks, like deconstruction of URIs, content negotiation or static content serving.
@@ -272,6 +272,6 @@ Lets break down the code..
 7. **POST** _/user_ is posting users and part of the logic we are adding all the users to a buffer and returning list of users when **GET** _/user_.
 8. `complete { UserList(userBuffer.toArray) }` returns list of Users in JSON format. If we notice we dint have to specify any (un)marshaling logic, `spray-json` doest it for we.
 
-### In the [part 3]({{ site.baseurl }}{% post_url 2018-02-15-building-rest-apis-with-akka-http-part-3 %}) of this series we will look at some more advanced Akka Http concepts.
+### In the [part 3]({{ site.baseurl }}{% post_url 2018-04-29-building-rest-apis-with-akka-http-part-3 %}) of this series we will look at some more advanced Akka Http concepts.
 
 Cheers and Happy Coding 🤘
