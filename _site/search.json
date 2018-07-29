@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Object Detection - Image Analysis",
+      "category" : "",
+      "tags"     : "Computer Vision, Image Recognition, Object Detection, Image Analysis, Python, tensorflow, numpy, SciPy, OpenCV, ImageAI, AI, Machine Learning, Deep learning.",
+      "url"      : "/techsavi.blog/Multiple-Image-Detection-Analysis-Under-50-Lines/",
+      "date"     : "2018-07-28 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "IoT Edge Computing",
+      "category" : "",
+      "tags"     : "IoT, Edge Computing, Distributed Computing, Architecture, Analytics, Monitoring, Sensors, Connected Systems",
+      "url"      : "/techsavi.blog/IoT-Edge-Computing/",
+      "date"     : "2018-06-13 00:00:00 -0500"
+    } ,
+  
+    {
       "title"    : "Rest API&#39;s with AKKA-HTTP(Part-3)",
       "category" : "",
       "tags"     : "Akka, Micro Services, Rest, http, Scala",
