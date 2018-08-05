@@ -10,11 +10,11 @@ Everything around us today is getting Artificially Intelligent. Whether it is a 
 
 >Computer vision is an interdisciplinary field that deals with how computers can be made for gaining high-level understanding from digital images or videos. -Wikipedia
 
-Object detection is one of the most profound aspects of computer vision due to the number of practical use cases. For example Face detection, People Counting, Vehicle detection, Aerial image analysis, security, etc. With recent advancements in deep learning based computer vision models, object detection applications are easier to develop than ever before. In this tutorial, I will briefly introduce the concept of object detection and a live abstract demonstration of its application.
+Object detection has many practical uses, for example Face detection, People Counting, Vehicle detection, Aerial image analysis, security, etc.
 
 > Object detection is a computer technology related to computer vision and image processing that deals with detecting instances of semantic objects of a certain class (such as humans, buildings, or cars) in digital images and videos. -Wikipedia
 
-From a developer standpoint building modern object detection application and models is not a straightforward task. However, companies like Google, Facebook, NVIDIA, Honeywell etc ([more companies](http://www.lengrand.fr/computer-vision-companies/)) are doing extensive research and open sourcing their findings in the form of data sets and algorithms. Of course, there is also a great pool of open-source community contributions like, [OpenCV](https://github.com/opencv/opencv) on of the popular computer vision library. Other most popular object detection algorithms/methods are R-CNN, Fast-RCNN, Faster-RCNN, RetinaNet, SSD, and YOLO. However, these classical algorithms could not achieve enough performance in all cases, for a variety of reasons:
+From a developer standpoint building modern object detection application and models is not a straightforward task. However, companies like Google, Facebook, NVIDIA, Honeywell etc ([more companies](http://www.lengrand.fr/computer-vision-companies/)) are doing extensive research and open sourcing their findings in the form of data sets and algorithms. Of course, there is also a great pool of open-source community contributions like, [OpenCV](https://github.com/opencv/opencv) on of the popular computer vision library. Other most popular object detection algorithms/methods are R-CNN, Fast-RCNN, Faster-RCNN, RetinaNet, SSD, and YOLO. However, these algorithms may not achieve accurate results in all cases, for a variety of reasons:
 
 1. Varying conditions
 2. Variable number of objects
@@ -27,35 +27,35 @@ Alright, enough of theory lets build an image predictions application!
 
 ### Download and Install python: [python](https://www.python.org/downloads/)
 ### Download and Install python: [pip](https://pip.pypa.io/en/stable/installing/)
-### Tensorflow 1.4.0 (and later versions) Install or install via pip
+### Tensorflow 1.4.0
 ```bash
 pip3 install --upgrade tensorflow
 ```
-### Numpy 1.13.1 (and later versions) Install or install via pip
+### Numpy 1.13.1
  ```bash
  pip3 install numpy
  ```
-### SciPy 0.19.1 (and later versions) Install or install via pip
+### SciPy 0.19.1
  ```bash
  pip3 install scipy
  ```
-### OpenCV Install or install via pip
+### OpenCV
 ```bash
 pip3 install opencv-python
 ```
-### Pillow Install or install via pip
+### Pillow
  ```bash
  pip3 install pillow
  ```
-### Matplotlib Install or install via pip
+### Matplotlib
  ```bash
  pip3 install matplotlib
  ```
-### h5py Install or install via pip
+### h5py
  ```bash
  pip3 install h5py
  ```
-### Keras 2.x Install or install via pip
+### Keras 2.x
  ```bash
  pip3 install keras
  ```
