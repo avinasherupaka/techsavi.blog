@@ -1,4 +1,308 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/techsavi.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/techsavi.blog/" rel="alternate" type="text/html" /><updated>2018-11-11T21:21:48-06:00</updated><id>http://localhost:4000/techsavi.blog/feed.xml</id><title type="html">TechsAvi Blog</title><subtitle>This is where I share and discuss about software. The challenges, interesting problems I solve, findings, tips and tricks I learn in day-to-day life.</subtitle><author><name>Avinash Erupaka</name></author><entry><title type="html">Object Detection - Image Analysis</title><link href="http://localhost:4000/techsavi.blog/Multiple-Image-Detection-Analysis-Under-20-Lines/" rel="alternate" type="text/html" title="Object Detection - Image Analysis" /><published>2018-07-28T00:00:00-05:00</published><updated>2018-07-28T00:00:00-05:00</updated><id>http://localhost:4000/techsavi.blog/Multiple-Image-Detection-Analysis-Under-20-Lines</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/Multiple-Image-Detection-Analysis-Under-20-Lines/">&lt;p&gt;Everything around us today is getting Artificially Intelligent. Whether it is a social media website that can detect your friends from a picture or a self-driving car. Such great inventions are happening because of advancements in AI and its eco-system. Computer vision is one such important fields in Artificial Intelligence.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/techsavi.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/techsavi.blog/" rel="alternate" type="text/html" /><updated>2020-09-03T22:21:13-05:00</updated><id>http://localhost:4000/techsavi.blog/feed.xml</id><title type="html">TechsAvi Blog</title><subtitle>This is where I share and discuss about software. The challenges, interesting problems I solve, findings, tips and tricks I learn in day-to-day life.</subtitle><author><name>Avinash Erupaka</name></author><entry><title type="html">AWS Apigateway strategy for Microservices</title><link href="http://localhost:4000/techsavi.blog/aws-api-gateway-strategy-for-microservices/" rel="alternate" type="text/html" title="AWS Apigateway strategy for Microservices" /><published>2020-09-02T00:00:00-05:00</published><updated>2020-09-02T00:00:00-05:00</updated><id>http://localhost:4000/techsavi.blog/aws-api-gateway-strategy-for-microservices</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/aws-api-gateway-strategy-for-microservices/">&lt;p&gt;Today’s modern architectures are increasingly microservices-based, with domain specific engineering teams, working independently on a service with their own feature requirements and deployment pipelines. The benefits of this approach are numerous, some to highlight are increased agility, release velocity and scalability.&lt;/p&gt;
+
+&lt;p&gt;Microservice architectures also come with some challenges, particularly when the domains are complex and there are lot of domains, corresponding api’s and interactions. To tackle this we need to follow strong engineering and architecture principles, at the same time setting up repeatable and discoverable patterns/api’s.&lt;/p&gt;
+
+&lt;h2 id=&quot;highlevel-api-strategy-is-depicted-below&quot;&gt;Highlevel API Strategy is depicted below&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/highlevel-api-strategy.png&quot; alt=&quot;api&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;aws-services-leveraged&quot;&gt;AWS Services leveraged..&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Amazon Apigateway&lt;/li&gt;
+  &lt;li&gt;Amazon Certificate Manager&lt;/li&gt;
+  &lt;li&gt;Amazon Route 53&lt;/li&gt;
+  &lt;li&gt;Amazon S3&lt;/li&gt;
+  &lt;li&gt;AWS Cloudformation&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;tools-and-technologies-to-have-knowledge-of&quot;&gt;Tools and technologies to have knowledge of..&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Node, npm&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.serverless.com/&quot;&gt;serverless&lt;/a&gt; and it’s plugins.&lt;/li&gt;
+  &lt;li&gt;Jenkins pipelines or other CI/CD schemes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Expectation is you have a serverless based rest microservice/s and are trying to migrate your API resource strategy.&lt;/p&gt;
+
+&lt;h2 id=&quot;details-about-the-strategy&quot;&gt;Details about the strategy&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introduction of a custom domain the names are predictability and discoverability of api’s is easy.&lt;/li&gt;
+  &lt;li&gt;Instead of having 1 api gateway per environment (ex: &lt;code class=&quot;highlighter-rouge&quot;&gt;root-api-dev&lt;/code&gt;), we will continue to create an api per domain. (ex: &lt;code class=&quot;highlighter-rouge&quot;&gt;domain-api&lt;/code&gt;).&lt;/li&gt;
+  &lt;li&gt;All the configurations around custom domain are complete and there is no need for individual team to pursue it.&lt;/li&gt;
+  &lt;li&gt;For our usecase lets consider we are trying to set up dev and non-prod environments as part of a single aws account.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Microservices, their fronting API Gateway APIs, and supporting services are in the same AWS account. This account also includes core AWS services such as the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Route 53 for domain name registration and DNS&lt;/li&gt;
+  &lt;li&gt;ACM for managing server certificates for your domain&lt;/li&gt;
+  &lt;li&gt;Custom authentication and user management&lt;/li&gt;
+  &lt;li&gt;serverless IaaC approach.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;custom-domains&quot;&gt;Custom domains&lt;/h2&gt;
+
+&lt;p&gt;Following 2 custom domains need to be provisioned and configured.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dev.api.example.com (np account)&lt;/li&gt;
+  &lt;li&gt;non-prod.api.example.com (np account)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can achieve above in 2 ways…&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create the Custom domain manually using AWS console and do necessary DNS configuration or&lt;/li&gt;
+  &lt;li&gt;Let a serverless plugin, that I’m going to use later on to do the job.(ofcourse the deploy role should have required permissions.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I prefer to use option #2.&lt;/p&gt;
+
+&lt;h3 id=&quot;assuming-you-have-multiple-microservices-apisservices-integrated-with-one-apigateway-now-let-attempt-to-break-it-down&quot;&gt;Assuming you have multiple microservices (api’s/services) integrated with one apigateway, now let attempt to break it down.&lt;/h3&gt;
+
+&lt;h2 id=&quot;how-to-leverage-custom-domain-and-migrate-existing-api-strategy&quot;&gt;How to leverage custom domain and migrate existing api strategy&lt;/h2&gt;
+
+&lt;h3 id=&quot;setting-up-resources&quot;&gt;Setting up resources&lt;/h3&gt;
+
+&lt;h4 id=&quot;create-a-domain-specific-apigateway&quot;&gt;Create a domain specific apigateway&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create &lt;code class=&quot;highlighter-rouge&quot;&gt;AWS::ApiGateway::RestApi&lt;/code&gt; resource as a separate stack and deploy it separately.&lt;/li&gt;
+  &lt;li&gt;Make a folder &lt;code class=&quot;highlighter-rouge&quot;&gt;resources/apigateway&lt;/code&gt; and place the below serverless.yml&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;service&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;lt;YOUR-API-NAME&amp;gt;-ag&lt;/span&gt;
+
+&lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;aws&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;runtime&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;nodejs10.x&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;stage&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${opt:stage, env:STAGE, 'local'}&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;region&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${opt:region, env:REGION, 'us-east-1'}&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;stackName&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;lt;YOUR-API-NAME&amp;gt;-apigateway&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;aws_account&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${opt:aws_account, env:AWS_ACCOUNT}&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;deploymentBucket&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${self:provider.region}-${self:provider.aws_account}&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;role&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;arn:aws:iam::${self:provider.aws_account}:role/${opt:lambda_role, env:LAMBDA_ROLE}&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;stackTags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;com:owner&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${opt:owner, env:OWNER}&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;com:cost-center&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${opt:cost-center, env:COST_CENTER}&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;com:project&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${opt:project, env:PROJECT}&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;com:env&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${opt:env, env:ENV}&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;com:regulated&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${opt:regulated, env:REGULATED}&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;com:data-classification&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${opt:data-classification, env:DATA_CLASSIFICATION}&lt;/span&gt;
+
+&lt;span class=&quot;na&quot;&gt;resources&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;Resources&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;ApiGatewayRestApi&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;AWS::ApiGateway::RestApi'&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;Name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;lt;YOUR-API-NAME&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;Outputs&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;ApiGWRestApiId&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;Ref&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;ApiGatewayRestApi&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;Export&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;Name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;lt;YOUR-API-NAME&amp;gt;-restApiId&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;ApiGWRootResourceId&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;Fn::GetAtt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+              &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;ApiGatewayRestApi&lt;/span&gt;
+              &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;RootResourceId&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;Export&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;Name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;lt;YOUR-API-NAME&amp;gt;-rootResourceId&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;integrating-existing-api-with-custom-domain-and-new-apigateway&quot;&gt;Integrating existing api with custom domain and new apigateway&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-install-serverless-domain-manager&quot;&gt;1. Install &lt;a href=&quot;https://github.com/amplify-education/serverless-domain-manager&quot;&gt;serverless-domain-manager&lt;/a&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# From npm (recommended)
+npm install serverless-domain-manager --save-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;2-add-the-plugin-to-root-serverlessyml&quot;&gt;2. Add the plugin to root &lt;code class=&quot;highlighter-rouge&quot;&gt;serverless.yml&lt;/code&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;plugins:
+  - serverless-domain-manager
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;3-add-the-plugin-configuration-for-a-single-domain-and-api-type-to-root-serverlessyml&quot;&gt;3. Add the plugin configuration for a single domain and API type to root &lt;code class=&quot;highlighter-rouge&quot;&gt;serverless.yml&lt;/code&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;na&quot;&gt;custom&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;customDomain&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;domainName&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${self:provider.stage}.api.example.com&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;basePath&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;lt;api_base_path_you_existing_root_resource_ex_payment_api&amp;gt;'&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;certificateName&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;*.api.example.com'&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;stage&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${self:provider.stage}&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;createRoute53Record&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;endpointType&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;regional&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;basePath&lt;/code&gt; is very important and that value needs to be your current root resource name.
+Set &lt;code class=&quot;highlighter-rouge&quot;&gt;createRoute53Record&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; if you want the plugin to create the DNS configuration, set it to &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; if your DNS configurations are maintained externally.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;certificateName&lt;/code&gt; expectation is that the acm certificate is created with your domain name. In my case I created &lt;code class=&quot;highlighter-rouge&quot;&gt;*.api.example.com&lt;/code&gt; so I can leverage &lt;code class=&quot;highlighter-rouge&quot;&gt;dev.api.example.com&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;non-prod.api.example.com&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;prod.api.example.com&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Ex: order-api, payment-api, product-api  etc.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-update-apigateway-configuration-under-provider-of-root-serverlessyml&quot;&gt;4. Update &lt;code class=&quot;highlighter-rouge&quot;&gt;apiGateway&lt;/code&gt; configuration under provider of root &lt;code class=&quot;highlighter-rouge&quot;&gt;serverless.yml&lt;/code&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;apiGateway&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;restApiId&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${cf:&amp;lt;&amp;lt;YOUR-API-NAME&amp;gt;-apigateway&amp;gt;.ApiGWRestApiId}&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;restApiRootResourceId&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${cf:&amp;lt;&amp;lt;YOUR-API-NAME&amp;gt;-apigateway&amp;gt;.ApiGWRootResourceId}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;In the above step you are mapping the rest api resource outputs created as a separate stack.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;NOTE:&lt;/code&gt; Ideally we would use &lt;code class=&quot;highlighter-rouge&quot;&gt;'Fn::ImportValue'&lt;/code&gt; here to reference stack outputs but there is gap in &lt;code class=&quot;highlighter-rouge&quot;&gt;serverless-domain-manager&lt;/code&gt; package to support it &lt;a href=&quot;https://github.com/amplify-education/serverless-domain-manager/pull/220&quot;&gt;related PR&lt;/a&gt;, so we are leveraging &lt;code class=&quot;highlighter-rouge&quot;&gt;${cf:&lt;/code&gt; syntax to reference variables from other stack. There is a small caveat to using &lt;code class=&quot;highlighter-rouge&quot;&gt;${cf:&lt;/code&gt; though, we need to make sure this stack exists before it is referenced. In other words &lt;code class=&quot;highlighter-rouge&quot;&gt;'Fn::ImportValue'&lt;/code&gt; is lazy loading, &lt;code class=&quot;highlighter-rouge&quot;&gt;${cf:&lt;/code&gt; is eager loading. So we need to phase out our deployment twice during initial rollout, which we will discuss in next steps.&lt;/p&gt;
+
+&lt;h3 id=&quot;5-modify-your-individual-http-routes&quot;&gt;5. Modify your individual http routes.&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ideally we would like to use one apigateway and leverage aws stages to differentiate between dev and non-prod.&lt;/li&gt;
+  &lt;li&gt;Here we will be introducing stage variable as part od routes unlike before, this is to achieve above.&lt;/li&gt;
+  &lt;li&gt;However serverless takes a different approach in leveraging aws stages and it proposes 1 apigateway per stage, which is not what we would like to utilize. Reason, considering how many domains we have we will flood apigateway with env specific, domain specific gateways. ex: payment-api-dev, payment-api-non-prod unlike payment-api with dev and non-prod stages in it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To achieve above, go to your http function and do 2 things.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Remove&lt;/code&gt; the base resource name &lt;code class=&quot;highlighter-rouge&quot;&gt;ex: order-api, payment-api, product-api  etc.&lt;/code&gt; as we are configuring that as a basePath for our domain mapping.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Replace the above, with stage name.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${self:provider.stage}/v1/product/{productId}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This will enable us to do 2 things utilize same resources across different environments differentiated by stages. Best of both :i_love_you_hand_sign:&lt;/p&gt;
+
+&lt;h3 id=&quot;6-since-we-are-breaking-down-apigateways-every-gateway-need-to-have-its-own-custom-authorizer-specific-to-stage--that-is-how-aws-like-it-so-in-order-to-achieve-that-you-can-remove-any-authorizer-id-base-reference-and-switch-to-arn-based-mappingbelow&quot;&gt;6. Since we are breaking down apigateway’s, every gateway need to have it’s own custom authorizer, specific to stage !! That is how AWS like it, so in order to achieve that you can remove any authorizer id base reference and switch to arn based mapping.(below)&lt;/h3&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;authorizer&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;custom-authorizer-${self:provider.stage}&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;request&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;resultTtlInSeconds&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;0&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;arn&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;arn:aws:lambda:${self:provider.region}:${self:provider.aws_account}:function:custom-authorizer-${self:provider.stage}-func&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;When you combine both your Http mapping looks like this..&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;na&quot;&gt;productsV1&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;handler&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;src/handlers/product/createProduct.handler&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;memorySize&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;1024&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;timeout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;30&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;com:owner&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${self:custom.owner}&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;com:cost-center&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${self:custom.cost-center}&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;com:project&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${self:custom.project}&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;com:env&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${self:custom.env}&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;com:regulated&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${self:custom.regulated}&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;com:data-classification&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${self:custom.data-classification}&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;events&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;POST&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${self:provider.stage}/v1/product/{productId}&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;cors&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;authorizer&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;gigya-custom-authorizer-${self:provider.stage}&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;request&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;resultTtlInSeconds&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;0&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;arn&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;arn:aws:lambda:${self:provider.region}:${self:provider.aws_account}:function:custom-authorizer-${self:provider.stage}-func&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;At this point we completed all the necessary code changes and move to the deployment part !&lt;/p&gt;
+
+&lt;h2 id=&quot;deployment&quot;&gt;Deployment&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-go-to-packagejson-file-and-add-following-scripts-to-deploy-an-apigateway-and-custom-domain-binding-respectively&quot;&gt;1. Go to &lt;code class=&quot;highlighter-rouge&quot;&gt;package.json&lt;/code&gt; file and add following scripts to deploy an apigateway and custom domain binding respectively.&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;deploy-apigateway&quot;: &quot;(cd ./src/resources/apigateway &amp;amp;&amp;amp; sls deploy)&quot;,
+
+&quot;create_domain&quot;: &quot;sls create_domain&quot;,
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;2-then-go-to-the-jenkinsfile-or-any-other-pipeline-incorporate-above-2-scripts-to-your-deployment-pipeline&quot;&gt;2. Then go to the Jenkinsfile or any other pipeline, incorporate above 2 scripts to your deployment pipeline.&lt;/h3&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;s&quot;&gt;sh 'npm run deploy-apigateway'&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;sh 'npm run create_domain'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;If you recall, earlier I mentioned about the limitation of &lt;code class=&quot;highlighter-rouge&quot;&gt;serverless-domain-manager&lt;/code&gt;, it will come to haunt you if you try and deploy the gateway and dependent api at the same time, as your main stack will be referencing below and you have never provisioned &lt;code class=&quot;highlighter-rouge&quot;&gt;deploy-apigateway&lt;/code&gt; before.&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;apiGateway&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;restApiId&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${cf:&amp;lt;&amp;lt;YOUR-API-NAME&amp;gt;-apigateway&amp;gt;.ApiGWRestApiId}&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;restApiRootResourceId&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;${cf:&amp;lt;&amp;lt;YOUR-API-NAME&amp;gt;-apigateway&amp;gt;.ApiGWRootResourceId}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can tackle this different ways…&lt;/p&gt;
+
+&lt;h3 id=&quot;1-deploying-the-stack-2-times-once-commenting-out-above-code-in-main-serverlessyml-once-the-apigateway-stack-is-created-you-can-un-comment-and-deploy-again&quot;&gt;1. Deploying the stack 2 times, once commenting out above code in main serverless.yml, once the apigateway stack is created, you can un-comment and deploy again.&lt;/h3&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# apiGateway:&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;#   restApiId: ${cf:payment-apigateway.ApiGWRestApiId}&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;#   restApiRootResourceId: ${cf:payment-apigateway.ApiGWRootResourceId}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;2-deploy-the-apigateway-stack-separately-before-deploying-the-rest-api-stack-that-way-the-cf-reference-will-resolve&quot;&gt;2. Deploy the apigateway stack separately before deploying the rest-api stack that way the &lt;code class=&quot;highlighter-rouge&quot;&gt;${cf:&lt;/code&gt; reference will resolve.&lt;/h3&gt;
+
+&lt;p&gt;I prefer to use option #2.&lt;/p&gt;
+
+&lt;p&gt;Once the deployment is complete you will see following resources per aws account:&lt;/p&gt;
+
+&lt;h3 id=&quot;1-custom-domains&quot;&gt;1. Custom Domain/s&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/custom-domain.png&quot; alt=&quot;Custom Domain&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-api-mapping-under-custom-domains&quot;&gt;2. API Mapping under custom domains&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/api-mapping.png&quot; alt=&quot;API Mapping&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-stacks&quot;&gt;3. Stacks&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;1 ApiGateway Stack&lt;/li&gt;
+  &lt;li&gt;1 Rest API Stack&lt;/li&gt;
+  &lt;li&gt;Other deployment specific stacks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/stacks.png&quot; alt=&quot;Stacks&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-resources&quot;&gt;4. Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ApiGateway&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/api.png&quot; alt=&quot;ApiGateway&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Stage specific api resources(in our case dev and non-prod).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With this approch we can manage 2 env’s under 1 gateway rather than flooding with env specific api gateways&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/resources.png&quot; alt=&quot;Resources&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2 Stages (in our case dev and non-prod)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/stages.png&quot; alt=&quot;Stages&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2 Stage specific Authorizers mapped to http functions.(these are just mappings)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/authorizer.png&quot; alt=&quot;Authorizers&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;final-test-of-your-custom-domain&quot;&gt;Final test of your custom domain&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/custom-domain-test.png&quot; alt=&quot;final-output&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="AWS" /><category term="Cloud Native" /><category term="Microservices" /><category term="API Design" /><category term="Scalability" /><category term="IaaC" /><category term="Serverless" /><category term="Authorization" /><category term="Node" /><category term="Rest" /><summary type="html">Today’s modern architectures are increasingly microservices-based, with domain specific engineering teams, working independently on a service with their own feature requirements and deployment pipelines. The benefits of this approach are numerous, some to highlight are increased agility, release velocity and scalability.</summary></entry><entry><title type="html">Object Detection - Image Analysis</title><link href="http://localhost:4000/techsavi.blog/Multiple-Image-Detection-Analysis-Under-20-Lines/" rel="alternate" type="text/html" title="Object Detection - Image Analysis" /><published>2018-07-28T00:00:00-05:00</published><updated>2018-07-28T00:00:00-05:00</updated><id>http://localhost:4000/techsavi.blog/Multiple-Image-Detection-Analysis-Under-20-Lines</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/Multiple-Image-Detection-Analysis-Under-20-Lines/">&lt;p&gt;Everything around us today is getting Artificially Intelligent. Whether it is a social media website that can detect your friends from a picture or a self-driving car. Such great inventions are happening because of advancements in AI and its eco-system. Computer vision is one such important fields in Artificial Intelligence.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Computer vision is an interdisciplinary field that deals with how computers can be made for gaining high-level understanding from digital images or videos. -Wikipedia&lt;/p&gt;
@@ -1636,173 +1940,4 @@ export default SliderWithLabel;
   &lt;li&gt;Lazy.js&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Functional Programming" /><category term="Javascript" /><category term="Immutability" /><category term="Higher Order Functions" /><category term="Closure" /><category term="Partial Functions" /><category term="Currying" /><summary type="html">Higher-Order Functions (HOF)</summary></entry><entry><title type="html">Be functional, Be awesome !!!</title><link href="http://localhost:4000/techsavi.blog/being-functional-in-javascript/" rel="alternate" type="text/html" title="Be functional, Be awesome !!!" /><published>2017-10-22T00:00:00-05:00</published><updated>2017-10-22T00:00:00-05:00</updated><id>http://localhost:4000/techsavi.blog/being-functional-in-javascript</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/being-functional-in-javascript/">&lt;h1 id=&quot;what-is-functional-programming-&quot;&gt;What is functional programming ?&lt;/h1&gt;
-
-&lt;p&gt;Functional programming is a style of writing software, where your &lt;strong&gt;&lt;em&gt;programs&lt;/em&gt;&lt;/strong&gt; are composed of &lt;strong&gt;&lt;em&gt;pure functions&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;what-is-the-difference-between-a-function-and-pure-function-&quot;&gt;What is the difference between a function and pure function ?&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A function is a unit which takes some input and produces some output.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A pure function is a function that, given the same input, will produce same output and does not have any observable side effect.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Lets look at this in actions&lt;/p&gt;
-
-&lt;h2 id=&quot;purity&quot;&gt;Purity&lt;/h2&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;funcA&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
- &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;randomNum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;funcB&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
- &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;randomNum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;funcA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// prints 100&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;funcA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// still prints 100&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;funcA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// WILL ALWAYS print 100&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;funcB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// prints some number&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;funcB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// prints some other number&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;funcB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// WILL ALWAYS print some other number&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;See the difference ? no matter how many times &lt;code class=&quot;highlighter-rouge&quot;&gt;funcA&lt;/code&gt; is invoked with argument &lt;code class=&quot;highlighter-rouge&quot;&gt;10&lt;/code&gt; it returns the same result, where as &lt;code class=&quot;highlighter-rouge&quot;&gt;funcB&lt;/code&gt; returns different result. &lt;code class=&quot;highlighter-rouge&quot;&gt;funcB&lt;/code&gt; doesn’t solely depend on argument passed in, it also depends on shared or global state thus making it impure. What did we gain with &lt;code class=&quot;highlighter-rouge&quot;&gt;funcA&lt;/code&gt;?  &lt;a href=&quot;https://en.wikipedia.org/wiki/Referential_transparency&quot;&gt;Referential Transparency&lt;/a&gt;. This approach allows writing software with ease.&lt;/p&gt;
-
-&lt;h1 id=&quot;referential-transparency&quot;&gt;Referential Transparency&lt;/h1&gt;
-&lt;p&gt;Lets look at another scenario, say function &lt;code class=&quot;highlighter-rouge&quot;&gt;funcD&lt;/code&gt; depends on &lt;code class=&quot;highlighter-rouge&quot;&gt;funcA&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;funcB&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;funcD&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
- &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;funcD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;funcA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// prints 101&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;funcD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;funcA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// prints 101&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;funcD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;funcB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// some number&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;funcD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;funcB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// WILL ALWAYS print some other number&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Unlike &lt;code class=&quot;highlighter-rouge&quot;&gt;funcA&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;funcB&lt;/code&gt; has side effect on &lt;code class=&quot;highlighter-rouge&quot;&gt;funcD&lt;/code&gt;.  &lt;code class=&quot;highlighter-rouge&quot;&gt;funcA&lt;/code&gt; is a pure function thus &lt;code class=&quot;highlighter-rouge&quot;&gt;funcD's&lt;/code&gt; return value is always predictable and consistent. Referential Transparency allows us to replace &lt;code class=&quot;highlighter-rouge&quot;&gt;funcA(10)&lt;/code&gt; with 100.&lt;/p&gt;
-
-&lt;p&gt;If you have been programming in Object Oriented or procedural style, you must be wondering what is &lt;code class=&quot;highlighter-rouge&quot;&gt;funcD(funcA, 10)&lt;/code&gt;, where function is passed as an argument. It is possible as functions are &lt;strong&gt;first-class citizens&lt;/strong&gt; in javascript.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Function being first class citizens means the language supports passing functions as arguments to other functions, returning them as the values from other functions, and assigning them to variables or storing them in data structures.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;saves-yourself-from-side-effects&quot;&gt;Saves yourself from Side Effects&lt;/h1&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;funcE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
- &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;insertRecord&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Schema&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// inserts data into the Data base.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Functions &lt;code class=&quot;highlighter-rouge&quot;&gt;funcE&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;insertRecord&lt;/code&gt; are considered to be impure, as they are affecting global state. &lt;code class=&quot;highlighter-rouge&quot;&gt;funcE&lt;/code&gt; is emulating to a terminal and &lt;code class=&quot;highlighter-rouge&quot;&gt;insertRecord&lt;/code&gt; is writing to DB both are considered outside state.&lt;/p&gt;
-
-&lt;p&gt;Functional programming styles saves you from affecting global state, at the same time shields you from outer state change effects.&lt;/p&gt;
-
-&lt;h1 id=&quot;declarative-over-imperative&quot;&gt;Declarative over Imperative&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Imperative programming focuses on describing how a program operates or steps in to execute in order to achieve that.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Declarative programming focuses on what the program should accomplish without specifying how the program should achieve the result.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;How is declarative better over imperative ?&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;doubleNumbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;numbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;      
-&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;doubled&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[];&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;numbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-  &lt;span class=&quot;kr&quot;&gt;double&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;doubled&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;doubleNumbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]));&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//[2,4,6]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;same example can be written as..&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;doubleNumbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;numbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;      
-&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;numbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;doubleNumbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]));&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//[2,4,6]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;You can look how declarative approach produced tight and composed code, with out emphasizing on steps to solve a problem. If you are new to functional programming you might be wondering what is a &lt;code class=&quot;highlighter-rouge&quot;&gt;map&lt;/code&gt;^^^ . As we’ve been discussing &lt;code class=&quot;highlighter-rouge&quot;&gt;pure functions&lt;/code&gt; are heart of functional programming, &lt;code class=&quot;highlighter-rouge&quot;&gt;map&lt;/code&gt; is one such. If you are interested check out &lt;a href=&quot;http://ramdajs.com/docs/#&quot;&gt;rambda&lt;/a&gt; one of practical functional library for JavaScript programmers.&lt;/p&gt;
-
-&lt;h1 id=&quot;immutability-&quot;&gt;Immutability ?&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;An immutable object is one, once created, itself or its properties can’t be modified.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;How do I achieve it, &lt;strong&gt;&lt;em&gt;Create a shared state, and don’t mutate it.&lt;/em&gt;&lt;/strong&gt; Sounds familiar ? if you have been using react or redux in web app development, that is one the main fundamental they are built on.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-is-immutability-important-&quot;&gt;Why is Immutability important ?&lt;/h2&gt;
-
-&lt;p&gt;When you have a shared state and it is mutable you create side effects:&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rollNumbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rollNumbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//4&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//[ 1, 2, 3 ]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Lets say there is another entity, that is using &lt;code class=&quot;highlighter-rouge&quot;&gt;rollNumbers&lt;/code&gt;, now &lt;code class=&quot;highlighter-rouge&quot;&gt;rollNumbers.pop()&lt;/code&gt; has side effects on it to.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Unfortunately In Javascript, we have both immutable and mutable data structures that make this language both more flexible and frustrating.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Is there is way we can seal this gap ? Yes, there are libraries like &lt;a href=&quot;https://facebook.github.io/immutable-js/&quot;&gt;ImmutabeJS&lt;/a&gt;, that allow you to achieve full level of Immutability, above examples look like this.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rollNumbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Immutable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rollNumbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toJS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//[1, 2, 3]&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rollNumbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toJS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//[1, 2, 3, 4]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;If you observe, &lt;code class=&quot;highlighter-rouge&quot;&gt;rollNumbers.pop()&lt;/code&gt; did not mutate &lt;code class=&quot;highlighter-rouge&quot;&gt;rollNumbers&lt;/code&gt; data structure.&lt;/p&gt;
-
-&lt;h2 id=&quot;check-out-more-in-depth-functional-programming-concepts-in-part-2&quot;&gt;Check out more in-depth functional programming concepts in &lt;a href=&quot;/techsavi.blog/functional-javascript-indepth/&quot;&gt;part 2&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h1 id=&quot;lets-summarize-on-some-benefits-of-functional-programming&quot;&gt;Lets summarize on some benefits of functional programming&lt;/h1&gt;
-
-&lt;h4 id=&quot;functional-software-is-easy-to-reason-about&quot;&gt;Functional software is easy to reason about&lt;/h4&gt;
-&lt;p&gt;Your software is more reasonable with pure functions as you eliminate things like interfacing with outside state and having hidden inputs. Your function will do one thing and function signature can tell you exactly what that is. That way your software is easy to read and understand. That way you can list out all possible units required to build a block and start converting each unit into a function.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/function-blocks.png&quot; alt=&quot;Functional blocks&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;easier-to-test-and-predict-output&quot;&gt;Easier to test and predict output&lt;/h4&gt;
-&lt;p&gt;Since your functions typically do one thing, it is easy to predict what the outcome is. Such code is also easy to test as you are testing a single unit with out complicating your tests by doing bunch of function call mocking that has no relating context.&lt;/p&gt;
-
-&lt;h4 id=&quot;debugging-is-less-painful&quot;&gt;Debugging is less painful&lt;/h4&gt;
-&lt;p&gt;If your function does bunch of things, mutating values all over place, in case if an error occurs it is very complicated to find what went wrong. Because pure functions depend only on their input parameters to produce their output, debugging such applications is easier. Again I’m not saying pure functions are always bug free, but they are easy to debug. With this incase of an production emergency your recovery time considerably less.&lt;/p&gt;
-
-&lt;h4 id=&quot;reusability&quot;&gt;Reusability&lt;/h4&gt;
-&lt;p&gt;Functional code is more reusable. They do exactly what they say they do, with out deviation. That way if a function can be reused with peace of mind. Look at my &lt;a href=&quot;#referential-transparency&quot;&gt;Referential Transparency&lt;/a&gt; example.&lt;/p&gt;
-
-&lt;h4 id=&quot;write-concurrent-code-with-ease&quot;&gt;Write concurrent code with ease&lt;/h4&gt;
-&lt;p&gt;Parallel and concurrent capabilities are must haves for an HVHA applications. “Because FP only has immutable values, you can’t possibly have the race conditions that are so difficult to deal with in imperative code.”&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://clojure.org/about/rationale&quot;&gt;The Clojure.org website&lt;/a&gt; adds these statements about how Clojure and FP help with concurrency:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/clojure-concurrency.jpg&quot; alt=&quot;concurrency&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;That being said if you’re talking about an application that has to store data in a database, then you definitely need side-effects and you will have to be concerned about the order of operations and potential race conditions just as you would in any other language. Writing functional code gives you a better abstractions and reasoning during such issues.&lt;/p&gt;
-
-&lt;h4 id=&quot;referential-transparency---the-ability-to-treat-functions-as-values&quot;&gt;Referential Transparency - The ability to treat functions as values&lt;/h4&gt;
-
-&lt;h4 id=&quot;recursive-looping&quot;&gt;Recursive Looping&lt;/h4&gt;
-&lt;p&gt;In functional languages looping and iteration are replaced/implemented via recursive function calls. Many such languages guarantee that function calls made in tail position do not consume stack space, and thus recursive loops utilize constant space.&lt;/p&gt;
-
-&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Functional Programming" /><category term="Javascript" /><category term="Immutability" /><category term="Higher Order Functions" /><summary type="html">What is functional programming ?</summary></entry></feed>
+&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Functional Programming" /><category term="Javascript" /><category term="Immutability" /><category term="Higher Order Functions" /><category term="Closure" /><category term="Partial Functions" /><category term="Currying" /><summary type="html">Higher-Order Functions (HOF)</summary></entry></feed>

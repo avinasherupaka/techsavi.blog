@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "AWS Apigateway strategy for Microservices",
+      "category" : "",
+      "tags"     : "AWS, Cloud Native, Microservices, API Design, Scalability, IaaC, Serverless, Authorization, Node, Rest",
+      "url"      : "/techsavi.blog/aws-api-gateway-strategy-for-microservices/",
+      "date"     : "2020-09-02 00:00:00 -0500"
+    } ,
+  
+    {
       "title"    : "Object Detection - Image Analysis",
       "category" : "",
       "tags"     : "Computer Vision, Image Recognition, Object Detection, Image Analysis, Python, tensorflow, numpy, SciPy, OpenCV, ImageAI, AI, Machine Learning, Deep learning.",
