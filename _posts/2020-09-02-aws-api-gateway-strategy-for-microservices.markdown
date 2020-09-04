@@ -138,7 +138,7 @@ custom:
     createRoute53Record: false
     endpointType: regional
 ```
-`basePath` is very important and that value needs to be your current root resource name.
+`basePath` is important and that value needs to be your current root resource name.
 Set `createRoute53Record` `true` if you want the plugin to create the DNS configuration, set it to `false` if your DNS configurations are maintained externally.
 
 `certificateName` expectation is that the acm certificate is created with your domain name. In my case I created `*.api.example.com` so I can leverage `dev.api.example.com`, `non-prod.api.example.com` or `prod.api.example.com`
