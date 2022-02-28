@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Strategy for Micro-frontends",
+      "category" : "",
+      "tags"     : "Application Architecture, Microservices, Frontend, Modularity, Scalability",
+      "url"      : "/techsavi.blog/micro-frontends/",
+      "date"     : "2021-01-15 00:00:00 -0600"
+    } ,
+  
+    {
       "title"    : "AWS Apigateway strategy for Microservices",
       "category" : "",
       "tags"     : "AWS, Cloud Native, Microservices, API Design, Scalability, IaaC, Serverless, Authorization, Node, Rest",
