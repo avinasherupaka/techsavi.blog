@@ -1,4 +1,208 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/techsavi.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/techsavi.blog/" rel="alternate" type="text/html" /><updated>2022-02-28T15:38:34-06:00</updated><id>http://localhost:4000/techsavi.blog/feed.xml</id><title type="html">TechsAvi Blog</title><subtitle>This is where I share and discuss about software. The challenges, interesting problems I solve, findings, tips and tricks I learn in day-to-day life.</subtitle><author><name>Avinash Erupaka</name></author><entry><title type="html">Strategy for Micro-frontends</title><link href="http://localhost:4000/techsavi.blog/micro-frontends/" rel="alternate" type="text/html" title="Strategy for Micro-frontends" /><published>2021-01-15T00:00:00-06:00</published><updated>2021-01-15T00:00:00-06:00</updated><id>http://localhost:4000/techsavi.blog/micro-frontends</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/micro-frontends/">&lt;p&gt;Recently, we’ve seen an increase in the emphasis placed on the overall architecture and organizational structures required for complex, modern web development. Patterns for decomposing frontend monoliths into smaller, simpler chunks that can be developed, tested, and deployed independently while still appearing to customers as a single cohesive product are emerging. Thus emergence of Micro-Frontend’s:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/techsavi.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/techsavi.blog/" rel="alternate" type="text/html" /><updated>2022-03-01T15:08:14-06:00</updated><id>http://localhost:4000/techsavi.blog/feed.xml</id><title type="html">TechsAvi Blog</title><subtitle>This is where I share and discuss about software. The challenges, interesting problems I solve, findings, tips and tricks I learn in day-to-day life.</subtitle><author><name>Avinash Erupaka</name></author><entry><title type="html">Tech Trends 2022</title><link href="http://localhost:4000/techsavi.blog/Tech-Trends-2022/" rel="alternate" type="text/html" title="Tech Trends 2022" /><published>2021-12-22T00:00:00-06:00</published><updated>2021-12-22T00:00:00-06:00</updated><id>http://localhost:4000/techsavi.blog/Tech-Trends-2022</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/Tech-Trends-2022/">&lt;p&gt;It is critical to stay current with industry trends in order to solve problems in a dynamic business ecosystem. From DevSecOps to low-code apps, software development trends change as quickly as technology itself. Here, I will categorize trends across following technology disciplines.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Software Engineering/Development&lt;/li&gt;
+  &lt;li&gt;Cloud Computing&lt;/li&gt;
+  &lt;li&gt;Data&lt;/li&gt;
+  &lt;li&gt;Architecture&lt;/li&gt;
+  &lt;li&gt;Integration&lt;/li&gt;
+  &lt;li&gt;Automation&lt;/li&gt;
+  &lt;li&gt;Data Science, AI, ML&lt;/li&gt;
+  &lt;li&gt;IoT&lt;/li&gt;
+  &lt;li&gt;BlockChain&lt;/li&gt;
+  &lt;li&gt;AR/VR&lt;/li&gt;
+  &lt;li&gt;Cyber Security&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;software-engineeringdevelopment&quot;&gt;Software Engineering/Development&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Scale up of Low-code, No-Code Platforms
+    &lt;ul&gt;
+      &lt;li&gt;Appian&lt;/li&gt;
+      &lt;li&gt;Zoho Creator&lt;/li&gt;
+      &lt;li&gt;Mendix&lt;/li&gt;
+      &lt;li&gt;Salesforce LowCode platform&lt;/li&gt;
+      &lt;li&gt;Microsoft Power Apps&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;DevSecOps tools/techniques continues to strengthen
+    &lt;ul&gt;
+      &lt;li&gt;Cloud based Pipeline-as-a-service&lt;/li&gt;
+      &lt;li&gt;Observability and Metrics will become mainstream to evaluate effectiveness.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Microfrontends coupled with Event driven microservices&lt;/li&gt;
+  &lt;li&gt;Native App Development still dominant approach.&lt;/li&gt;
+  &lt;li&gt;PWA - Progressive Web Apps are on the rise.&lt;/li&gt;
+  &lt;li&gt;Increased emphasis on UI/UX&lt;/li&gt;
+  &lt;li&gt;Design Thinking&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;cloud-computing&quot;&gt;Cloud Computing&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hybrid Cloud emerging as standard for regulated industries
+    &lt;ul&gt;
+      &lt;li&gt;Amazon EKS Anywhere, GCP Anthos, Azure Arc making hybrid seamless.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Exponential adoption of Serverless computing&lt;/li&gt;
+  &lt;li&gt;Multi-Cloud paradigms&lt;/li&gt;
+  &lt;li&gt;Infrastructure-as-code enhancements(AWS CDK etc)&lt;/li&gt;
+  &lt;li&gt;Tailored Industry Cloud Enclaves(FinTech Cloud, HealthCare Cloud, LifeSciences Cloud etc.)&lt;/li&gt;
+  &lt;li&gt;Customers and Hyper-scalers are thinking &lt;code class=&quot;highlighter-rouge&quot;&gt;sustainability&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Edge Computing critical for time sensitive compute.&lt;/li&gt;
+  &lt;li&gt;Increase PaaS offering form hyper-scalers.&lt;/li&gt;
+  &lt;li&gt;Kubernetes emerges as Defacto for containerized apps.&lt;/li&gt;
+  &lt;li&gt;Vendor Agnostic CASB, CWPP, CSPM platforms.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;data&quot;&gt;Data&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Domain Driven Data Fabric(ex:  R&amp;amp;D, Marketing, Sales, Supplychain)&lt;/li&gt;
+  &lt;li&gt;Data Virtualization and unified interfacing.&lt;/li&gt;
+  &lt;li&gt;Datalake storage + Snowflake is a game changer&lt;/li&gt;
+  &lt;li&gt;Privacy, Trust by design and in-depth.&lt;/li&gt;
+  &lt;li&gt;Composable data and analytics&lt;/li&gt;
+  &lt;li&gt;Power of graph data enabling(Knowledge Graph)&lt;/li&gt;
+  &lt;li&gt;Data and Analytics evolve as core business function in the quest of new digital business models.&lt;/li&gt;
+  &lt;li&gt;Organization(large and medium) are realizing importance of streamlines data governance and management process and move in that direction.
+    &lt;ul&gt;
+      &lt;li&gt;Explosion of data focused platforms like Collibra, Immuta, atlan.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Data Cataloging and assetification&lt;/li&gt;
+  &lt;li&gt;Metadata management becoming more and more important&lt;/li&gt;
+  &lt;li&gt;Data Observability&lt;/li&gt;
+  &lt;li&gt;Unified Data Infrastructure helping organization do gap analysis.&lt;/li&gt;
+  &lt;li&gt;Convergence of Data Engineering and AI/ML.&lt;/li&gt;
+  &lt;li&gt;Organization, practitioners debating on Data Stack being bundled or unbundled - Differentiating needs will be the tie breaker.&lt;/li&gt;
+  &lt;li&gt;Edge compute of data will gain more prominence for latency sensitive workloads.&lt;/li&gt;
+  &lt;li&gt;DataOps function for every product platform should be.&lt;/li&gt;
+  &lt;li&gt;Self service BI&lt;/li&gt;
+  &lt;li&gt;Purpose fit, polyglot databases are still justified.&lt;/li&gt;
+  &lt;li&gt;New paradigms are inevitable…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;architecture&quot;&gt;Architecture&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Micro, nano event driven services lead the way&lt;/li&gt;
+  &lt;li&gt;API Economies&lt;/li&gt;
+  &lt;li&gt;Composable Enterprise&lt;/li&gt;
+  &lt;li&gt;Packages Business Solutions&lt;/li&gt;
+  &lt;li&gt;Reusable Capabilities&lt;/li&gt;
+  &lt;li&gt;Cloud First is a Norm&lt;/li&gt;
+  &lt;li&gt;Service Mesh&lt;/li&gt;
+  &lt;li&gt;Favor matured managed platforms instead of re-inventing the wheel.&lt;/li&gt;
+  &lt;li&gt;ZERO-TRUST Architecture practices&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;*-as-a-service&lt;/code&gt; thinking.&lt;/li&gt;
+  &lt;li&gt;Product vs Project thinking.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;integration&quot;&gt;Integration&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;API-first mindset and API-led connectivity&lt;/li&gt;
+  &lt;li&gt;API Technology: REST, gRPC, and GraphQL will co-exist&lt;/li&gt;
+  &lt;li&gt;Low-code, No-code integration capabilities will accelerate.&lt;/li&gt;
+  &lt;li&gt;“Hybrid &amp;lt;*&amp;gt;” will force organization to think about hybrid integration platform(HIP)(ex:  Mulesoft, Boomi, iPaaS etc.)&lt;/li&gt;
+  &lt;li&gt;More demand for real-time data as business models evolve.&lt;/li&gt;
+  &lt;li&gt;Self healing integration and processes.&lt;/li&gt;
+  &lt;li&gt;Self-service APIs(POssible after matured data capabilities)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;automation&quot;&gt;Automation&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Organization will embark on the journey od Hyperautomation by integrating all its facets( Robotic process automation (RPA), process mining, chatbots, low-code workflow platforms, artificial intelligence, machine learning, and intelligent document processing)&lt;/li&gt;
+  &lt;li&gt;Scout platforms pave path for more automation capabilities(Ex: Sorroco)&lt;/li&gt;
+  &lt;li&gt;Ill informed enterprises use automation to treat bad business process(re-imagining business processes).&lt;/li&gt;
+  &lt;li&gt;Low-code, No-code will make strides in this segment as well.&lt;/li&gt;
+  &lt;li&gt;Semantic automation(Automation of AI steroids)&lt;/li&gt;
+  &lt;li&gt;Centralized view on automation will bring governance on investments.&lt;/li&gt;
+  &lt;li&gt;Organization focus on &lt;code class=&quot;highlighter-rouge&quot;&gt;citizen development&lt;/code&gt; considering labour, skill shortage.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;data-science-ai-ml&quot;&gt;Data Science, AI, ML&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Deepfakes, generative AI, and synthetic data&lt;/li&gt;
+  &lt;li&gt;AutoML and No-Code AI will pave path for self service AI&lt;/li&gt;
+  &lt;li&gt;Tensor Flow will continue to rule&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AI to masses&lt;/code&gt; will continue -  AI for Development and testing etc.&lt;/li&gt;
+  &lt;li&gt;Multi-modal learning&lt;/li&gt;
+  &lt;li&gt;Tiny ML to revolutionize edge use-cases.&lt;/li&gt;
+  &lt;li&gt;Democratization of AI knowledge, tools and experiences.&lt;/li&gt;
+  &lt;li&gt;Governance of AI usage(The Algorithmic Accountability Act)&lt;/li&gt;
+  &lt;li&gt;New business models around NLP (ex: GPT)&lt;/li&gt;
+  &lt;li&gt;Emergence of Full-stack&lt;/li&gt;
+  &lt;li&gt;Organization to emphasize on clean data for accurate AI outcomes &amp;amp; scaling.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;iot&quot;&gt;IoT&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;5G&lt;/li&gt;
+  &lt;li&gt;Digital twins grow up&lt;/li&gt;
+  &lt;li&gt;Edge Computing is and will be mainstream where necessary.&lt;/li&gt;
+  &lt;li&gt;Standards, guardrails, reusable capabilities will emerge and drive.
+    &lt;ul&gt;
+      &lt;li&gt;Protocols&lt;/li&gt;
+      &lt;li&gt;Security&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Burst in wearable devices&lt;/li&gt;
+  &lt;li&gt;Software defined networking (SDN) is an enabler.&lt;/li&gt;
+  &lt;li&gt;Cloud Providers will ship more simplified managed services around IoT.&lt;/li&gt;
+  &lt;li&gt;Every industry and function will rush to find its next IoT use-case.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;blockchain&quot;&gt;BlockChain&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Progresses beyond crypto currencies&lt;/li&gt;
+  &lt;li&gt;Tokenization and NFT’s will take world by storm&lt;/li&gt;
+  &lt;li&gt;Web3 is a long term game&lt;/li&gt;
+  &lt;li&gt;Business models harnessing the power of “proof-of-stake”&lt;/li&gt;
+  &lt;li&gt;Smart contracts for real-world applications.&lt;/li&gt;
+  &lt;li&gt;Blockchain will need to turn green&lt;/li&gt;
+  &lt;li&gt;Blockchain and IoT integration&lt;/li&gt;
+  &lt;li&gt;Blockchain for governance, compliance and regulations.&lt;/li&gt;
+  &lt;li&gt;Blockchain-as-a-service business models and services.&lt;/li&gt;
+  &lt;li&gt;Standards, guardrails, reusable capabilities continue to emerge.
+    &lt;ul&gt;
+      &lt;li&gt;Protocols&lt;/li&gt;
+      &lt;li&gt;Security&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ERP(Enterprise Resource Planning) to NRP (Network Resource Planning)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;arvr&quot;&gt;AR/VR&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;IoT and 5G capabilities will accelerate AR/VR business models/use-cases.&lt;/li&gt;
+  &lt;li&gt;Apple ARKIT, Android ARCORE -  More neutral platforms will emerge like mobile app technologies.&lt;/li&gt;
+  &lt;li&gt;AR/VR wearables&lt;/li&gt;
+  &lt;li&gt;Metaverse&lt;/li&gt;
+  &lt;li&gt;Covid has accelerated the need for AR/VR for every industry.(Manufacturing, Education, Healthcare, Retail, Remote “Anything” services, Automotive)&lt;/li&gt;
+  &lt;li&gt;AR Hardware &amp;amp; LiDAR&lt;/li&gt;
+  &lt;li&gt;AI + Edge Compute + Next gen chips will take wearable experience more natural.&lt;/li&gt;
+  &lt;li&gt;Standards, guardrails, reusable capabilities continue to emerge.
+    &lt;ul&gt;
+      &lt;li&gt;Protocols&lt;/li&gt;
+      &lt;li&gt;Security&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;cyber-security&quot;&gt;Cyber Security&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Vulnerability Disclosure Programs&lt;/li&gt;
+  &lt;li&gt;Architectures adopting &lt;code class=&quot;highlighter-rouge&quot;&gt;Zero Trust&lt;/code&gt; principles&lt;/li&gt;
+  &lt;li&gt;Adoption of SASE&lt;/li&gt;
+  &lt;li&gt;AI to power cyber needs&lt;/li&gt;
+  &lt;li&gt;Organization will put special focus on &lt;code class=&quot;highlighter-rouge&quot;&gt;Product security&lt;/code&gt; vs &lt;code class=&quot;highlighter-rouge&quot;&gt;IT Security&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Blockchain based Self-sovereign data and digital personal identity&lt;/li&gt;
+  &lt;li&gt;SSO and MFA adoption will rise.&lt;/li&gt;
+  &lt;li&gt;Cloud IAM and centralized entitlements management(ex: Sailpoint, Keycloak)&lt;/li&gt;
+  &lt;li&gt;Data privacy and Trust will serve as foundational pillars&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Trends" /><category term="Technology" /><category term="2022" /><summary type="html">It is critical to stay current with industry trends in order to solve problems in a dynamic business ecosystem. From DevSecOps to low-code apps, software development trends change as quickly as technology itself. Here, I will categorize trends across following technology disciplines.</summary></entry><entry><title type="html">Strategy for Micro-frontends</title><link href="http://localhost:4000/techsavi.blog/micro-frontends/" rel="alternate" type="text/html" title="Strategy for Micro-frontends" /><published>2021-01-15T00:00:00-06:00</published><updated>2021-01-15T00:00:00-06:00</updated><id>http://localhost:4000/techsavi.blog/micro-frontends</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/micro-frontends/">&lt;p&gt;Recently, we’ve seen an increase in the emphasis placed on the overall architecture and organizational structures required for complex, modern web development. Patterns for decomposing frontend monoliths into smaller, simpler chunks that can be developed, tested, and deployed independently while still appearing to customers as a single cohesive product are emerging. Thus emergence of Micro-Frontend’s:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Micro-frontend architecture is a design approach in which a front-end app is divided into individual, semi-independent “microapps” that collaborate loosely. The micro-frontend concept was inspired by and named after microservices.&lt;/p&gt;
@@ -2026,35 +2230,4 @@ java &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot
 
 &lt;p&gt;I want to give a shout out to &lt;a href=&quot;https://github.com/markglh&quot;&gt;Mark Harrison&lt;/a&gt; for motivating me to implement this and write a blog with my learnings, findings and additions…&lt;/p&gt;
 
-&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Micro Services" /><category term="Docker" /><category term="http4s" /><category term="Scala" /><category term="REST" /><category term="Quill" /><category term="Cassandra" /><summary type="html">Lets build an app that lets you track down users connected to a bluetooth beacon.</summary></entry><entry><title type="html">Docking micro Services (Part-1)</title><link href="http://localhost:4000/techsavi.blog/micro-services-with-docker-part-1/" rel="alternate" type="text/html" title="Docking micro Services (Part-1)" /><published>2017-12-22T00:00:00-06:00</published><updated>2017-12-22T00:00:00-06:00</updated><id>http://localhost:4000/techsavi.blog/micro-services-with-docker-part-1</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/micro-services-with-docker-part-1/">&lt;p&gt;In this series I will cover on how to use docker/docker-compose to manage micro-services and their dependencies. This will enable you to create a reproducible environment that can be used for spawning any number of services really easily.&lt;/p&gt;
-
-&lt;h2 id=&quot;lets-start-with-a-breif-history-on-microservice-architectures&quot;&gt;Lets start with a breif history on Microservice Architectures:&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Microservices - also known as the microservice architecture - is an architectural style that structures set of applications as a collection of loosely coupled services, which implement business capabilities.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;what-are-some-the-characteristics-of-a-micro-service-architecture-&quot;&gt;What are some the characteristics of a Micro service architecture ?&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Set of collaborating (micro)services, each of which implements a limited set of related functionality&lt;/li&gt;
-  &lt;li&gt;Microservices communicate with each other asynchronously over the network using language agnostic APIs (e.g. REST)&lt;/li&gt;
-  &lt;li&gt;Microservices are developed, deployed and maintained independently of each other&lt;/li&gt;
-  &lt;li&gt;Microservices use their own persistent storage area (DB/ReplicaSets/Shards) with data consistency maintained using data replication&lt;/li&gt;
-  &lt;li&gt;Microservices architecture enables the continuous delivery/deployment of large, complex applications.&lt;/li&gt;
-  &lt;li&gt;Microservices encourages application/usage of wide variety technology stack to to provide tailored solution to a business problem.(Gateways, Cloud Computing, Distributed computing etc)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;where-does-docker-fit-in-here-&quot;&gt;Where does Docker fit in here ?&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Docker is an open source tool designed to ease creation, deployment, and running of applications by using  virtualization/containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. This makes applications ‘Portable and Scalable’.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Contrary to monolithic applications, micro-services have variable number of individual services which all need to communicate with each other, either directly or via an event stream. Building, maintaining and scaling this architecture is not trivial. That is where docker comes into rescue.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/docker-ms-bg.png&quot; alt=&quot;Docker&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;in-the-next-tutorial-lets-dive-into-action-by-building-micro-services&quot;&gt;In the &lt;a href=&quot;/techsavi.blog/micro-services-with-docker-part-2/&quot;&gt;next&lt;/a&gt; tutorial lets dive into action by building micro services.&lt;/h3&gt;
-
-&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Micro Services" /><category term="Docker" /><category term="http4s" /><category term="Scala" /><category term="REST" /><category term="Quill" /><category term="Cassandra" /><summary type="html">In this series I will cover on how to use docker/docker-compose to manage micro-services and their dependencies. This will enable you to create a reproducible environment that can be used for spawning any number of services really easily.</summary></entry></feed>
+&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Micro Services" /><category term="Docker" /><category term="http4s" /><category term="Scala" /><category term="REST" /><category term="Quill" /><category term="Cassandra" /><summary type="html">Lets build an app that lets you track down users connected to a bluetooth beacon.</summary></entry></feed>

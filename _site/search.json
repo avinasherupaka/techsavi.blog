@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Tech Trends 2022",
+      "category" : "",
+      "tags"     : "Trends, Technology, 2022",
+      "url"      : "/techsavi.blog/Tech-Trends-2022/",
+      "date"     : "2021-12-22 00:00:00 -0600"
+    } ,
+  
+    {
       "title"    : "Strategy for Micro-frontends",
       "category" : "",
       "tags"     : "Application Architecture, Microservices, Frontend, Modularity, Scalability",
