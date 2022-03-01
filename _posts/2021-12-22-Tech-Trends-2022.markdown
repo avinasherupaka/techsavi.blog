@@ -1,0 +1,177 @@
+---
+layout: post
+title: "Comprehensive Tech Trends 2022"
+img: Top_technology_trends.jpeg
+tags: [Trends, Technology, 2022]
+author: Avinash Reddy Erupaka
+---
+
+It is critical to stay current with industry trends in order to solve problems in a dynamic business ecosystem. From DevSecOps to low-code apps, software development trends change as quickly as technology itself. Here, I will categorize trends across following technology disciplines.
+
+1.	Software Engineering/Development
+2.	Cloud Computing
+3.	Data
+4.	Architecture
+5.	Integration
+6.	Automation
+7.	Data Science, AI, ML
+8.	IoT
+9.	BlockChain
+10.	AR/VR
+11.	Cyber Security
+
+
+# Software Engineering/Development
+- Scale up of Low-code, No-Code Platforms
+  - Appian
+  - Zoho Creator
+  - Mendix
+  - Salesforce LowCode platform
+  - Microsoft Power Apps
+- DevSecOps tools/techniques continues to strengthen
+  - Cloud based Pipeline-as-a-service
+  - Observability and Metrics will become mainstream to evaluate effectiveness.
+- Microfrontends coupled with Event driven microservices
+- Micro frontends for mobile
+- Native App Development still dominant approach.
+- PWA - Progressive Web Apps are on the rise.
+- Increased emphasis on UI/UX
+- Design Thinking 
+
+# Cloud Computing
+- Hybrid Cloud emerging as standard for regulated industries
+  - Amazon EKS Anywhere, GCP Anthos, Azure Arc making hybrid seamless.
+- Exponential adoption of Serverless computing
+- Multi-Cloud paradigms
+- Infrastructure-as-code enhancements(AWS CDK etc)
+- Tailored Industry Cloud Enclaves(FinTech Cloud, HealthCare Cloud, LifeSciences Cloud etc.)
+- Customers and Hyper-scalers are thinking `sustainability`
+- Edge Computing critical for time sensitive compute. 
+- Increase PaaS offering form hyper-scalers.
+- Kubernetes emerges as Defacto for containerized apps.
+- Vendor Agnostic CASB, CWPP, CSPM platforms.
+
+# Data
+- Domain Driven Data Fabric(ex:  R&D, Marketing, Sales, Supplychain)
+- Data Mesh & principles (domain data ownership, data as a product, self-serve data platform and
+computational federated governance.)
+- Data Virtualization and unified interfacing.
+- Datalake storage + Snowflake is a game changer
+- Privacy, Trust by design and in-depth.
+- Composable data and analytics
+- Power of graph data enabling(Knowledge Graph) 
+- Data and Analytics evolve as core business function in the quest of new digital business models.
+- Organization(large and medium) are realizing importance of streamlines data governance and management process and move in that direction.
+  - Explosion of data focused platforms like Collibra, Immuta, atlan.
+- Data Cataloging and assetification 
+- Metadata management becoming more and more important
+- Data Observability 
+- Unified Data Infrastructure helping organization do gap analysis.
+- Convergence of Data Engineering and AI/ML.
+- Organization, practitioners debating on Data Stack being bundled or unbundled - Differentiating needs will be the tie breaker.
+- Edge compute of data will gain more prominence for latency sensitive workloads.
+- DataOps function for every product platform should be.
+- Self service BI
+- Purpose fit, polyglot databases are still justified.
+- New paradigms are inevitable...
+
+# Architecture
+- Micro, nano event driven services lead the way
+- API Economies
+- Composable Enterprise
+- Packages Business Solutions
+- Reusable Capabilities
+- Cloud First is a Norm
+- Service Mesh 
+- Favor matured managed platforms instead of re-inventing the wheel.
+- ZERO-TRUST Architecture practices
+- `*-as-a-service` thinking.
+- Product vs Project thinking.
+- Data parity between environments with techniques like anonymization etc.
+
+# Integration
+- API-first mindset and API-led connectivity
+- API Technology: REST, gRPC, and GraphQL will co-exist
+- Low-code, No-code integration capabilities will accelerate.
+- "Hybrid <*>" will force organization to think about hybrid integration platform(HIP)(ex:  Mulesoft, Boomi, iPaaS etc.)
+- More demand for real-time data as business models evolve.
+- Self healing integration and processes.
+- Self-service APIs(POssible after matured data capabilities)
+
+# Automation
+- Organization will embark on the journey od Hyperautomation by integrating all its facets( Robotic process automation (RPA), process mining, chatbots, low-code workflow platforms, artificial intelligence, machine learning, and intelligent document processing)
+- Scout platforms pave path for more automation capabilities(Ex: Sorroco)
+- Ill informed enterprises use automation to treat bad business process(re-imagining business processes).
+- Low-code, No-code will make strides in this segment as well.
+- Semantic automation(Automation of AI steroids)
+- Centralized view on automation will bring governance on investments.
+- Organization focus on `citizen development` considering labour, skill shortage.
+
+# Data Science, AI, ML
+- Deepfakes, generative AI, and synthetic data
+- AutoML and No-Code AI will pave path for self service AI
+- Tensor Flow will continue to rule
+- `AI to masses` will continue -  AI for Development and testing etc. 
+- Multi-modal learning
+- Tiny ML to revolutionize edge use-cases.
+- Democratization of AI knowledge, tools and experiences.
+- Governance of AI usage(The Algorithmic Accountability Act)
+- New business models around NLP (ex: GPT)
+- Accelerated development of purpose fir, differentiating platforms
+- Organization to emphasize on clean data for accurate AI outcomes & scaling.
+
+# IoT
+- 5G
+- Digital twins grow up
+- Edge Computing is and will be mainstream where necessary.
+- Standards, guardrails, reusable capabilities will emerge and drive.
+  - Protocols
+  - Security
+- Burst in wearable devices
+- Software defined networking (SDN) is an enabler.
+- Cloud Providers will ship more simplified managed services around IoT.
+- Every industry and function will rush to find its next IoT use-case.
+
+# BlockChain
+- Progresses beyond crypto currencies
+- Tokenization and NFT's will take world by storm
+- Web3 is a long term game
+- Business models harnessing the power of “proof-of-stake”
+- Smart contracts for real-world applications.
+- Blockchain will need to turn green
+- Blockchain and IoT integration
+- Blockchain for governance, compliance and regulations.
+- Blockchain-as-a-service business models and services.
+- Standards, guardrails, reusable capabilities continue to emerge.
+  - Protocols
+  - Security
+- ERP(Enterprise Resource Planning) to NRP (Network Resource Planning)
+
+# AR/VR
+- IoT and 5G capabilities will accelerate AR/VR business models/use-cases.
+- Apple ARKIT, Android ARCORE -  More neutral platforms will emerge like mobile app technologies.
+- AR/VR wearables 
+- Metaverse
+- Covid has accelerated the need for AR/VR for every industry.(Manufacturing, Education, Healthcare, Retail, Remote "Anything" services, Automotive) 
+- AR Hardware & LiDAR
+- AI + Edge Compute + Next gen chips will take wearable experience more natural.
+- Standards, guardrails, reusable capabilities continue to emerge.
+  - Protocols
+  - Security
+
+# Cyber Security
+ - Vulnerability Disclosure Programs
+ - Architectures adopting `Zero Trust` principles
+ - Adoption of SASE
+ - AI to power cyber needs
+ - Organization will put special focus on `Product security` vs `IT Security` 
+ - Blockchain based Self-sovereign data and digital personal identity
+ - SSO and MFA adoption will rise.
+ - Cloud IAM and centralized entitlements management(ex: Sailpoint, Keycloak)
+ - Data privacy and Trust will serve as foundational pillars
+ - Software Bill of Materials
+ - Policy-as-a-Code 
+ - Data-Residency-as-a-Service
+ - interactive application security testing (IAST)
+
+Cheers and Happy Coding 🤘
