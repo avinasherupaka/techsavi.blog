@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/techsavi.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/techsavi.blog/" rel="alternate" type="text/html" /><updated>2022-03-01T15:08:14-06:00</updated><id>http://localhost:4000/techsavi.blog/feed.xml</id><title type="html">TechsAvi Blog</title><subtitle>This is where I share and discuss about software. The challenges, interesting problems I solve, findings, tips and tricks I learn in day-to-day life.</subtitle><author><name>Avinash Erupaka</name></author><entry><title type="html">Tech Trends 2022</title><link href="http://localhost:4000/techsavi.blog/Tech-Trends-2022/" rel="alternate" type="text/html" title="Tech Trends 2022" /><published>2021-12-22T00:00:00-06:00</published><updated>2021-12-22T00:00:00-06:00</updated><id>http://localhost:4000/techsavi.blog/Tech-Trends-2022</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/Tech-Trends-2022/">&lt;p&gt;It is critical to stay current with industry trends in order to solve problems in a dynamic business ecosystem. From DevSecOps to low-code apps, software development trends change as quickly as technology itself. Here, I will categorize trends across following technology disciplines.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/techsavi.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/techsavi.blog/" rel="alternate" type="text/html" /><updated>2022-03-08T14:07:38-06:00</updated><id>http://localhost:4000/techsavi.blog/feed.xml</id><title type="html">Avinash Erupaka Blog</title><subtitle>This is where I share and discuss about software. The challenges, interesting problems I solve, findings, tips and tricks I learn in day-to-day life.</subtitle><author><name>Avinash Erupaka</name></author><entry><title type="html">Comprehensive Tech Trends 2022</title><link href="http://localhost:4000/techsavi.blog/Tech-Trends-2022/" rel="alternate" type="text/html" title="Comprehensive Tech Trends 2022" /><published>2021-12-22T00:00:00-06:00</published><updated>2021-12-22T00:00:00-06:00</updated><id>http://localhost:4000/techsavi.blog/Tech-Trends-2022</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/Tech-Trends-2022/">&lt;p&gt;It is critical to stay current with industry trends in order to solve problems in a dynamic business ecosystem. From DevSecOps to low-code apps, software development trends change as quickly as technology itself. Here, I will categorize trends across following technology disciplines.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Software Engineering/Development&lt;/li&gt;
@@ -32,6 +32,7 @@
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Microfrontends coupled with Event driven microservices&lt;/li&gt;
+  &lt;li&gt;Micro frontends for mobile&lt;/li&gt;
   &lt;li&gt;Native App Development still dominant approach.&lt;/li&gt;
   &lt;li&gt;PWA - Progressive Web Apps are on the rise.&lt;/li&gt;
   &lt;li&gt;Increased emphasis on UI/UX&lt;/li&gt;
@@ -59,6 +60,8 @@
 &lt;h1 id=&quot;data&quot;&gt;Data&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;Domain Driven Data Fabric(ex:  R&amp;amp;D, Marketing, Sales, Supplychain)&lt;/li&gt;
+  &lt;li&gt;Data Mesh &amp;amp; principles (domain data ownership, data as a product, self-serve data platform and
+computational federated governance.)&lt;/li&gt;
   &lt;li&gt;Data Virtualization and unified interfacing.&lt;/li&gt;
   &lt;li&gt;Datalake storage + Snowflake is a game changer&lt;/li&gt;
   &lt;li&gt;Privacy, Trust by design and in-depth.&lt;/li&gt;
@@ -96,6 +99,7 @@
   &lt;li&gt;ZERO-TRUST Architecture practices&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;*-as-a-service&lt;/code&gt; thinking.&lt;/li&gt;
   &lt;li&gt;Product vs Project thinking.&lt;/li&gt;
+  &lt;li&gt;Data parity between environments with techniques like anonymization etc.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;integration&quot;&gt;Integration&lt;/h1&gt;
@@ -131,7 +135,7 @@
   &lt;li&gt;Democratization of AI knowledge, tools and experiences.&lt;/li&gt;
   &lt;li&gt;Governance of AI usage(The Algorithmic Accountability Act)&lt;/li&gt;
   &lt;li&gt;New business models around NLP (ex: GPT)&lt;/li&gt;
-  &lt;li&gt;Emergence of Full-stack&lt;/li&gt;
+  &lt;li&gt;Accelerated development of purpose fir, differentiating platforms&lt;/li&gt;
   &lt;li&gt;Organization to emphasize on clean data for accurate AI outcomes &amp;amp; scaling.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -200,9 +204,189 @@
   &lt;li&gt;SSO and MFA adoption will rise.&lt;/li&gt;
   &lt;li&gt;Cloud IAM and centralized entitlements management(ex: Sailpoint, Keycloak)&lt;/li&gt;
   &lt;li&gt;Data privacy and Trust will serve as foundational pillars&lt;/li&gt;
+  &lt;li&gt;Software Bill of Materials&lt;/li&gt;
+  &lt;li&gt;Policy-as-a-Code&lt;/li&gt;
+  &lt;li&gt;Data-Residency-as-a-Service&lt;/li&gt;
+  &lt;li&gt;interactive application security testing (IAST)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Trends" /><category term="Technology" /><category term="2022" /><summary type="html">It is critical to stay current with industry trends in order to solve problems in a dynamic business ecosystem. From DevSecOps to low-code apps, software development trends change as quickly as technology itself. Here, I will categorize trends across following technology disciplines.</summary></entry><entry><title type="html">Strategy for Micro-frontends</title><link href="http://localhost:4000/techsavi.blog/micro-frontends/" rel="alternate" type="text/html" title="Strategy for Micro-frontends" /><published>2021-01-15T00:00:00-06:00</published><updated>2021-01-15T00:00:00-06:00</updated><id>http://localhost:4000/techsavi.blog/micro-frontends</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/micro-frontends/">&lt;p&gt;Recently, we’ve seen an increase in the emphasis placed on the overall architecture and organizational structures required for complex, modern web development. Patterns for decomposing frontend monoliths into smaller, simpler chunks that can be developed, tested, and deployed independently while still appearing to customers as a single cohesive product are emerging. Thus emergence of Micro-Frontend’s:&lt;/p&gt;
+&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Trends" /><category term="Technology" /><category term="2022" /><summary type="html">It is critical to stay current with industry trends in order to solve problems in a dynamic business ecosystem. From DevSecOps to low-code apps, software development trends change as quickly as technology itself. Here, I will categorize trends across following technology disciplines.</summary></entry><entry><title type="html">Digital Manufacturing Cloud - Part 3</title><link href="http://localhost:4000/techsavi.blog/Cloud-For-Industry-4-0-3/" rel="alternate" type="text/html" title="Digital Manufacturing Cloud - Part 3" /><published>2021-07-01T00:00:00-05:00</published><updated>2021-07-01T00:00:00-05:00</updated><id>http://localhost:4000/techsavi.blog/Cloud-For-Industry-4-0-3</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/Cloud-For-Industry-4-0-3/">&lt;p&gt;In &lt;a href=&quot;/techsavi.blog/Cloud-For-Industry-4-0/&quot;&gt;part-1&lt;/a&gt;, &lt;a href=&quot;/techsavi.blog/Cloud-For-Industry-4-0-2/&quot;&gt;part-2&lt;/a&gt; We talked about the fundamentals of manufacturing digital transformation, smart factories, Industry 4.0, and how the cloud is facilitating that journey and detailed architecture implementation and deployment schemes. In this part we will look at some more internals and the future of the ecosystem.&lt;/p&gt;
+
+&lt;h2 id=&quot;authentication-and-authorization&quot;&gt;Authentication and Authorization:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/dmc/authnz.png&quot; alt=&quot;authnz&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The above architecture represents the role-based access control (RBAC) model, which uses Cloud AD/LDAP, MFA, and AWS-IAM-based roles and policies to provide granular, secure access points.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Site Specific Admin role(&lt;code class=&quot;highlighter-rouge&quot;&gt;SiteA_Admin&lt;/code&gt;)&lt;/strong&gt;: This role has &lt;code class=&quot;highlighter-rouge&quot;&gt;ONLY&lt;/code&gt; control over the infrastructure context specific to the site/container. They will be able to de/provision any site-specific infrastructure components that are not centrally provisioned in order to facilitate rapid prototyping and experimentation. This role should be limited in scope.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Site Specific Non-Admin role(&lt;code class=&quot;highlighter-rouge&quot;&gt;SiteA_Non_Admin&lt;/code&gt;)&lt;/strong&gt;: This role has &lt;code class=&quot;highlighter-rouge&quot;&gt;ONLY&lt;/code&gt; access controls to elements within a site/container infrastructure context. There could be different fine-grained implementations of this role, such as a data role (&lt;code class=&quot;highlighter-rouge&quot;&gt;SiteA_BI&lt;/code&gt; vs &lt;code class=&quot;highlighter-rouge&quot;&gt;SiteA_Data_Scientist&lt;/code&gt;) that allows them to fiddle with specific components. For example, a &lt;code class=&quot;highlighter-rouge&quot;&gt;SiteA_BI&lt;/code&gt; might be able to provision dashboards in AWS Quicksight, whereas a &lt;code class=&quot;highlighter-rouge&quot;&gt;SiteA_Data_Scientist&lt;/code&gt; might be able to build and apply machine learning models in AWS Sage Maker. This approach based on the principle of least privilege provides greater security while maintaining concern segregation and autonomy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;DevSecOpsRole&lt;/strong&gt;: This is a global role responsible for provisioning and maintenance of overall infrastructure of the the platform and site specific containers.&lt;/p&gt;
+
+&lt;h2 id=&quot;putting-it-all-together&quot;&gt;Putting it all together&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;What…&lt;/strong&gt; It is a cloud data platform built on AWS for democratizing CH PS Shop-floor and enterprise data&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why…&lt;/strong&gt; Enabling rapid experimentation, prototyping and value recognition via use cases, without worrying about crosscutting infrastructure concerns by re-inventing the wheel.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Who…&lt;/strong&gt; It is enabling data scientists/analysts by providing isolated, secured, self service data objects for building data analytics, data science workloads and operators, other functional colleagues with purpose driven dashboards under one umbrella.  reusable, secured, scalable and compliant cloud platform for site to ingest shopfloor data, store, aggregate and build data driven use cases.​&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When…&lt;/strong&gt; Sites can be onboard anytime with very low lead time, maximum value realization is possible when shopfloor data is ready to be streamed via integration components.&lt;/p&gt;
+
+&lt;h2 id=&quot;future-of-dmc-for-i40-or-i50&quot;&gt;Future of DMC for I4.0 or I5.0&lt;/h2&gt;
+
+&lt;p&gt;Integrating Digital Manufacturing Cloud with other ecosystem components such as suppliers, CMOs, Machine vendors, transportation providers, and warehouses helps us achieve the holy grail of &lt;code class=&quot;highlighter-rouge&quot;&gt;I4.0&lt;/code&gt; and sets us up for &lt;code class=&quot;highlighter-rouge&quot;&gt;I5.0.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/dmc/future.png&quot; alt=&quot;future&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Cloud" /><category term="Industry-4.0" /><category term="Smart Factory" /><category term="IIoT" /><category term="Multi Tenant" /><category term="Multi Region" /><summary type="html">In part-1, part-2 We talked about the fundamentals of manufacturing digital transformation, smart factories, Industry 4.0, and how the cloud is facilitating that journey and detailed architecture implementation and deployment schemes. In this part we will look at some more internals and the future of the ecosystem.</summary></entry><entry><title type="html">Digital Manufacturing Cloud - Part 2</title><link href="http://localhost:4000/techsavi.blog/Cloud-For-Industry-4-0-2/" rel="alternate" type="text/html" title="Digital Manufacturing Cloud - Part 2" /><published>2021-06-21T00:00:00-05:00</published><updated>2021-06-21T00:00:00-05:00</updated><id>http://localhost:4000/techsavi.blog/Cloud-For-Industry-4-0-2</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/Cloud-For-Industry-4-0-2/">&lt;p&gt;In &lt;a href=&quot;/techsavi.blog/Cloud-For-Industry-4-0/&quot;&gt;part-1&lt;/a&gt; We talked about the fundamentals of manufacturing digital transformation, smart factories, Industry 4.0, and how the cloud is facilitating that journey. In this part we shall look at detailed architecture implementation and deployment schemes.&lt;/p&gt;
+
+&lt;h2 id=&quot;1x-zoom&quot;&gt;1X Zoom&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/dmc/DMC-BP.png&quot; alt=&quot;detailed&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Digital Manufacturing cloud platform&lt;/strong&gt; will house isolated compartments of smart factory tenants powered by applications, data, integration pipelines, and AI/ML capabilities while adhering to data residency, regulation, and governance laws through the use of AWS managed services such as IAM, Config, Cloud Train, AWS Regions, and other #2 foundational services.&lt;/li&gt;
+  &lt;li&gt;AWS managed services that meet the requirements for governance, GxP, and cloud native best practices.&lt;/li&gt;
+  &lt;li&gt;AWS Region is intended to be isolated from other AWS Regions by adhering to residency laws that apply to a variety of data elements. This design achieves isolation, fault tolerance, and stability, making it compliant with local data privacy laws.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AWS VPC&lt;/strong&gt; allows you to create a logically isolated network construct within AWS Cloud from which you can launch AWS resources in a virtual network of your choosing. You (Consumers) have complete control over your virtual networking environment, including the ability to choose your own IP address range, create subnets, and configure route tables and network gateways. In your VPC, you can use both IPv4 and IPv6 for secure and convenient access to resources and applications.We will also leverage &lt;strong&gt;VPC endpoints&lt;/strong&gt; enabling data transfer between your VPC and AWS services. The benefit here is that the traffic between your VPC and other AWS service never leaves the Amazon network(not Internet). This adds a further layer of isolation and security.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AWS IoT&lt;/strong&gt; service enables connected devices to interact with cloud applications and other devices in a simple and secure manner. It has many features such as security management, data routing, rules execution, device shadows, and acts as a control plain. (This service can be accessed based on the use-case.)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AWS Kinesis&lt;/strong&gt; stream management module, makes it simple to collect, process, and analyze real-time, streaming data, allowing you to gain timely insights and respond quickly to new information. Firehose makes it simple to route data to other services such as Kinesis Analytics (for stream analytics) and S3(which is our data lake).&lt;/li&gt;
+  &lt;li&gt;AWS S3 is a Data Lake Storage service that holds various data containers for raw, conformed, and curated data.&lt;/li&gt;
+  &lt;li&gt;AWS Data Lake ETL is the process of extracting, loading, and transforming data in order to create data catalogs/frames for analysis. If necessary, this layer also includes some BI capabilities. If you need to run cross-site analytics, Amazon Redshift is used in a more futuristic sense.&lt;/li&gt;
+  &lt;li&gt;This is our predictive workloads plain, where sites or analysts can run ML usecases using AWS Sagemaker or any other advanced data science platform as they see fit. This will be linked to various downstream and upstream plains, for example if to AWS greengrass our edge compute unit for any intelligent decision making.&lt;/li&gt;
+  &lt;li&gt;This is the integration plain, which serves as access gateway for any incoming or outgoing data integrations. For Rest-based access, we will use API Gateway, and for event-based integration, we will use Kafka or other AWS-native message broker services. This layer exposed cataloged data objects from our datalake ETL, as shown in 11 and 12, and it serves as an integration layer for internal and external business applications.&lt;/li&gt;
+  &lt;li&gt;This is the SF command center in a nutshell, it is a pre-configured suite of cloud-based Internet of Things (IoT) applications built on AWS designed to accelerate smart factory transformations across the enterprise, and it is customizable to meet your specific requirements.&lt;/li&gt;
+  &lt;li&gt;Showcases an integration between our cloud data science models pushing intelligent outcomes to edge component(AWS Green Grass).&lt;/li&gt;
+  &lt;li&gt;This plain consolidated the shopfloors/manufacturing network and its systems.
+    &lt;ul&gt;
+      &lt;li&gt;Here we will be using AWS Green Grass with Streams manager capability to stream tags data from kepServer(niche protocols) to AWS IoT plain via MQTT or OPC-UA.&lt;/li&gt;
+      &lt;li&gt;We leverage gateway/integration component like ignition(IIoT hub), kafka for extracting tags via standard OPC-UA/MQTT, batch information from siloed databases(ex: MES, CMMS) and stream to cloud.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The deployment shown above is for a single manufacturing site; however, the reality for major corporations with manufacturing operations is that they have sites spread across the globe with varying compliance and regulation requirements. For example, in the pharmaceutical industry, a manufacturing site’s processes must comply with the US FDA’s 21 CFR Part 11 regulation, while a site in the EU must comply with Annex 11 requirements, as some data objects are subject to GDPR.&lt;/p&gt;
+
+&lt;p&gt;This necessitates a multi-tenant, multi-region deployment model that provides sites with the isolation and autonomy they need to execute and achieve their digital transformation goals.&lt;/p&gt;
+
+&lt;h2 id=&quot;multi-tenant-multi-region-deployment&quot;&gt;Multi Tenant, Multi Region deployment&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/dmc/dmc-multi-tenant.png&quot; alt=&quot;multi-detail&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you haven’t noticed, there is a lot of similarity/redundancy in the above architecture. &lt;code class=&quot;highlighter-rouge&quot;&gt;Container/tenant 4&lt;/code&gt; appears to be the same for all manufacturing sites A, B, C, and D scattered across different geographies. That is precisely the point!&lt;/p&gt;
+
+&lt;h2 id=&quot;platform-highlights&quot;&gt;Platform highlights:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Isolation for site specific work loads&lt;/li&gt;
+  &lt;li&gt;Site data scientists/analysts have autonomy to run site-specific use-cases.&lt;/li&gt;
+  &lt;li&gt;It employs the build once, reuse many times methodology (achieved through IaC (Infrastructure as code)).&lt;/li&gt;
+  &lt;li&gt;Globally consistent architecture that allows for scaling&lt;/li&gt;
+  &lt;li&gt;Operational holy grail&lt;/li&gt;
+  &lt;li&gt;Data Residency by design&lt;/li&gt;
+  &lt;li&gt;Security by design&lt;/li&gt;
+  &lt;li&gt;Compliance-as-Code and by design.(Using AWS config etc.)&lt;/li&gt;
+  &lt;li&gt;Standardization of technology stack.&lt;/li&gt;
+  &lt;li&gt;Alleviation of cross cutting infrastructure concerns for sites.&lt;/li&gt;
+  &lt;li&gt;Greater reusability and availability.&lt;/li&gt;
+  &lt;li&gt;Agility for use-case roll out and benefit realization.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;guiding-principles&quot;&gt;Guiding Principles&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Avoid Point to Point connections&lt;/li&gt;
+  &lt;li&gt;Target Holy grails of Manufacturing by leveraging AI/ML&lt;/li&gt;
+  &lt;li&gt;Closed loop integration between cloud and manufacturing network.&lt;/li&gt;
+  &lt;li&gt;Report by exception&lt;/li&gt;
+  &lt;li&gt;Lightweight (protocols and systems)&lt;/li&gt;
+  &lt;li&gt;Edge Driven&lt;/li&gt;
+  &lt;li&gt;Open Architectures&lt;/li&gt;
+  &lt;li&gt;Operational simplicity (Unless there are data segregation rules )&lt;/li&gt;
+  &lt;li&gt;Low TCO and high ROI&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;infrastructure--principles&quot;&gt;Infrastructure  Principles&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Security by design, indepth&lt;/li&gt;
+  &lt;li&gt;IaC(Infrastructure as code) for immutability&lt;/li&gt;
+  &lt;li&gt;“Golden” templates and images&lt;/li&gt;
+  &lt;li&gt;Approve and version control all aspects of SDLC and it’s components&lt;/li&gt;
+  &lt;li&gt;GAMP 5 framework based automated deployment&lt;/li&gt;
+  &lt;li&gt;CMDB(Component Management Database) process for every change and deployment(Requirement logging and traceability)&lt;/li&gt;
+  &lt;li&gt;Continuous validation, backups and recovery&lt;/li&gt;
+  &lt;li&gt;Infrastructure audits, logs and reports&lt;/li&gt;
+  &lt;li&gt;System assurance strategy&lt;/li&gt;
+  &lt;li&gt;Config Driven dynamic deployment.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Cloud" /><category term="Industry-4.0" /><category term="Smart Factory" /><category term="IIoT" /><category term="Multi Tenant" /><category term="Multi Region" /><summary type="html">In part-1 We talked about the fundamentals of manufacturing digital transformation, smart factories, Industry 4.0, and how the cloud is facilitating that journey. In this part we shall look at detailed architecture implementation and deployment schemes.</summary></entry><entry><title type="html">Digital Manufacturing Cloud - Part 1</title><link href="http://localhost:4000/techsavi.blog/Cloud-For-Industry-4-0/" rel="alternate" type="text/html" title="Digital Manufacturing Cloud - Part 1" /><published>2021-06-12T00:00:00-05:00</published><updated>2021-06-12T00:00:00-05:00</updated><id>http://localhost:4000/techsavi.blog/Cloud-For-Industry-4-0</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/Cloud-For-Industry-4-0/">&lt;p&gt;Manufacturing has changed dramatically in the previous ten years because to digital technology. Businesses have been able to attain unprecedented levels of efficiency and output because to the Cloud and the Internet of Things (IoT). However, the revolution is far from over. Implementing a cloud backbone for smart factory operations is critical for companies with complex manufacturing operations and must remain competitive. In this 2 part serise I will cover basics of manufacturing digital transformation and how cloud computing capabilitites enable that journey.&lt;/p&gt;
+
+&lt;p&gt;Smart Factory, IIoT, Industry 4.0, are often used interchangeably, althought there is strong relation between the 3 each their nuances. Lets look at some definitions to start with.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Smart Factory&lt;/strong&gt; is the future of the manufacturing industry through smart manufacturing, in which data and analytics come together to provide seamless, low-cost, and efficient production execution, operations, and improve bottom line growth.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Industrial Internet of Things(IIoT)&lt;/strong&gt; despite the fact that the underlying concept is the same, represents the incorporation of smart &lt;strong&gt;“things”&lt;/strong&gt; into the manufacturing ecosystem, distinguishing them from consumer. Wireless connections link IIoT devices to internal networks as well as the global Internet. These devices usher in a new era of automation by collecting an unprecedented amount of data from all aspects of a process and transmitting it to a central server.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Industry 4.0&lt;/strong&gt; includes IIoT, smart manufacturing among other facets, combines physical production and operations with smart digital technology, cloud, computing, machine learning, and big data to create a more holistic and better connected ecosystem for manufacturing and supply chain management companies.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;facets-of-industry-40&quot;&gt;Facets of Industry 4.0:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Autonomous Machines&lt;/li&gt;
+  &lt;li&gt;Cloud, Fog and Edge Computing&lt;/li&gt;
+  &lt;li&gt;Smart Things (IoT)&lt;/li&gt;
+  &lt;li&gt;Cybersecurity&lt;/li&gt;
+  &lt;li&gt;Data, AI/Machine learning&lt;/li&gt;
+  &lt;li&gt;Seamless Integration&lt;/li&gt;
+  &lt;li&gt;Robotics&lt;/li&gt;
+  &lt;li&gt;Digital Simulation (Digital Twin)&lt;/li&gt;
+  &lt;li&gt;Additive Manufacturing&lt;/li&gt;
+  &lt;li&gt;AR/VR&lt;/li&gt;
+  &lt;li&gt;Cyber-physical systems&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;cloud-4-industry-40&quot;&gt;Cloud 4 Industry 4.0&lt;/h2&gt;
+&lt;p&gt;The impending need for IT and OT system convergence to enable Industry 4.0 activities has increased data availability at an unprecedented rate. I don’t need to explain the value of data, but data democratization and value realization require strong computing capabilities at the cloud and edge. Cloud computing has become an important aspect of I-4.0 due to its capabilities and architectural possibilities.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/dmc/cloudpros.png&quot; alt=&quot;runtime&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;vision-for-digital-manufacturing-cloud&quot;&gt;Vision for Digital Manufacturing Cloud&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Democratization of data&lt;/li&gt;
+  &lt;li&gt;Transform data into knowledge to gain actionable insights. (AI/ML)&lt;/li&gt;
+  &lt;li&gt;Data integrated and reasoned between vendors, suppliers, partners, supply chain, sales and post sales to get that grand view of your business.&lt;/li&gt;
+  &lt;li&gt;Closed Loop Manufacturing, enabling data driven decision making.&lt;/li&gt;
+  &lt;li&gt;With a blend of digital transformation turn paper based workflows into digital fuel.&lt;/li&gt;
+  &lt;li&gt;Have a realtime view of data rather than historic view and build predictive modeling.&lt;/li&gt;
+  &lt;li&gt;Proactive playbook for supply chain disruptions&lt;/li&gt;
+  &lt;li&gt;Liberate siloed knowledge and turn into digital assets.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;cloud-to-thing-continuum&quot;&gt;Cloud-to-Thing Continuum&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/dmc/layers.png&quot; alt=&quot;runtime&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First, the OT layer we have systems like HMI(Human Machine Interface) and SCADA, manufacturing execution systems (MES), programmable logic controllers (PLC), sensors and actuators, MEMS and transducers (sensors again), Firewalls, gateways and data brokers.&lt;/li&gt;
+  &lt;li&gt;Second, still behind the manufacturing network, we have the edge computing infrastructure to push data analysis, AI/ML, storage and compute power at the edge of networks. This is necessary for time critical closed loop execution.&lt;/li&gt;
+  &lt;li&gt;Third, the cloud provides higher-order data storage, ETL/ELT, data analytics, AI/ML, visualization, and control center application action on the collected data.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;cloud-capabilities-blueprint&quot;&gt;Cloud Capabilities Blueprint&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/dmc/cloud-layer.png&quot; alt=&quot;runtime&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This outlines the various compartmental capabilities that the cloud provides to support smart factory operations.
+Now we will zoom into the individual compartment implementation on AWS(Amazon Web Services).&lt;/p&gt;
+
+&lt;h3 id=&quot;in-the-next-part-lets-dive-into-the-details-of-above-blueprint-implementation&quot;&gt;In the &lt;a href=&quot;/techsavi.blog/Cloud-For-Industry-4-0-2/&quot;&gt;next&lt;/a&gt; part lets dive into the details of above blueprint implementation.&lt;/h3&gt;
+
+&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Cloud" /><category term="Industry-4.0" /><category term="Smart Factory" /><category term="IIoT" /><category term="Multi Tenant" /><category term="Multi Region" /><summary type="html">Manufacturing has changed dramatically in the previous ten years because to digital technology. Businesses have been able to attain unprecedented levels of efficiency and output because to the Cloud and the Internet of Things (IoT). However, the revolution is far from over. Implementing a cloud backbone for smart factory operations is critical for companies with complex manufacturing operations and must remain competitive. In this 2 part serise I will cover basics of manufacturing digital transformation and how cloud computing capabilitites enable that journey.</summary></entry><entry><title type="html">Strategy for Micro-frontends</title><link href="http://localhost:4000/techsavi.blog/micro-frontends/" rel="alternate" type="text/html" title="Strategy for Micro-frontends" /><published>2021-01-15T00:00:00-06:00</published><updated>2021-01-15T00:00:00-06:00</updated><id>http://localhost:4000/techsavi.blog/micro-frontends</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/micro-frontends/">&lt;p&gt;Recently, we’ve seen an increase in the emphasis placed on the overall architecture and organizational structures required for complex, modern web development. Patterns for decomposing frontend monoliths into smaller, simpler chunks that can be developed, tested, and deployed independently while still appearing to customers as a single cohesive product are emerging. Thus emergence of Micro-Frontend’s:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Micro-frontend architecture is a design approach in which a front-end app is divided into individual, semi-independent “microapps” that collaborate loosely. The micro-frontend concept was inspired by and named after microservices.&lt;/p&gt;
@@ -1457,777 +1641,4 @@ Unmarshaling - low (wire) level → high level&lt;/p&gt;
 
 &lt;h3 id=&quot;in-the-part-3-of-this-series-we-will-look-at-some-more-advanced-akka-http-concepts&quot;&gt;In the &lt;a href=&quot;/techsavi.blog/building-rest-apis-with-akka-http-part-3/&quot;&gt;part 3&lt;/a&gt; of this series we will look at some more advanced Akka Http concepts.&lt;/h3&gt;
 
-&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Akka" /><category term="Micro Services" /><category term="Rest" /><category term="http" /><category term="Scala" /><summary type="html">In the part 1 we discussed about some core concepts of Akka Http. Towards the end we were looking for better ways to eliminate boilerplate declaration from service methods.</summary></entry><entry><title type="html">Rest API’s with AKKA-HTTP(Part-1)</title><link href="http://localhost:4000/techsavi.blog/building-rest-apis-with-akka-http/" rel="alternate" type="text/html" title="Rest API's with AKKA-HTTP(Part-1)" /><published>2018-04-15T00:00:00-05:00</published><updated>2018-04-15T00:00:00-05:00</updated><id>http://localhost:4000/techsavi.blog/building-rest-apis-with-akka-http</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/building-rest-apis-with-akka-http/">&lt;h2 id=&quot;why-do-you-need-another-http-framework-and-why-should-that-be-akka-http&quot;&gt;Why do you need another HTTP framework and why should that be Akka-Http?&lt;/h2&gt;
-
-&lt;p&gt;In todays world it is more than a requirement to build highly concurrent and distributed applications, i.e, we want our applications to be&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Across threads and cores.&lt;/li&gt;
-  &lt;li&gt;Across machines and data centers&lt;/li&gt;
-  &lt;li&gt;Across organizations/domains&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Thats exactly what akka promises to do.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Build powerful concurrent and distributed applications more easily - source: http://akka.io&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;we-want-this-distribution-at-macro-and-micro-level&quot;&gt;We want this distribution at macro and micro level&lt;/h2&gt;
-
-&lt;p&gt;What do I mean by that ?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/macro-micro-level.png&quot; alt=&quot;macro-micro-level&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The Akka HTTP modules implement a full server- and client-side HTTP stack on top of akka-actor and akka-stream. It’s not a web-framework but rather a more general toolkit for providing and consuming HTTP-based services. While interaction with a browser is of course also in scope it is not the primary focus of Akka HTTP.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;what-gaps-does-akka-http-bridge-&quot;&gt;What gaps does Akka-http bridge ?&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Max throughput with acceptable latency&lt;/li&gt;
-  &lt;li&gt;Scale to ‘unlimited’ number of connections, distributing  them across machine cores.
-This means library should never limit you from utilizing hardware.&lt;/li&gt;
-  &lt;li&gt;Open compassable API(not a framework style)&lt;/li&gt;
-  &lt;li&gt;Making HTTP integration layers seamless.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;how-does-akka-http-bridge-these-gaps&quot;&gt;How does Akka-Http bridge these gaps?&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Akka- Http is fully async and non blocking.&lt;/li&gt;
-  &lt;li&gt;Actor friendly, but centered around non-actor API’s&lt;/li&gt;
-  &lt;li&gt;Lightweight, modular, testable&lt;/li&gt;
-  &lt;li&gt;Can be fully decoupled from underlying TCP interfaces&lt;/li&gt;
-  &lt;li&gt;Built from the learnings of &lt;a href=&quot;http://spray.io/&quot;&gt;spray.io&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;akka-streams&quot;&gt;Akka streams&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Akka implementation of reactive streams&lt;/li&gt;
-  &lt;li&gt;DSL for building a complete stream&lt;/li&gt;
-  &lt;li&gt;Higher level abstraction over the actor model&lt;/li&gt;
-  &lt;li&gt;Stream inputs and outputs are typesafe&lt;/li&gt;
-  &lt;li&gt;Internally uses Actor to implement reactive stream properties.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Quick Example of a stream..&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/akka-streams.jpg&quot; alt=&quot;akka-streams&quot; /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SimpleStream&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;implicit&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ActorSystem&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SimpleStream&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;implicit&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mat&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Materializer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ActorMaterializer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Source&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flow&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Flow&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sink&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Sink&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foreach&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;runnableGraph&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;via&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flow&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sink&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Beauty of scala's syntactic sugar
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;runnableGraph&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;terminate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;The main topic is &lt;strong&gt;&lt;em&gt;Akka-http&lt;/em&gt;&lt;/strong&gt; why are we discussing about &lt;strong&gt;&lt;em&gt;Akka-streams&lt;/em&gt;&lt;/strong&gt; ?
-Akka-Http is implemented on the idea of Akka-stream.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/akka-http-flow.jpg&quot; alt=&quot;Akka-Http&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;lets look at a simple examples..&lt;/p&gt;
-
-&lt;h4 id=&quot;example-1-akka-http-leveraging-akka-streams&quot;&gt;Example 1: Akka Http leveraging Akka-Streams&lt;/h4&gt;
-
-&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SimpleAkkaHttp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;implicit&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ActorSystem&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SimpleAkkaHttp&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;implicit&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mat&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Materializer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ActorMaterializer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;businessLogicFlow&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Flow&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fromFunction&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;HttpRequest&lt;/span&gt;, &lt;span class=&quot;kt&quot;&gt;HttpResponse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;nc&quot;&gt;HttpResponse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;StatusCodes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;OK&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World !&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-
-      &lt;span class=&quot;nc&quot;&gt;Http&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bindAndHandle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;businessLogicFlow&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'localhost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;',&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8080&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h4 id=&quot;example-2-akka-http-leveraging-functional-scala-and-synchronous-http-processingthis-way-is-not-encouraged&quot;&gt;Example 2: Akka Http leveraging functional Scala and Synchronous Http processing(This way is not encouraged)&lt;/h4&gt;
-
-&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SynchronousAkkaHttp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;implicit&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ActorSystem&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SynchronousAkkaHttp&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;implicit&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mat&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Materializer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ActorMaterializer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;handler&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;HttpRequest&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;HttpResponse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-      &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;HttpMethods&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;GET&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Uri&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;('/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;'),&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt;
-           &lt;span class=&quot;nc&quot;&gt;HttpResponse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;StatusCodes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;OK&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'world&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;')&lt;/span&gt;
-
-      &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpResponse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;StatusCodes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;BadRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-      &lt;span class=&quot;nc&quot;&gt;Http&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bindAndHandleSync&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;handler&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'localhost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;',&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8080&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Lets break down whats going on..&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;We define our &lt;code class=&quot;highlighter-rouge&quot;&gt;SimpleAkkaHttp&lt;/code&gt; actor&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ActorMaterializer()&lt;/code&gt; initializes ActorMaterializer which provided actor context to Akka http implementation.&lt;/li&gt;
-  &lt;li&gt;From &lt;code class=&quot;highlighter-rouge&quot;&gt;scaladsl&lt;/code&gt; library we import &lt;code class=&quot;highlighter-rouge&quot;&gt;Flow&lt;/code&gt; and define our implementation.&lt;/li&gt;
-  &lt;li&gt;As part of the implementation we are just printing out the request and responding with a status &lt;code class=&quot;highlighter-rouge&quot;&gt;OK&lt;/code&gt; and a string entity.&lt;/li&gt;
-  &lt;li&gt;We also import &lt;code class=&quot;highlighter-rouge&quot;&gt;Http()&lt;/code&gt; from &lt;code class=&quot;highlighter-rouge&quot;&gt;scaladsl&lt;/code&gt; which will be serving http requests with our implemented logic, on specific host here&lt;code class=&quot;highlighter-rouge&quot;&gt;localhost&lt;/code&gt; and specific port, here &lt;code class=&quot;highlighter-rouge&quot;&gt;8080&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bindAndHandle&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;bindAndHandleSync&lt;/code&gt; are 2 methods on &lt;code class=&quot;highlighter-rouge&quot;&gt;Http()&lt;/code&gt;, with a difference of handling asynchronous and synchronous respectively.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Boom ! That all now you have a basic Http rest service.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;You must be wondering how is this possible, as there is no container defined, right ?
-Akka runs this as a simple JVM process taking away all the unnecessary boilerplate logic and lets us focus on Flow(business logic)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;akka-http-stack&quot;&gt;Akka Http Stack&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/akka-http-stack.jpg&quot; alt=&quot;Akka-Http-Stack&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;akka-http-internals&quot;&gt;Akka Http Internals&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;akka-http-core - low-level server &amp;amp; client side HTTP implementation&lt;/li&gt;
-  &lt;li&gt;akka-http - high-level API : DSL, (un)marshalling, (de)compression&lt;/li&gt;
-  &lt;li&gt;akka-http-testkit - Utilities for testing server-side implementation&lt;/li&gt;
-  &lt;li&gt;akka-http-spray-json - (de)serialization from/to JSON with spray-json&lt;/li&gt;
-  &lt;li&gt;akka-http-xml - (de)serialization from/to XML with scala-xml&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;akka-http-interfaces&quot;&gt;Akka Http interfaces&lt;/h3&gt;
-
-&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;HttpMethod&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpMethods&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;GET&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;uri&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Uri&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Uri&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;./,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;immutable.Seq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;HttpHeader&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Nil&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;RequestEntity&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Empty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;protocol&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;HttpProtocol&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpProtocols&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;`HTTP/1.1`&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpResponse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;StatusCode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;StatusCodes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;OK&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;immutable.Seq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;HttpHeader&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Nil&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;ResponseEntity&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Empty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;protocol&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;HttpProtocol&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpProtocols&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;`HTTP/1.1`&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Uri&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;scheme&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;authority&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Authority&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;rawQueryString&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Option&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;],&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;fragment&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Option&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ContentTypes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;`application/json`&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ContentType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;MediaTypes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;`application/json`&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;`application/octet-stream`&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ContentType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;MediaTypes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;`application/octet-stream`&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;`text/plain(UTF-8)`&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MediaTypes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;`text/plain`&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;withCharset&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpCharsets&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;`UTF-8`&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;`text/html(UTF-8)`&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MediaTypes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;`text/html`&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;withCharset&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpCharsets&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;`UTF-8`&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;`text/xml(UTF-8)`&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MediaTypes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;`text/xml`&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;withCharset&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpCharsets&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;`UTF-8`&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;`text/csv(UTF-8)`&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MediaTypes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;`text/csv`&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;withCharset&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpCharsets&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;`UTF-8`&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;NoContentType&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ContentType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;MediaTypes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;NoMediaType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// Encodings
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;`US-ASCII`&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;US-ASCII&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;iso-ir-6&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;ANSI_X3.4-1968&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;ANSI_X3.4-1986&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;ISO_646.irv:1991&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;ASCII&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;ISO646-US&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&quot;us&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;IBM367&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;cp367&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;csASCII&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;`ISO-8859-1`&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ISO-8859-1&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;iso-ir-100&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;ISO_8859-1&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;latin1&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;l1&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;IBM819&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;CP819&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;csISOLatin1&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;`UTF-8`&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF8&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;`UTF-16`&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-16&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF16&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;`UTF-16BE`&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-16BE&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)()&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;`UTF-16LE`&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-16LE&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Above are some examples of akka http interfaces, from them lets extract some characteristics akka provides us.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;The interfaces are case classes, that means they are immutable.&lt;/li&gt;
-  &lt;li&gt;Most of the Http methods have abstraction implementation with best practices.&lt;/li&gt;
-  &lt;li&gt;Common boilerplate types are out of the box, like &lt;code class=&quot;highlighter-rouge&quot;&gt;StatusCodes&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;HttpEntity&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;MediaTypes&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;encodings&lt;/code&gt; etc.&lt;/li&gt;
-  &lt;li&gt;Appropriate parsing of payload using &lt;code class=&quot;highlighter-rouge&quot;&gt;akka-http-spray-json&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Enforcing right Http standards for efficient and robust communication.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Let’s look at the power of high-level Akka-http.&lt;/p&gt;
-
-&lt;p&gt;Above Example-1 and Example-2 are some ways you can define Http endpoints, but if you see the handler methods logic gets redundant and uneasy with params like &lt;code class=&quot;highlighter-rouge&quot;&gt;Uri&lt;/code&gt; etc. These problems are elegantly handled by high-level Akka-http api’s.&lt;/p&gt;
-
-&lt;h3 id=&quot;in-the-part-2-of-this-series-we-will-look-at-some-more-advanced-akka-http-concepts&quot;&gt;In the &lt;a href=&quot;/techsavi.blog/building-rest-apis-with-akka-http-part-2/&quot;&gt;part 2&lt;/a&gt; of this series we will look at some more advanced Akka Http concepts.&lt;/h3&gt;
-
-&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Akka" /><category term="Micro Services" /><category term="Rest" /><category term="http" /><category term="Scala" /><summary type="html">Why do you need another HTTP framework and why should that be Akka-Http?</summary></entry><entry><title type="html">Docking micro Services (Part-3)</title><link href="http://localhost:4000/techsavi.blog/micro-services-with-docker-part-3/" rel="alternate" type="text/html" title="Docking micro Services (Part-3)" /><published>2018-01-10T00:00:00-06:00</published><updated>2018-01-10T00:00:00-06:00</updated><id>http://localhost:4000/techsavi.blog/micro-services-with-docker-part-3</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/micro-services-with-docker-part-3/">&lt;p&gt;In &lt;a href=&quot;/techsavi.blog/micro-services-with-docker-part-2/&quot;&gt;part-2&lt;/a&gt; we discussed about Interfaces, how to build docker Images, configurations including sbt-docker, sbt-assembly, docker-resources, Cassandra and runtime configs.&lt;/p&gt;
-
-&lt;h3 id=&quot;docker-compose&quot;&gt;Docker Compose&lt;/h3&gt;
-
-&lt;p&gt;You can spin up a docker container using &lt;code class=&quot;highlighter-rouge&quot;&gt;docker run&lt;/code&gt;, how ever doign this for all our services is not a maintainable option and that where &lt;code class=&quot;highlighter-rouge&quot;&gt;Docker Compose&lt;/code&gt; comes to rescue.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;It is a tool for defining and running multi-container Docker applications. With Compose, you use a Compose file to configure your application’s services. Then, using a single command, you create and start all the services from your configuration.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In addition to the sbt service modules, we have &lt;code class=&quot;highlighter-rouge&quot;&gt;base-containers.yml&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose.yml&lt;/code&gt; and our &lt;code class=&quot;highlighter-rouge&quot;&gt;compose-resources&lt;/code&gt;. We will look in to each of them.&lt;/p&gt;
-
-&lt;h3 id=&quot;compose-resources&quot;&gt;compose-resources&lt;/h3&gt;
-
-&lt;p&gt;We define our nginx and and cassandra docker resources here.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://www.nginx.com/resources/wiki/&quot;&gt;nginx&lt;/a&gt; is a powerful HTTP Server and reverse proxy and has focused on high performance, high concurrency and low memory usage. Additional features on top of the web server functionality, like load balancing, caching, access and bandwidth control, and the ability to integrate efficiently with a variety of applications, have helped to make nginx a good choice for modern website architectures. Currently nginx is the second most popular open source web server on the Internet.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;worker_processes&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;events&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;worker_connections&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;http&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;listen&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-
-      &lt;span class=&quot;n&quot;&gt;location&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aggregator&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-           &lt;span class=&quot;n&quot;&gt;proxy_pass&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;http:&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//172.16.2.10;&lt;/span&gt;
-      &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-      &lt;span class=&quot;n&quot;&gt;location&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;beacon&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-         &lt;span class=&quot;n&quot;&gt;proxy_pass&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;http:&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//172.16.2.11;&lt;/span&gt;
-      &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-      &lt;span class=&quot;n&quot;&gt;location&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tracking&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-         &lt;span class=&quot;n&quot;&gt;proxy_pass&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;http:&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//172.16.2.12;&lt;/span&gt;
-      &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-   &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Above we are saying listen on port &lt;code class=&quot;highlighter-rouge&quot;&gt;80&lt;/code&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;proxy_pass&lt;/code&gt; sets the protocol and address of a proxied server and an optional URI to which a location should be mapped.&lt;/p&gt;
-
-&lt;h3 id=&quot;cassandra-initsh&quot;&gt;cassandra-init.sh&lt;/h3&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-/init/scripts/wait-for-it.sh &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; 0 cassandra-node1:9042 &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;CASSANDRA Node1 started&quot;&lt;/span&gt;
-/init/scripts/wait-for-it.sh &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; 0 cassandra-node2:9042 &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;CASSANDRA Node2 started&quot;&lt;/span&gt;
-/init/scripts/wait-for-it.sh &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; 0 cassandra-node3:9042 &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;CASSANDRA Node3 started&quot;&lt;/span&gt;
-
-cqlsh &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; /init/scripts/cassandra_keyspace_init.cql cassandra
-
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;### CASSANDRA INITIALISED! ###&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;We reuse &lt;code class=&quot;highlighter-rouge&quot;&gt;wait-for-it.sh&lt;/code&gt; waiting for each of the three Cassandra nodes to start and become available. It then runs &lt;code class=&quot;highlighter-rouge&quot;&gt;cassandra_keyspace_init.cql&lt;/code&gt; which creates our tables and populates them with dummy data.&lt;/p&gt;
-
-&lt;h3 id=&quot;base-containersyml&quot;&gt;base-containers.yml&lt;/h3&gt;
-
-&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;2'&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;services&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;cassandra-base&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;cassandra:2.1&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;networks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;dockernet&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;WAIT_TIMEOUT&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;60&quot;&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;JVM_OPTS&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;-Dcassandra.consistent.rangemovement=false&quot;&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;CASSANDRA_CLUSTER_NAME&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;DemoCluster&quot;&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;CASSANDRA_ENDPOINT_SNITCH&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;GossipingPropertyFileSnitch&quot;&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;CASSANDRA_DC&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;DATA&quot;&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;restart&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;always&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;In this script we configure the common image parameters, this avoids duplicating the common Cassandra configuration for each node.&lt;/p&gt;
-
-&lt;p&gt;Now lets look at the big guy &lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose.yml&lt;/code&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;nginx&quot;&gt;nginx&lt;/h4&gt;
-&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;nginx&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;nginx&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;9000:80&quot;&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;NGINX_PORT&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;80&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;./compose-resources/nginx:/etc/nginx&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;networks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;dockernet&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Above we is our &lt;code class=&quot;highlighter-rouge&quot;&gt;nginx&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;image&lt;/code&gt; config.&lt;/li&gt;
-  &lt;li&gt;Under ports we are defining &lt;code class=&quot;highlighter-rouge&quot;&gt;PORT:HOST:CONTAINER&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Adding environment variable &lt;code class=&quot;highlighter-rouge&quot;&gt;NGINX_PORT&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Defined a volume for the nginx.conf. This mounts the config located in compose-resources/nginx to /etc/nginx within the running container. Thereby providing our custom configuration to NGINX&lt;/li&gt;
-  &lt;li&gt;Under &lt;code class=&quot;highlighter-rouge&quot;&gt;networks&lt;/code&gt; we are added &lt;code class=&quot;highlighter-rouge&quot;&gt;nginx&lt;/code&gt; to our custom &lt;code class=&quot;highlighter-rouge&quot;&gt;dockernet&lt;/code&gt; network.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;cassandra-nodes&quot;&gt;cassandra-nodes&lt;/h4&gt;
-
-&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;na&quot;&gt;cassandra-node1&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;extends&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;base-containers.yml&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;service&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;cassandra-base&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;avinash-cassandra-node1-data:/var/lib/cassandra&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# This bypasses the union filesystem, in favour of the host = faster.&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;9042:9042&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;extends&lt;/code&gt; allows us to access common &lt;code class=&quot;highlighter-rouge&quot;&gt;base-containers&lt;/code&gt; compose configurations.&lt;/li&gt;
-  &lt;li&gt;For &lt;code class=&quot;highlighter-rouge&quot;&gt;volumes&lt;/code&gt; we are not mounting a volume from a specific host path as we did with NGINX/cassandra-base. Instead we’re using a &lt;a href=&quot;https://madcoda.com/2016/03/docker-named-volume-explained/&quot;&gt;named volume&lt;/a&gt; and mounting it into the container. This volume blank and has no data upon instantiation.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;cassandra-init&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;cassandra:2.1&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;./compose-resources/cassandra:/init/scripts&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;bash /init/scripts/cassandra-init.sh&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;links&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;cassandra-node1:cassandra&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;restart&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;on-failure&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;networks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;dockernet&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;We’re overriding the &lt;code class=&quot;highlighter-rouge&quot;&gt;init/scripts&lt;/code&gt; directory within the container, providing our own init script.&lt;/li&gt;
-  &lt;li&gt;This is a sneaky way to init the Cassandra keyspace, We are using &lt;code class=&quot;highlighter-rouge&quot;&gt;cqlsh&lt;/code&gt; from another instance (temp) of Cassandra to init 3 nodes, then shutting it down. This avoids having &lt;code class=&quot;highlighter-rouge&quot;&gt;cqlsh&lt;/code&gt; in our service image and using the service entrypoint, which is the alternative&lt;/li&gt;
-  &lt;li&gt;Restart until we successfully run this script (it will fail until cassandra starts&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;lets-look-at-service-defnitions&quot;&gt;Lets look at service defnitions&lt;/h4&gt;
-
-&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;beacon-service&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;beacon-service:1.0.0-SNAPSHOT&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;expose&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;80&quot;&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;8080&quot;&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;9000&quot;&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;8080:80&quot;&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;stdin_open&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;links&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;cassandra-node1:cassandra&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;nginx&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;restart&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;always&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;networks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;dockernet&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;na&quot;&gt;ipv4_address&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;172.16.2.11&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ol&gt;
-  &lt;li&gt;We are using the image created by sbt-docker and sbt-assembly in conjunction.&lt;/li&gt;
-  &lt;li&gt;We expose different ports and bind them to port 80 on host machine.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;stdin_open&lt;/code&gt; the opens an interactive shell using Docker Compose,preventing any premature shutdowns.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;links&lt;/code&gt; to containers in another service. Either specify both the service name and a link alias (“SERVICE:ALIAS”), or just the service name. &lt;code class=&quot;highlighter-rouge&quot;&gt;alias-cassandra&lt;/code&gt; matches the configuration provided in &lt;code class=&quot;highlighter-rouge&quot;&gt;application.conf&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;We make sure our service &lt;code class=&quot;highlighter-rouge&quot;&gt;restarts&lt;/code&gt; if anything happens and we bind it to a static IP on our dockernet network - allowing NGINX to route requests to it.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;network-infrastructure&quot;&gt;network infrastructure&lt;/h4&gt;
-
-&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;networks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;dockernet&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;driver&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;bridge&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;ipam&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;driver&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;default&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;subnet&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;172.16.2.0/24&lt;/span&gt;
-              &lt;span class=&quot;na&quot;&gt;gateway&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;172.16.2.1&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;This is the custom &lt;a href=&quot;https://docs.docker.com/compose/networking/&quot;&gt;bridge network&lt;/a&gt; that allows us to specify static IPs for our services - useful for Nginx setup&lt;/p&gt;
-
-&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;avinash-cassandra-node1-data&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;external&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;avinash-cassandra-node1-data&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;avinash-cassandra-node2-data&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;external&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;avinash-cassandra-node2-data&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;avinash-cassandra-node3-data&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;external&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;avinash-cassandra-node3-data&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Named volumes to store cassandra data, this allows our data to persist between different compose files. Note that these volumes have to be available before you start the micro-services.&lt;/p&gt;
-
-&lt;h4 id=&quot;service-discovery-and-communication&quot;&gt;Service discovery and communication.&lt;/h4&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tracking.service &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-   host &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;tracking-service&quot;&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-beacon.service &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-   host &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;beacon-service&quot;&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;We’re referring to the other services using the names we’ve specified in the &lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose.yml&lt;/code&gt;. This is how &lt;code class=&quot;highlighter-rouge&quot;&gt;docker-compose&lt;/code&gt; makes it simple for our services to communicate with one another.&lt;/p&gt;
-
-&lt;h3 id=&quot;lets-summarize-on-what-we-did-so-far&quot;&gt;Lets summarize on what we did so far&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Built our micro-services&lt;/li&gt;
-  &lt;li&gt;Dockerized them&lt;/li&gt;
-  &lt;li&gt;Defined environment/configuration of how to spin up the architecture.&lt;/li&gt;
-  &lt;li&gt;How service discovery happens&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;setup&quot;&gt;Setup&lt;/h3&gt;
-
-&lt;p&gt;Remember we discussed that you need to have named volumes available before you run start the microservices..&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker volume create &lt;span class=&quot;nt&quot;&gt;--name&lt;/span&gt; avinash-cassandra-node1-data
-docker volume create &lt;span class=&quot;nt&quot;&gt;--name&lt;/span&gt; avinash-cassandra-node2-data
-docker volume create &lt;span class=&quot;nt&quot;&gt;--name&lt;/span&gt; avinash-cassandra-node3-data
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;From the root directory :&lt;/p&gt;
-&lt;h3 id=&quot;build&quot;&gt;Build&lt;/h3&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./build-all.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This script runs &lt;code class=&quot;highlighter-rouge&quot;&gt;sbt docker&lt;/code&gt; to build the image for each of our Microservices.&lt;/p&gt;
-
-&lt;h3 id=&quot;run&quot;&gt;Run&lt;/h3&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker-compose up
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/microservice-up.png&quot; alt=&quot;service-up&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Boom! Your Microservices are all up and ready for requests, lets test it out !&lt;/p&gt;
-
-&lt;h4 id=&quot;beacon-service&quot;&gt;beacon-service&lt;/h4&gt;
-&lt;p&gt;GET: http://localhost:9000/beacons/locations/ce519f95-923c-4532-879e-cd19afa8dda8&lt;/p&gt;
-
-&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;locationId&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ce519f95-923c-4532-879e-cd19afa8dda8&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;beaconId&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;5bf966d9-8046-4fc1-ae5a-80c923ebea5a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;beaconName&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Bed Room Beacon&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h4 id=&quot;tracking-service&quot;&gt;tracking-service&lt;/h4&gt;
-&lt;p&gt;GET: http://localhost:9000/tracking/beacons/5bf966d9-8046-4fc1-ae5a-80c923ebea5a/1473156000&lt;/p&gt;
-
-&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;beaconId&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;5bf966d9-8046-4fc1-ae5a-80c923ebea5a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;timeLogged&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2016-09-06T10:00:00&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;f525cff6-721e-11e6-8b77-86f30ca893d3&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Avinash Erupaka&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;beaconId&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;5bf966d9-8046-4fc1-ae5a-80c923ebea5a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;timeLogged&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2016-09-06T10:00:00&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;8010fa28-721f-11e6-8b77-86f30ca893d3&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Bhargavi Erupaka&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;beaconId&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;5bf966d9-8046-4fc1-ae5a-80c923ebea5a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;timeLogged&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2016-09-06T10:00:00&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;88b66e10-721f-11e6-8b77-86f30ca893d3&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Shobha Erupaka&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;aggregation-service&quot;&gt;aggregation-service&lt;/h4&gt;
-&lt;p&gt;GET: http://localhost:9000/aggregator/locations/ce519f95-923c-4532-879e-cd19afa8dda8/1473156000 (Observe aggregator service acts as a front controller for communication.)&lt;/p&gt;
-
-&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;f525cff6-721e-11e6-8b77-86f30ca893d3&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Avinash Erupaka&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;timeLogged&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2016-09-06T10:00:00&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;beaconName&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Bed Room Beacon&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;8010fa28-721f-11e6-8b77-86f30ca893d3&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Bhargavi Erupaka&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;timeLogged&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2016-09-06T10:00:00&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;beaconName&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Bed Room Beacon&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;88b66e10-721f-11e6-8b77-86f30ca893d3&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Shobha Erupaka&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;timeLogged&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2016-09-06T10:00:00&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;beaconName&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Bed Room Beacon&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;stop--clean-up-old-containers-and-volumes-containers&quot;&gt;Stop &amp;amp; Clean up old containers and Volumes containers&lt;/h3&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker stop &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;docker ps &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-q&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
-docker &lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;docker ps &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-q&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
-docker volume &lt;span class=&quot;nb&quot;&gt;rm &lt;/span&gt;avinash-cassandra-node1-data
-docker volume &lt;span class=&quot;nb&quot;&gt;rm &lt;/span&gt;avinash-cassandra-node2-data
-docker volume &lt;span class=&quot;nb&quot;&gt;rm &lt;/span&gt;avinash-cassandra-node3-data
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You could also do this to Stops containers and removes containers, networks, volumes, and images created by &lt;code class=&quot;highlighter-rouge&quot;&gt;up&lt;/code&gt;.&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker-compose down
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;/techsavi.blog/assets/img/docker-compose-down.png&quot; alt=&quot;service-down&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hopefully these series of tutorial where informative, Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Micro Services" /><category term="Docker" /><category term="http4s" /><category term="Scala" /><category term="REST" /><category term="Quill" /><category term="Cassandra" /><summary type="html">In part-2 we discussed about Interfaces, how to build docker Images, configurations including sbt-docker, sbt-assembly, docker-resources, Cassandra and runtime configs.</summary></entry><entry><title type="html">Docking micro Services (Part-2)</title><link href="http://localhost:4000/techsavi.blog/micro-services-with-docker-part-2/" rel="alternate" type="text/html" title="Docking micro Services (Part-2)" /><published>2018-01-05T00:00:00-06:00</published><updated>2018-01-05T00:00:00-06:00</updated><id>http://localhost:4000/techsavi.blog/micro-services-with-docker-part-2</id><content type="html" xml:base="http://localhost:4000/techsavi.blog/micro-services-with-docker-part-2/">&lt;h3 id=&quot;lets-build-an-app-that-lets-you-track-down-users-connected-to-a-bluetooth-beacon&quot;&gt;Lets build an app that lets you track down users connected to a bluetooth beacon.&lt;/h3&gt;
-
-&lt;h3 id=&quot;interfaces&quot;&gt;Interfaces&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;BeaconService&lt;/code&gt; - Responsible for Bluetooth Beacons related info.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;TrackingService&lt;/code&gt; -  Responsible for tracking the location of users&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AggregationService&lt;/code&gt; - Acts as front controller for the two services, providing a way for clients to retrieve data with out constant polling.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;building-docker-images&quot;&gt;Building docker Images&lt;/h3&gt;
-
-&lt;p&gt;Lets create and build the docker images,
-we will leverage &lt;a href=&quot;https://github.com/marcuslonnberg/sbt-docker&quot;&gt;sbt-docker&lt;/a&gt; and &lt;a href=&quot;https://github.com/sbt/sbt-assembly&quot;&gt;sbt-assembly&lt;/a&gt; plugins.&lt;/p&gt;
-
-&lt;p&gt;You can checkout the working version of the project here &lt;a href=&quot;https://github.com/avinasherupaka/find-peers-microservices&quot;&gt;find-peers-microservices&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Lets look at some configuration in detail.&lt;/p&gt;
-
-&lt;h2 id=&quot;lets-take-the-example-of-beacon-service&quot;&gt;lets take the example of beacon-service&lt;/h2&gt;
-
-&lt;h3 id=&quot;pluginssbt&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;plugins.sbt&lt;/code&gt;&lt;/h3&gt;
-
-&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;resolvers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Typesafe repository&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;https://repo.typesafe.com/typesafe/releases/&quot;&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;addSbtPlugin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;com.eed3si9n&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;sbt-assembly&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;0.14.6&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;addSbtPlugin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;se.marcuslonnberg&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;sbt-docker&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;1.5.0&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This above config adds sbt-assembly and sbt-docker plugins to the module.&lt;/p&gt;
-
-&lt;h3 id=&quot;buildsbt&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;build.sbt&lt;/code&gt;&lt;/h3&gt;
-
-&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;mainClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;assembly&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Some&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;com.avinash.blog.Bootstrap&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;assemblyMergeStrategy&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;assembly&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;PathList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xs&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;@&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;last&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;io.netty.versions.properties&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MergeStrategy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rename&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;other&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;assemblyMergeStrategy&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;assembly&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;other&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;publishArtifact&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Compile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;packageDoc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;publishTo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Some&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Resolver&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;file&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;artifacts&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)))&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;cleanFiles&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;baseDirectory&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;artifacts&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Most of the variables here are self explanatory like &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;version&lt;/code&gt;  and &lt;code class=&quot;highlighter-rouge&quot;&gt;libraryDependencies&lt;/code&gt; it adds appropriate plugins. The &lt;code class=&quot;highlighter-rouge&quot;&gt;assemblyMergeStrategy&lt;/code&gt; resolves duplicates for Sbt Assembly and creates a fat jar of your project/module with all of its dependencies. Then we publish to artifacts directory&lt;/p&gt;
-
-&lt;h3 id=&quot;sbt-docker-configuration&quot;&gt;sbt-docker configuration&lt;/h3&gt;
-
-&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;enablePlugins&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sbtdocker&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;DockerPlugin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;dockerfile&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;baseDir&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;baseDirectory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;artifact&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;assembly&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;imageAppBaseDir&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;/app&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;artifactTargetPath&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;$imageAppBaseDir/${artifact.name}&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;artifactTargetPath_ln&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;$imageAppBaseDir/${name.value}.jar&quot;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dockerResourcesDir&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;baseDir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;docker-resources&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dockerResourcesTargetPath&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;$imageAppBaseDir/&quot;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;appConfTarget&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;$imageAppBaseDir/conf/application&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;logConfTarget&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;$imageAppBaseDir/conf/logging&quot;&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Above we enable the plugin and define the source and target paths of files to be added to our image. Add resources which includes the entrypoint script. . We also define &lt;code class=&quot;highlighter-rouge&quot;&gt;boot-configuration - app.conf&lt;/code&gt; bootstrapping the app along with logback.xml load for logging.&lt;/p&gt;
-
-&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dockerfile&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;openjdk:8-jre&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;maintainer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;avinasherupaka&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;expose&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8080&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;APP_BASE&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;$imageAppBaseDir&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;APP_CONF&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;$appConfTarget&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;LOG_CONF&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;$logConfTarget&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;copy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;artifact&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;artifactTargetPath&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;copy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dockerResourcesDir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dockerResourcesTargetPath&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;copy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;baseDir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;src&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;main&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;resources&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;logback.xml&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;logConfTarget&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//Copy the default logback.xml
-&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;//Symlink the service jar to a non version specific name
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ln&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;-sf&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;$artifactTargetPath&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;$artifactTargetPath_ln&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;entryPoint&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;${dockerResourcesTargetPath}docker-entrypoint.sh&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;buildOptions&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BuildOptions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cache&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;This is a lot, lets break it down..&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Every Docker container inherits from a base container that has a Linux distro, and for Scala apps, some flavor of the JVM. We are using from &lt;a href=&quot;https://hub.docker.com/_/openjdk/&quot;&gt;(“openjdk:8-jre”)&lt;/a&gt; here.&lt;/li&gt;
-  &lt;li&gt;Ports to be exposed for our service.&lt;/li&gt;
-  &lt;li&gt;Environment variables are defined for configuration paths, we can then access these at runtime and in the entrypoint scripts.&lt;/li&gt;
-  &lt;li&gt;We copy the resources, configs and the jar to our image. The sbt docker task depends upon the assembly task, so this jar has been automatically created for us by this point.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;RUN&lt;/code&gt; executes shell commands while building the container. It is typically used to install packages. The sbt-docker syntax offers at least two variants: runRaw which you saw above to execute any text as a shell command (including env var substitution), and run() which allows you to input each arg separately. Here we define a &lt;a href=&quot;https://kb.iu.edu/d/abbe&quot;&gt;symlink&lt;/a&gt; to our versioned jar.&lt;/li&gt;
-  &lt;li&gt;We define an entrypoint which describes the script or command to start  app.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;customizing-your-image-tag&quot;&gt;Customizing your image tag&lt;/h3&gt;
-&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;n&quot;&gt;imageNames&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Seq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
-  &lt;span class=&quot;nc&quot;&gt;ImageName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;repository&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Some&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getOrElse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;IMAGE_TAG&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;By default sbt-docker will tag the image with the version defined in our build.sbt. Sometimes though, this isn’t what we want - In case of custom deployment we parse the IMAGE_TAG env var which allows us to override the tag at build time. You would use this as follows: sbt clean -DIMAGE_TAG=someTag docker&lt;/p&gt;
-
-&lt;h3 id=&quot;docker-resources&quot;&gt;docker-resources&lt;/h3&gt;
-
-&lt;p&gt;Images will need some additional external resources and we get them as follows.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/vishnubob/wait-for-it&quot;&gt;scripts/wait-for-it.sh&lt;/a&gt; - Gives us a reliable way to wait for resources to become available on specific ports.
-Services often need to be spun up in a specific order for discovery purposes, and backend resources. We use &lt;code class=&quot;highlighter-rouge&quot;&gt;wait-for-it.sh&lt;/code&gt; to control the startup order of our services. In our case specifically we’re waiting for Cassandra to become available. While Docker compose allows us to control the startup order of containers, it doesn’t wait until the application within the container has completely started.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A reliable service should be able to automatically retry and restart should a connection be unavailable, rather than simply dying. This is essential for a resilient microservice (which these are not!).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;docker-entrypointsh&quot;&gt;docker-entrypoint.sh&lt;/h3&gt;
-
-&lt;p&gt;This is Docker Entrypoint as stated above in sbt-docker &lt;code class=&quot;highlighter-rouge&quot;&gt;run&lt;/code&gt; description. It handles the startup procedure i.e, invoking the docker-entrypoint.sh script.&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
-
-&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt;
-
-/app/scripts/wait-for-it.sh &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; 0 cassandra-node1:9042 &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;CASSANDRA Node1 started&quot;&lt;/span&gt;
-/app/scripts/wait-for-it.sh &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; 0 cassandra-node2:9042 &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;CASSANDRA Node2 started&quot;&lt;/span&gt;
-/app/scripts/wait-for-it.sh &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; 0 cassandra-node3:9042 &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;CASSANDRA Node3 started&quot;&lt;/span&gt;
-
-&lt;span class=&quot;nv&quot;&gt;APP_OPTS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;-d64 &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
-          -server &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
-          -XX:MaxGCPauseMillis=500 &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
-          -XX:+UseStringDeduplication &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
-          -Xmx1024m &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
-          -XX:+UseG1GC &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
-          -XX:ConcGCThreads=4 -XX:ParallelGCThreads=4 &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
-          -Dcom.sun.management.jmxremote.port=9999 -Dcom.sun.management.jmxremote.ssl=false &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
-          -Dcom.sun.management.jmxremote.authenticate=false &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
-          -Dcom.sun.management.jmxremote.local.only=false &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
-          -Dcom.sun.management.jmxremote.rmi.port=9999 &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
-          -Dcom.sun.management.jmxremote=true &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
-          -Dlogger.url=file:///&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;LOG_CONF&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/logback.xml
-         &quot;&lt;/span&gt;
-
-java &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;APP_OPTS&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-cp&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;APP_BASE&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;/conf &lt;span class=&quot;nt&quot;&gt;-jar&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;APP_BASE&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;/beacon-service.jar
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;As you can see the start up waits on all Cassandra nodes. Such tight coupling of service startups is not good practice, it’s much better to wait for one node to become available and handle any retries or restarts properly within your resilient service.&lt;/p&gt;
-
-&lt;p&gt;Set our jvm arguments and start the service, notice that we make use of the LOG_CONF and APP_BASE environment variables which we defined in our build.sbt image..&lt;/p&gt;
-
-&lt;h3 id=&quot;where-is-cassandra-defined&quot;&gt;Where is Cassandra defined?&lt;/h3&gt;
-
-&lt;p&gt;We are using &lt;a href=&quot;https://hub.docker.com/_/cassandra/&quot;&gt;official Cassandra image from dockerhub&lt;/a&gt; for Cassandra cluster. However we need to configure our app to connect to it, we do this in the application.conf of each service. This is not a production ready configuration&lt;/p&gt;
-
-&lt;div class=&quot;language-conf highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;cassandra&lt;/span&gt; {
-   &lt;span class=&quot;n&quot;&gt;keyspace&lt;/span&gt; = &lt;span class=&quot;s2&quot;&gt;&quot;beacon_service&quot;&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;preparedStatementCacheSize&lt;/span&gt; = &lt;span class=&quot;m&quot;&gt;1000&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;session&lt;/span&gt;.&lt;span class=&quot;n&quot;&gt;contactPoint&lt;/span&gt; = &lt;span class=&quot;n&quot;&gt;cassandra&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;session&lt;/span&gt;.&lt;span class=&quot;n&quot;&gt;credentials&lt;/span&gt;.&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; = &lt;span class=&quot;n&quot;&gt;cassandra&lt;/span&gt; //&lt;span class=&quot;n&quot;&gt;Username&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;session&lt;/span&gt;.&lt;span class=&quot;n&quot;&gt;credentials&lt;/span&gt;.&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt; = &lt;span class=&quot;n&quot;&gt;cassandra&lt;/span&gt; //&lt;span class=&quot;n&quot;&gt;Password&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;session&lt;/span&gt;.&lt;span class=&quot;n&quot;&gt;queryOptions&lt;/span&gt;.&lt;span class=&quot;n&quot;&gt;consistencyLevel&lt;/span&gt; = &lt;span class=&quot;n&quot;&gt;LOCAL_QUORUM&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;session&lt;/span&gt;.&lt;span class=&quot;n&quot;&gt;withoutMetrics&lt;/span&gt; = &lt;span class=&quot;n&quot;&gt;true&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;session&lt;/span&gt;.&lt;span class=&quot;n&quot;&gt;withoutJMXReporting&lt;/span&gt; = &lt;span class=&quot;n&quot;&gt;false&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;session&lt;/span&gt;.&lt;span class=&quot;n&quot;&gt;maxSchemaAgreementWaitSeconds&lt;/span&gt; = &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;
-   //&lt;span class=&quot;n&quot;&gt;session&lt;/span&gt;.&lt;span class=&quot;n&quot;&gt;addressTranslater&lt;/span&gt; = &lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;.&lt;span class=&quot;n&quot;&gt;datastax&lt;/span&gt;.&lt;span class=&quot;n&quot;&gt;driver&lt;/span&gt;.&lt;span class=&quot;n&quot;&gt;core&lt;/span&gt;.&lt;span class=&quot;n&quot;&gt;policies&lt;/span&gt;.&lt;span class=&quot;n&quot;&gt;IdentityTranslater&lt;/span&gt;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h3 id=&quot;runtime-configuration&quot;&gt;Runtime Configuration&lt;/h3&gt;
-
-&lt;p&gt;First we define the &lt;code class=&quot;highlighter-rouge&quot;&gt;APP_CONF&lt;/code&gt; environment variable in the build.sbt. We then read this at runtime when bootstrapping the application in &lt;code class=&quot;highlighter-rouge&quot;&gt;Bootstrap.scala&lt;/code&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;com.avinash.blog&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Bootstrap&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ServerApp&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Cassandra&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;implicit&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;executionContext&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ExecutionContext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;global&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;lazy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ConfigFactory&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parseFile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;${sys.env.getOrElse(&quot;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;APP_CONF&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;, &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;)}/boot-configuration.conf&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;withFallback&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;ConfigFactory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;load&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;())&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BlazeBuilder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bindHttp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;0.0.0.0&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mountService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;BeaconService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;routes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BeaconRepo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;CassandraAsyncContext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;SnakeCase&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]]()),&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;ConfigFactory looks for an optional &lt;code class=&quot;highlighter-rouge&quot;&gt;boot-configuration.conf&lt;/code&gt; first, then falls back to &lt;code class=&quot;highlighter-rouge&quot;&gt;application.conf&lt;/code&gt; for any values not found. The idea is we can easily define an env specific config at runtime using volume mounts at $APP_CONF.&lt;/p&gt;
-
-&lt;h3 id=&quot;repository&quot;&gt;Repository&lt;/h3&gt;
-
-&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;k&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BeaconRepo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BeaconsByLocation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;locationId&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UUID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;beaconId&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UUID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;beaconName&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BeaconRepo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Repo&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;&amp;lt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;CassandraAsyncContext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;SnakeCase&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]]()(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;implicit&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dbContext&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Repo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ec&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;ExecutionContext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;dbContext._&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;implicit&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;decodeUUID&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mappedEncoding&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;, &lt;span class=&quot;kt&quot;&gt;UUID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;UUID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fromString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;implicit&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;encodeUUID&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mappedEncoding&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;UUID&lt;/span&gt;, &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;findBeaconByLocation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;locationId&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UUID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Future&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;BeaconsByLocation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;dbContext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;quote&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;BeaconsByLocation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;locationId&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lift&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;locationId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
-      &lt;span class=&quot;o&quot;&gt;})&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;controller-service---handles-rest-calls&quot;&gt;Controller/ service - handles REST calls&lt;/h3&gt;
-
-&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BeaconService&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;LazyLogging&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-
-  &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;PooledHttp1Client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;implicit&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;circeJsonDecoder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;implicit&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;decoder&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Decoder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;http4s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;circe&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jsonOf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;implicit&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;circeJsonEncoder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;implicit&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;encoder&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Encoder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;http4s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;circe&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jsonEncoderOf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;routes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;beaconRepo&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;BeaconRepo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;CassandraAsyncContext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;SnakeCase&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]])(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;implicit&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ec&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;ExecutionContext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpService&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;@GET&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Root&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;beacons&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;locations&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;locationId&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;debug&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;****Querying for locationId:$locationId&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;nc&quot;&gt;Ok&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;beaconRepo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;findBeaconByLocation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;UUID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fromString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;locationId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)))&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Configuration across all services is same. Most of the code can be refactored into reusable code, but for practice purposes it works well.&lt;/p&gt;
-
-&lt;h3 id=&quot;in-the-part-3-of-this-series-lets-looks-at-docker-configuration-for-microservices-cassandra-nginx-images-spinning-up-our-architecture-etc&quot;&gt;In the &lt;a href=&quot;/techsavi.blog/micro-services-with-docker-part-3/&quot;&gt;part 3&lt;/a&gt; of this series lets looks at docker configuration for microservices, cassandra, nginx, images, spinning up our architecture etc.&lt;/h3&gt;
-
-&lt;p&gt;I want to give a shout out to &lt;a href=&quot;https://github.com/markglh&quot;&gt;Mark Harrison&lt;/a&gt; for motivating me to implement this and write a blog with my learnings, findings and additions…&lt;/p&gt;
-
-&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Micro Services" /><category term="Docker" /><category term="http4s" /><category term="Scala" /><category term="REST" /><category term="Quill" /><category term="Cassandra" /><summary type="html">Lets build an app that lets you track down users connected to a bluetooth beacon.</summary></entry></feed>
+&lt;p&gt;Cheers and Happy Coding 🤘&lt;/p&gt;</content><author><name>Avinash Reddy Erupaka</name></author><category term="Akka" /><category term="Micro Services" /><category term="Rest" /><category term="http" /><category term="Scala" /><summary type="html">In the part 1 we discussed about some core concepts of Akka Http. Towards the end we were looking for better ways to eliminate boilerplate declaration from service methods.</summary></entry></feed>

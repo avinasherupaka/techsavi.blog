@@ -1,11 +1,35 @@
 [
   
     {
-      "title"    : "Tech Trends 2022",
+      "title"    : "Comprehensive Tech Trends 2022",
       "category" : "",
       "tags"     : "Trends, Technology, 2022",
       "url"      : "/techsavi.blog/Tech-Trends-2022/",
       "date"     : "2021-12-22 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"    : "Digital Manufacturing Cloud - Part 3",
+      "category" : "",
+      "tags"     : "Cloud, Industry-4.0, Smart Factory, IIoT, Multi Tenant, Multi Region",
+      "url"      : "/techsavi.blog/Cloud-For-Industry-4-0-3/",
+      "date"     : "2021-07-01 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Digital Manufacturing Cloud - Part 2",
+      "category" : "",
+      "tags"     : "Cloud, Industry-4.0, Smart Factory, IIoT, Multi Tenant, Multi Region",
+      "url"      : "/techsavi.blog/Cloud-For-Industry-4-0-2/",
+      "date"     : "2021-06-21 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Digital Manufacturing Cloud - Part 1",
+      "category" : "",
+      "tags"     : "Cloud, Industry-4.0, Smart Factory, IIoT, Multi Tenant, Multi Region",
+      "url"      : "/techsavi.blog/Cloud-For-Industry-4-0/",
+      "date"     : "2021-06-12 00:00:00 -0500"
     } ,
   
     {
