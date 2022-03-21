@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Integration Strategy",
+      "category" : "",
+      "tags"     : "Integration, MuleSoft, iPaaS, API, AWS, Data",
+      "url"      : "/techsavi.blog/Integration-Strategy/",
+      "date"     : "2022-03-16 00:00:00 -0500"
+    } ,
+  
+    {
       "title"    : "Comprehensive Tech Trends 2022",
       "category" : "",
       "tags"     : "Trends, Technology, 2022",
@@ -46,6 +54,22 @@
       "tags"     : "AWS, Cloud Native, Microservices, API Design, Scalability, IaaC, Serverless, Authorization, Node, Rest",
       "url"      : "/techsavi.blog/aws-api-gateway-strategy-for-microservices/",
       "date"     : "2020-09-02 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Decentralized Applications of Blockchain",
+      "category" : "",
+      "tags"     : "Smartcontracts, DAPPA, Ethereum",
+      "url"      : "/techsavi.blog/Blockchain-2/",
+      "date"     : "2020-08-11 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Blockchain",
+      "category" : "",
+      "tags"     : "Blockchain, Crypto, Trust, Peer-To-Peer, Distributed Ledger, Consensus",
+      "url"      : "/techsavi.blog/Blockchain/",
+      "date"     : "2020-07-03 00:00:00 -0500"
     } ,
   
     {
