@@ -3,7 +3,7 @@ layout: post
 title: "Rest API's with AKKA-HTTP(Part-1)"
 img: akka-http.jpg
 tags: [Akka, Micro Services, Rest, http, Scala]
-author: Avinash RE
+author: Avinash R. E
 ---
 ## Why do you need another HTTP framework and why should that be Akka-Http?
 

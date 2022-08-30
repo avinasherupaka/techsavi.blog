@@ -4,7 +4,7 @@ title: "Blockchain"
 subtitle: "The Intro"
 img: blockchain.jpeg.jpg
 tags: [Blockchain, Crypto, Trust, Peer-To-Peer, Distributed Ledger, Consensus]
-author: Avinash RE
+author: Avinash R. E
 ---
 
 Every agreement/arrangement in this world is based on trust! This trust created and destroyed empires (colonial, imperial, capitalist, socialist, communal, and so on), and it also sparked the need for next generation technology on how things functioned in this digital age.

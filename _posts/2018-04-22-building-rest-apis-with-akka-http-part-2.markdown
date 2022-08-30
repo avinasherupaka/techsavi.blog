@@ -3,7 +3,7 @@ layout: post
 title: "Rest API's with AKKA-HTTP(Part-2)"
 img: akka-http-2.jpg
 tags: [Akka, Micro Services, Rest, http, Scala]
-author: Avinash RE
+author: Avinash R. E
 ---
 ### In the [part 1]({{ site.baseurl }}{% post_url 2018-04-15-building-rest-apis-with-akka-http %}) we discussed about some core concepts of Akka Http. Towards the end we were looking for better ways to eliminate boilerplate declaration from service methods.
 

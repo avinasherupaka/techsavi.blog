@@ -3,7 +3,7 @@ layout: post
 title: "Be functional, Be awesome !!!"
 img: functional-Programming2.jpeg
 tags: [Functional Programming, Javascript, Immutability, Higher Order Functions]
-author: Avinash RE
+author: Avinash R. E
 ---
 
 # What is functional programming ?

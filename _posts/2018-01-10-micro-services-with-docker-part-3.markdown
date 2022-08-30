@@ -3,7 +3,7 @@ layout: post
 title: "Docking micro Services (Part-3)"
 img: Docker+MS.png
 tags: [Micro Services, Docker, http4s, Scala, REST, Quill, Cassandra]
-author: Avinash RE
+author: Avinash R. E
 ---
 
 In [part-2]({{ site.baseurl }}{% post_url 2018-01-05-micro-services-with-docker-part-2 %}) we discussed about Interfaces, how to build docker Images, configurations including sbt-docker, sbt-assembly, docker-resources, Cassandra and runtime configs.
@@ -258,7 +258,7 @@ GET: http://localhost:9000/tracking/beacons/5bf966d9-8046-4fc1-ae5a-80c923ebea5a
     "beaconId": "5bf966d9-8046-4fc1-ae5a-80c923ebea5a",
     "timeLogged": "2016-09-06T10:00:00",
     "userId": "f525cff6-721e-11e6-8b77-86f30ca893d3",
-    "name": "Avinash RE"
+    "name": "Avinash R. E"
   },
   {
     "beaconId": "5bf966d9-8046-4fc1-ae5a-80c923ebea5a",
@@ -282,7 +282,7 @@ GET: http://localhost:9000/aggregator/locations/ce519f95-923c-4532-879e-cd19afa8
 [
   {
     "userId": "f525cff6-721e-11e6-8b77-86f30ca893d3",
-    "name": "Avinash RE",
+    "name": "Avinash R. E",
     "timeLogged": "2016-09-06T10:00:00",
     "beaconName": "Bed Room Beacon"
   },

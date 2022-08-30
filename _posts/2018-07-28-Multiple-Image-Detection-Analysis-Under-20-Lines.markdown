@@ -3,7 +3,7 @@ layout: post
 title: "Object Detection - Image Analysis"
 img: Image-Detection-Cover.jpg
 tags: [Computer Vision, Image Recognition, Object Detection, Image Analysis, Python, tensorflow, numpy, SciPy, OpenCV, ImageAI, AI, Machine Learning, Deep learning.]
-author: Avinash RE
+author: Avinash R. E
 ---
 
 Everything around us today is getting Artificially Intelligent. Whether it is a social media website that can detect your friends from a picture or a self-driving car. Such great inventions are happening because of advancements in AI and its eco-system. Computer vision is one such important fields in Artificial Intelligence.

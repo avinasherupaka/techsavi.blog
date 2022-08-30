@@ -4,7 +4,7 @@ title: "Integration Strategy"
 subtitle: "Operational Data orchestration via Hyperscalers & MuleSoft Anypoint iPaaS."
 img: integration.jpeg
 tags: [Integration, MuleSoft, iPaaS, API, AWS, Data]
-author: Avinash RE
+author: Avinash R. E
 ---
 
 __Data integration__ is the process of combining and transforming data from various sources and data domains to influence a business outcome. This typically deals with structured data from databases and text files using deterministic rules for batch and near-real-time use cases.

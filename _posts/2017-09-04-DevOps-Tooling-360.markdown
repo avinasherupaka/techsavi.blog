@@ -3,7 +3,7 @@ layout: post
 title: "DevOps-Tooling-360 - A complete collection of all open source DevOps tools"
 img: DevOps-Cover1.jpg
 tags: [DevOps, Cloud Computing, Tools, Infrastructure]
-author: Avinash RE
+author: Avinash R. E
 ---
 
 # What is DevOps ?
