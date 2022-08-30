@@ -3,7 +3,7 @@ layout: post
 title: "Docking micro Services (Part-1)"
 img: Docker+MS6.png
 tags: [Micro Services, Docker, http4s, Scala, REST, Quill, Cassandra]
-author: Avinash Reddy Erupaka
+author: Avinash RE
 ---
 In this series I will cover on how to use docker/docker-compose to manage micro-services and their dependencies. This will enable you to create a reproducible environment that can be used for spawning any number of services really easily.
 

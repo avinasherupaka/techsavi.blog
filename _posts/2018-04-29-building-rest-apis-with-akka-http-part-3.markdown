@@ -3,7 +3,7 @@ layout: post
 title: "Rest API's with AKKA-HTTP(Part-3)"
 img: akka-http-3.jpg
 tags: [Akka, Micro Services, Rest, http, Scala]
-author: Avinash Reddy Erupaka
+author: Avinash RE
 ---
 
 ### In the [part 1]({{ site.baseurl }}{% post_url 2018-04-15-building-rest-apis-with-akka-http %}) and [part 2]({{ site.baseurl }}{% post_url 2018-04-22-building-rest-apis-with-akka-http-part-2 %}) we discussed about some core concepts of Akka Http. In this final part lets looks at some customizations we can utilize to make wer code more powerful and how to test Akka Http services.

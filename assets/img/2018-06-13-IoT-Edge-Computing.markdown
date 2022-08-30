@@ -3,7 +3,7 @@ layout: post
 title: "IoT Edge Computing"
 img: IoT.jpg
 tags: [IoT, Edge Computing, Distributed Computing, Architecture, Analytics, Monitoring, Sensors, Connected Systems]
-author: Avinash Reddy Erupaka
+author: Avinash RE
 ---
 
 # What is IoT ?

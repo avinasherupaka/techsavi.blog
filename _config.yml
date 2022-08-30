@@ -1,11 +1,11 @@
-title: Avinash Erupaka Blog
+title: Avinash RE Blog
 email: avinash.jvm10@gmail.com
 description: This is where I share and discuss about software. The challenges, interesting problems I solve, findings, tips and tricks I learn in day-to-day life.
 permalink: ':title/'
 baseurl: "/techsavi.blog"
 url: "https://avinasherupaka.github.io"
 
-author: Avinash Erupaka
+author: Avinash RE
 author-pic: Avinash_1.png
 about-author: I am a technology leader, with experience driving all aspects of technology transformation, from strategy to future state architecture. For last 10 years I worked for major corporations building B2B, B2C & internal platforms. I worked in the capacity of a senior dev, tech lead, Platform architect with hand-on experience driving technology strategy enabling business strategy. My expertise is in disciplines like distributed cloud Architectures, Data engineering and analytics, web and mobile application development, IoT, automation, security by design , agile - devsecops practices. I love managing teams and solving complex problems. I love tech, teaching, traveling, and fitness level boxing. I have proficiency using tools like React.js, Redux, Bootstrap, Material Design for the front end. Node.js, Scala, Clojure and Java for the back end. I leverage AWS, GCP, AZURE, OCI cloud platforms and I am a Multi Cloud Certified Architect. Opinions are my own and not the views of my employer.
 

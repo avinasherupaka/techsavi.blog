@@ -3,7 +3,7 @@ layout: post
 title: "AWS Apigateway strategy for Microservices"
 img: aws-microservices.png
 tags: [AWS, Cloud Native, Microservices, API Design, Scalability, IaaC, Serverless, Authorization, Node, Rest]
-author: Avinash Reddy Erupaka
+author: Avinash RE
 ---
 
 Today’s modern architectures are increasingly microservices-based, with domain specific engineering teams, working independently on a service with their own feature requirements and deployment pipelines. The benefits of this approach are numerous, some to highlight are increased agility, release velocity and scalability. 

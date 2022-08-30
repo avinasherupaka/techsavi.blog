@@ -4,7 +4,7 @@ title: "Robotic Process Automation - Taking Robot Out Of Human"
 subtitle: "A brief introduction to Robotic Process Automation."
 img: RPA_Avinash.jpg
 tags: [robotic process automation, intelligent automation, AI, machine learning, autonomics]
-author: Avinash Reddy Erupaka
+author: Avinash RE
 ---
 
 # What is RPA ?

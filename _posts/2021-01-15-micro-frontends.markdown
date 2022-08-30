@@ -3,7 +3,7 @@ layout: post
 title: "Strategy for Micro-frontends"
 img: microfrontend.jpeg
 tags: [Application Architecture, Microservices, Frontend, Modularity, Scalability]
-author: Avinash Reddy Erupaka
+author: Avinash RE
 ---
 
 Recently, we've seen an increase in the emphasis placed on the overall architecture and organizational structures required for complex, modern web development. Patterns for decomposing frontend monoliths into smaller, simpler chunks that can be developed, tested, and deployed independently while still appearing to customers as a single cohesive product are emerging. Thus emergence of Micro-Frontend's:

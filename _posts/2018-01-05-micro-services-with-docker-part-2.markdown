@@ -3,7 +3,7 @@ layout: post
 title: "Docking micro Services (Part-2)"
 img: Docker+MS5.jpg
 tags: [Micro Services, Docker, http4s, Scala, REST, Quill, Cassandra]
-author: Avinash Reddy Erupaka
+author: Avinash RE
 ---
 
 ### Lets build an app that lets you track down users connected to a bluetooth beacon.

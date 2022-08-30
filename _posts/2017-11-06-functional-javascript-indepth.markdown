@@ -3,7 +3,7 @@ layout: post
 title: "Deep Dive into Functional ocean, Be more adventurous and awesome !!!"
 img: functional-Programming1.png
 tags: [Functional Programming, Javascript, Immutability, Higher Order Functions, Closure, Partial Functions, Currying]
-author: Avinash Reddy Erupaka
+author: Avinash RE
 ---
 
 # Higher-Order Functions (HOF)
@@ -46,7 +46,7 @@ Let's assume we want to wrap our components in another component that is used fo
 
 > const concat = (a,b,c) => a + b + c
 > const firstName  = partial(concat, 'Mr.', 'Avinash ')
-firstName('Erupaka') // 'Mr.Avinash Erupaka'
+firstName('RE') // 'Mr.Avinash RE'
 ```
 Now lets take this concept little further, what if the functions passed to partial functions are self apply on their own and we don't need to use any explicit partial functions. That's where currying comes in to picture.
 
@@ -61,7 +61,7 @@ curryedMultiply = (n) => ( (m) => multiply(n, m) )
 
 > const curriedConcat = (a) => (b) => (c) => a + b + c
 > const curriedFirstName  = curriedConcat('Mr.')('Avinash ') // First 2 args are fulfilled and It will return a curredFunction that will resolve upon getting its last arg.
-> curriedFirstName('Erupaka') // 'Mr.Avinash Erupaka'
+> curriedFirstName('RE') // 'Mr.Avinash RE'
 ```
 
 Notice the difference ? A curried function always applies 1 parameter at a time. Partial application is not this strict.

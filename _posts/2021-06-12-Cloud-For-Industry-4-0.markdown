@@ -4,7 +4,7 @@ title: "Digital Manufacturing Cloud - Part 1"
 subtitle: "A multi tenant cloud blueprint Industry 4.0(aka Smart Factory)"
 img: cloud-industry-4-0.jpeg
 tags: [Cloud, Industry-4.0, Smart Factory, IIoT, Multi Tenant, Multi Region]
-author: Avinash Reddy Erupaka
+author: Avinash RE
 ---
 
 Manufacturing has changed dramatically in the previous ten years because to digital technology. Businesses have been able to attain unprecedented levels of efficiency and output because to the Cloud and the Internet of Things (IoT). However, the revolution is far from over. Implementing a cloud backbone for smart factory operations is critical for companies with complex manufacturing operations and must remain competitive. In this 2 part serise I will cover basics of manufacturing digital transformation and how cloud computing capabilitites enable that journey.

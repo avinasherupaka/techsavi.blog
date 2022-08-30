@@ -4,7 +4,7 @@ title: "Digital Manufacturing Cloud - Part 3"
 subtitle: "A multi tenant cloud blueprint Industry 4.0(aka Smart Factory)"
 img: cloud-industry-4-0.jpeg
 tags: [Cloud, Industry-4.0, Smart Factory, IIoT, Multi Tenant, Multi Region]
-author: Avinash Reddy Erupaka
+author: Avinash RE
 ---
 
 In [part-1]({{ site.baseurl }}{% post_url 2021-06-12-Cloud-For-Industry-4-0 %}), [part-2]({{ site.baseurl }}{% post_url 2021-06-21-Cloud-For-Industry-4-0-2 %}) We talked about the fundamentals of manufacturing digital transformation, smart factories, Industry 4.0, and how the cloud is facilitating that journey and detailed architecture implementation and deployment schemes. In this part we will look at some more internals and the future of the ecosystem.
