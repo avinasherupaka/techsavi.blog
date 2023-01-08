@@ -1,0 +1,33 @@
+---
+layout: post
+title: "DevSecOps Maturity - Logging"
+img: devsecops/dso.png
+tags: [DevSecOps, Maturity Model, Engineering Quality]
+author: Avinash R. E
+---
+
+## Logging
+
+Logging is the act of recording events that occur in an application, database or infrastructure.
+
+### Application
+
+Back up data, applications, and configuration to meet business RPO and RTO.
+
+![Application]({{site.baseurl}}/assets/img/devsecops/Application.png)
+
+### Database
+
+Database logging makes it possible to track DML and DDL changes to a database.
+
+![Database]({{site.baseurl}}/assets/img/devsecops/Database.png)
+
+### Infrastructure
+
+Infrastructure logging makes it possible to capture events across all the assets that are necessary to deliver and support IT services: data centers, servers, networks, computer hardware and software, storage, and other equipment.
+
+![Infrastructure]({{site.baseurl}}/assets/img/devsecops/Infrastructure.png)
+
+
+
+Cheers and Happy Coding 🤘

@@ -1,0 +1,40 @@
+---
+layout: post
+title: "DevSecOps Maturity - Security"
+img: devsecops/dso.png
+tags: [DevSecOps, Maturity Model, Engineering Quality]
+author: Avinash R. E
+---
+
+## Security
+
+### Secret Rotation
+
+![Secret_Rotation]({{site.baseurl}}/assets/img/devsecops/Secret Rotation.png)
+
+### Secret Storage
+
+![Secret Storage]({{site.baseurl}}/assets/img/devsecops/Secret Storage.png)
+
+### API Security
+
+![API Security]({{site.baseurl}}/assets/img/devsecops/API Security.png)
+
+### Data Security
+
+![Data Security]({{site.baseurl}}/assets/img/devsecops/Data Security.png)
+
+### Data Access Control
+
+![Data Access Control]({{site.baseurl}}/assets/img/devsecops/Data Access Control.png)
+
+### Container Security
+
+![Container Security]({{site.baseurl}}/assets/img/devsecops/Container Security.png)
+
+### Secure Code Review
+
+![Secure Code Review]({{site.baseurl}}/assets/img/devsecops/Secure Code Review.png)
+
+
+Cheers and Happy Coding 🤘
