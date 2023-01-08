@@ -9,6 +9,14 @@
     } ,
   
     {
+      "title"    : "Enterprise Data Mesh",
+      "category" : "",
+      "tags"     : "Data, Strategy, Data Asset, CDC, Streaming, Cloud",
+      "url"      : "/techsavi.blog/Enterprise-Data-Mesh/",
+      "date"     : "2022-01-06 00:00:00 -0600"
+    } ,
+  
+    {
       "title"    : "Comprehensive Tech Trends 2022",
       "category" : "",
       "tags"     : "Trends, Technology, 2022",
@@ -70,6 +78,110 @@
       "tags"     : "Blockchain, Crypto, Trust, Peer-To-Peer, Distributed Ledger, Consensus",
       "url"      : "/techsavi.blog/Blockchain/",
       "date"     : "2020-07-03 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "DevSecOps Maturity - Documentation",
+      "category" : "",
+      "tags"     : "DevSecOps, Maturity Model, Engineering Quality",
+      "url"      : "/techsavi.blog/Documentation/",
+      "date"     : "2019-05-05 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "DevSecOps Maturity -  Requirement Traceability",
+      "category" : "",
+      "tags"     : "DevSecOps, Maturity Model, Engineering Quality",
+      "url"      : "/techsavi.blog/Requirement-Traceability/",
+      "date"     : "2019-04-25 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "DevSecOps Maturity - Patch Management",
+      "category" : "",
+      "tags"     : "DevSecOps, Maturity Model, Engineering Quality",
+      "url"      : "/techsavi.blog/Patch-Management/",
+      "date"     : "2019-04-19 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "DevSecOps Maturity - Cost Management",
+      "category" : "",
+      "tags"     : "DevSecOps, Maturity Model, Engineering Quality",
+      "url"      : "/techsavi.blog/Cost-Management/",
+      "date"     : "2019-04-15 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "DevSecOps Maturity - Testing",
+      "category" : "",
+      "tags"     : "DevSecOps, Maturity Model, Engineering Quality",
+      "url"      : "/techsavi.blog/Testing/",
+      "date"     : "2019-04-07 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "DevSecOps Maturity - Continuous Deployment",
+      "category" : "",
+      "tags"     : "DevSecOps, Maturity Model, Engineering Quality",
+      "url"      : "/techsavi.blog/Continuous-Deployment/",
+      "date"     : "2019-03-23 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "DevSecOps Maturity - Continuous Integration",
+      "category" : "",
+      "tags"     : "DevSecOps, Maturity Model, Engineering Quality",
+      "url"      : "/techsavi.blog/Continuous-Integration/",
+      "date"     : "2019-03-16 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "DevSecOps Maturity - Monitoring",
+      "category" : "",
+      "tags"     : "DevSecOps, Maturity Model, Engineering Quality",
+      "url"      : "/techsavi.blog/Monitoring/",
+      "date"     : "2019-03-12 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "DevSecOps Maturity - Security",
+      "category" : "",
+      "tags"     : "DevSecOps, Maturity Model, Engineering Quality",
+      "url"      : "/techsavi.blog/Security/",
+      "date"     : "2019-03-02 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"    : "DevSecOps Maturity - Logging",
+      "category" : "",
+      "tags"     : "DevSecOps, Maturity Model, Engineering Quality",
+      "url"      : "/techsavi.blog/Logging/",
+      "date"     : "2019-02-20 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"    : "DevSecOps Maturity - Reliability",
+      "category" : "",
+      "tags"     : "DevSecOps, Maturity Model, Engineering Quality",
+      "url"      : "/techsavi.blog/Reliability/",
+      "date"     : "2019-02-10 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"    : "DevSecOps Maturity Model",
+      "category" : "",
+      "tags"     : "DevSecOps, Maturity Model, Engineering Quality",
+      "url"      : "/techsavi.blog/devsecops-maturity-framework/",
+      "date"     : "2019-02-03 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"    : "DevSecOps Intro",
+      "category" : "",
+      "tags"     : "DevSecOps, Maturity Model, Engineering Quality",
+      "url"      : "/techsavi.blog/devsecops-intro/",
+      "date"     : "2019-01-10 00:00:00 -0600"
     } ,
   
     {
