@@ -24,7 +24,7 @@ System performance can degrade over time. Monitor system performance to identify
 
 ### SLOs/SLIs
 
-![SLOs/SLIs]({{site.baseurl}}/assets/img/devsecops/SLOs/SLIs.png)
+![SLOs_SLIs]({{site.baseurl}}/assets/img/devsecops/SLOs_SLIs.png)
 
 
 Cheers and Happy Coding 🤘

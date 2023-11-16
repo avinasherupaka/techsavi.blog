@@ -81,6 +81,14 @@
     } ,
   
     {
+      "title"    : "Composable Enterprise",
+      "category" : "",
+      "tags"     : "Blockchain, Crypto, Trust, Peer-To-Peer, Distributed Ledger, Consensus",
+      "url"      : "/techsavi.blog/Composable-Enterprise/",
+      "date"     : "2020-03-19 00:00:00 -0500"
+    } ,
+  
+    {
       "title"    : "DevSecOps Maturity - Documentation",
       "category" : "",
       "tags"     : "DevSecOps, Maturity Model, Engineering Quality",
