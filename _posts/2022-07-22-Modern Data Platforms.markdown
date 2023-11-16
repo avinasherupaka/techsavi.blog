@@ -19,7 +19,7 @@ Some considerations on my biases before reading this article:
 
 ## User, Usage Driven Choices:
 
-![authnz]({{site.baseurl}}/assets/img/Data_Architecture_Flow.png)
+![data]({{site.baseurl}}/assets/img/Data_Architecture_Flow.png)
 
 ## What is right Technology Architecture ?
 
