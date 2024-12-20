@@ -1,6 +1,33 @@
+$dark-purple: #4b0082; /* Replace with your preferred color */
+
 .main-footer {
   padding: 15px 0;
   background-color: #efefef;
+
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Spacing between stats */
+    margin-bottom: 10px;
+  }
+
+  .stat-item {
+    text-align: center;
+    font-size: 14px;
+    color: $dark-purple;
+  }
+
+  .stat-number {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4caf50; /* Catchy green to draw attention */
+  }
+
+  .stat-label {
+    font-size: 12px;
+    color: $dark-purple;
+  }
 
   .copyright {
     text-align: center;
