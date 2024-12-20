@@ -16,4 +16,4 @@ author: Avinash R. E
 
 ![Optimization]({{site.baseurl}}/assets/img/devsecops/Optimization.png)
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

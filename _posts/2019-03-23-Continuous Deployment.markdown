@@ -28,4 +28,4 @@ author: Avinash R. E
 
 ![Release Tracking]({{site.baseurl}}/assets/img/devsecops/Release Tracking.png)
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

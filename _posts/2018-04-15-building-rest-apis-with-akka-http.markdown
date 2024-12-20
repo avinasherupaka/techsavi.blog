@@ -201,4 +201,4 @@ Above Example-1 and Example-2 are some ways you can define Http endpoints, but i
 
 ### In the [part 2]({{ site.baseurl }}{% post_url 2018-04-22-building-rest-apis-with-akka-http-part-2 %}) of this series we will look at some more advanced Akka Http concepts.
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

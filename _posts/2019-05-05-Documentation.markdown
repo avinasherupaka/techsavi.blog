@@ -16,4 +16,4 @@ author: Avinash R. E
 
 ![README]({{site.baseurl}}/assets/img/devsecops/README.png)
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

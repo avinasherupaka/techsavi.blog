@@ -38,4 +38,4 @@ Integrating Digital Manufacturing Cloud with other ecosystem components such as 
 ![future]({{site.baseurl}}/assets/img/dmc/future.png)
 
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

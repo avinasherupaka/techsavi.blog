@@ -34,4 +34,4 @@ A product is graded in five stages for each sub dimension, beginning with Initia
 11. [Documentation]({{ site.baseurl }}{% post_url 2019-05-05-Documentation %})
 
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

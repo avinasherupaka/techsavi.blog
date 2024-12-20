@@ -20,4 +20,4 @@ author: Avinash R. E
 
 ![Cnfrastructure]({{site.baseurl}}/assets/img/devsecops/CInfrastructure.png)
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

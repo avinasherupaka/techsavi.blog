@@ -37,4 +37,4 @@ author: Avinash R. E
 ![Secure Code Review]({{site.baseurl}}/assets/img/devsecops/Secure Code Review.png)
 
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

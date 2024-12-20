@@ -20,4 +20,4 @@ An EDM is made up of numerous components (lots more detail available here, here,
 There are numerous Data Products in an Enterprise's Data Mesh. When one Data Product changes its data, this change is communicated to other Data Products via Change Data Capture and an Event Streaming Backbone.
 
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

@@ -75,4 +75,4 @@ If you haven't noticed, there is a lot of similarity/redundancy in the above arc
 9. System assurance strategy
 10. Config Driven dynamic deployment.
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

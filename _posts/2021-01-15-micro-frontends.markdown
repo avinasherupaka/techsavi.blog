@@ -270,4 +270,4 @@ Domain-driven microservices and microfrontends go hand in hand. Communication be
 If used correctly, micro frontends have a lot of potential. It is possible to build large, complex applications by allowing different teams to own different parts of the web application, but you should proceed with caution before using them. Preparation is essential for most patterns and techniques. As long as your teams communicate effectively and cross-cutting issues are addressed in a way that is understood by all parties involved, you should have no problems (at least none that aren't easily solved).
 
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

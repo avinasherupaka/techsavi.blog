@@ -47,4 +47,4 @@ IoT can be classified into 3 broad categories.
 > This includes smart public services like transportation, household amenities(water, electricity, weather etc.).
 Connected infrastructures, Connected markets fall in this segment
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

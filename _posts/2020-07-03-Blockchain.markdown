@@ -38,4 +38,4 @@ As we discussed above any addition to the ledger will be done upon achieving cer
 
 The consensus algorithm is based on honest nodes to come to an agreement on the state of a blockchain ledger and reject attempts of invalid entries. This is the paradigm shift from third party trust to consensus based trust. 
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

@@ -65,4 +65,4 @@ Now we will zoom into the individual compartment implementation on AWS(Amazon We
 ### In the [next]({{ site.baseurl }}{% post_url 2021-06-21-Cloud-For-Industry-4-0-2 %}) part lets dive into the details of above blueprint implementation.
 
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

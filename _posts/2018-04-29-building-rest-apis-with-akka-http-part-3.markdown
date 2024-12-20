@@ -202,4 +202,4 @@ object UserService extends BaseSpec {
 
 ```
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

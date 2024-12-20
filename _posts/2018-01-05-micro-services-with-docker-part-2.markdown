@@ -264,4 +264,4 @@ Configuration across all services is same. Most of the code can be refactored in
 
 I want to give a shout out to [Mark Harrison](https://github.com/markglh) for motivating me to implement this and write a blog with my learnings, findings and additions...
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

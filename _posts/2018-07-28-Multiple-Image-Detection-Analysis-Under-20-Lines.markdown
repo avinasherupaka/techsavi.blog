@@ -152,4 +152,4 @@ One real-time application, I can associate with my field of work (ag-tech/ag-sci
 ## Conclusion
 The applications of computer vision, object detection, image predictions are numerous. I am anticipating more research and applications in these fields, shaping a variety of domains like security, agriculture, manufacturing, terrain analysis, commercial drones etc!  
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

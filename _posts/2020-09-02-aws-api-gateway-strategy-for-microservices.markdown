@@ -291,4 +291,4 @@ With this approch we can manage 2 env's under 1 gateway rather than flooding wit
 
 ![final-output]({{site.baseurl}}/assets/img/custom-domain-test.png)
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

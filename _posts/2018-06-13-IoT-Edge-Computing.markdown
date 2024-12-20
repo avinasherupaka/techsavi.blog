@@ -49,4 +49,4 @@ Connected infrastructures, Connected markets fall in this segment
 
 # WORK IN PROGRESS
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

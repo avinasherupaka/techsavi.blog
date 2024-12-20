@@ -34,4 +34,4 @@ A common DevSecOps workflow looks like this:
 
 ### In the [next]({{ site.baseurl }}{% post_url 2019-02-03-devsecops-maturity-framework %}) tutorial lets dive how a framework can help us measure this.
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

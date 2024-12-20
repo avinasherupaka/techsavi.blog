@@ -35,4 +35,4 @@ A system's ability to grow and accommodate an increase in demand.
 ![Scalability]({{site.baseurl}}/assets/img/devsecops/Scalability.png)
 
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘

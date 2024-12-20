@@ -274,4 +274,4 @@ Lets break down the code..
 
 ### In the [part 3]({{ site.baseurl }}{% post_url 2018-04-29-building-rest-apis-with-akka-http-part-3 %}) of this series we will look at some more advanced Akka Http concepts.
 
-Cheers and Happy Coding 🤘
+Cheers and Happy Building 🤘
