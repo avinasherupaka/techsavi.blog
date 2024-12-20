@@ -3,7 +3,7 @@ layout: post
 title: "DevSecOps Maturity -  Requirement Traceability"
 img: devsecops/dso.png
 tags: [DevSecOps, Maturity Model, Engineering Quality]
-author: Avinash R. E
+author: Avinash Erupaka
 ---
 
 ## Requirement Traceability

@@ -4,7 +4,7 @@ title: "Building Modern Data Powerhouses"
 subtitle: "Considerations for building your Enterprise Data Ecosystems"
 img: DataAnalyticsEcosystem.jpg
 tags: [BigQuery, Databricks, Snowflake, Dataproc, Redshift, Synapse, AWS, AZURE, GCP]
-author: Avinash R. E
+author: Avinash Erupaka
 ---
 
 An organization that seeks to get better at how they use data and AI will need to get their data architecture into shape. Assuming that you are going to be building your data platform on the cloud, you will find yourself trying to make the choice between BigQuery, Databricks, Snowflake, Dataproc, Redshift, Synapse, AWS, AZURE, GCP, etc. All of these are reasonable choices for building a data platform upon. Each vendor claims they are the best, and POCs and benchmarks are fraught with danger. In such situations, my suggestion is to go with a few guiding principles to choose the platform that is right for you.

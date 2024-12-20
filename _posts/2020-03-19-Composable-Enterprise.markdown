@@ -4,7 +4,7 @@ title: "Composable Enterprise"
 subtitle: "The Intro"
 img: comp-ent.jpeg
 tags: [Blockchain, Crypto, Trust, Peer-To-Peer, Distributed Ledger, Consensus]
-author: Avinash R. E
+author: Avinash Erupaka
 ---
 
 You were introduced to the notion of composability as a kid who dreamed to build any sort of experience for oneself "A house", "A Kitchen", "City with super heroes", "fire stations", "Space Stations", etc. using preassembled blocks that fit together smoothly. This is a notion that may be applied to businesses and their procedures.

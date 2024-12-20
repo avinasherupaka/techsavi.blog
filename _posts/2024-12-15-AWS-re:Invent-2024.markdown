@@ -4,7 +4,7 @@ title: "AWS re:Invent 2024 Recap"
 subtitle: "Compute, Analytics, LLM, GenAI....."
 img: aws-reinvent-24.jpg
 tags: [Compute, Iceberg, Bedrock, Analytics, SageMaker Unified Studio,  Nova, RAG, LLM, GenAI]
-author: Avinash R. E
+author: Avinash Erupaka
 ---
 
 I had the opportunity to attend AWS re:Invent 2024. It was a week of vibrant energy, transformative insights, and groundbreaking innovations that set the stage for the next wave of cloud and AI advancements. From the outset, it was clear that this year’s event would leave a lasting impact on both the AWS and the broader ecosystem, technology landscape. Here’s a comprehensive look at the key moments, takeaways, and inspiring connections that made this year’s re:Invent impactful.

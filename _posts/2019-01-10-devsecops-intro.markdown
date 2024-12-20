@@ -3,7 +3,7 @@ layout: post
 title: "DevSecOps Intro"
 img: devsecops/dso.png
 tags: [DevSecOps, Maturity Model, Engineering Quality]
-author: Avinash R. E
+author: Avinash Erupaka
 ---
 In this article, I will explain what DevSecOps is, how it is altering the software industry, and how we can instill and measure the progress of implementing one.
 

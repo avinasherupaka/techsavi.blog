@@ -4,7 +4,7 @@ title: "Enterprise Data Mesh"
 subtitle: "Transforming how Enterprises manage their data"
 img: integration.jpeg
 tags: [Data, Strategy, Data Asset, CDC, Streaming, Cloud]
-author: Avinash R. E
+author: Avinash Erupaka
 ---
 
 In today's world, where self-service business intelligence reigns supreme, every business strives to establish itself as an data-driven business. Many businesses are aware of the numerous advantages gained from using leverage to make informed decisions. The ability to provide superior, highly personalized services to customers while reducing costs and capital is the most appealing.
