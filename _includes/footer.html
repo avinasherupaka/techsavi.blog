@@ -15,54 +15,40 @@
 </footer>
 
 <script>
-  // Helper function to get current date
-  const getCurrentDate = () => new Date();
+  // Function to fetch stats from the server
+  const fetchStats = async () => {
+    try {
+      const response = await fetch("/api/stats");
+      if (!response.ok) throw new Error("Failed to fetch stats");
+      const stats = await response.json();
 
-  // Manage Subscribers
-  const updateSubscribers = () => {
-    const subscribersKey = "subscribers";
-    const lastUpdateKey = "subscribersLastUpdate";
-    const initialSubscribers = 12345;
-
-    // Get values from localStorage
-    const storedSubscribers = localStorage.getItem(subscribersKey);
-    const lastUpdate = localStorage.getItem(lastUpdateKey);
-
-    const now = getCurrentDate();
-    let subscribers = storedSubscribers ? parseInt(storedSubscribers, 10) : initialSubscribers;
-
-    // If a week has passed since the last update, increase subscribers
-    if (!lastUpdate || new Date(lastUpdate) < now.setDate(now.getDate() - 7)) {
-      subscribers += 15;
-      localStorage.setItem(subscribersKey, subscribers);
-      localStorage.setItem(lastUpdateKey, new Date());
+      // Update the UI
+      document.getElementById("subscribers").textContent = stats.subscribers;
+      document.getElementById("visitors").textContent = stats.visitors;
+    } catch (error) {
+      console.error("Error fetching stats:", error);
     }
-
-    return subscribers;
   };
 
-  // Manage Visitors
-  const updateVisitors = () => {
-    const visitorsKey = "visitors";
-    const initialVisitors = 178910;
+  // Function to increment visitors count
+  const incrementVisitors = async () => {
+    try {
+      const response = await fetch("/api/visit", { method: "POST" });
+      if (!response.ok) throw new Error("Failed to update visitors");
+      const stats = await response.json();
 
-    // Get values from localStorage
-    const storedVisitors = localStorage.getItem(visitorsKey);
-    let visitors = storedVisitors ? parseInt(storedVisitors, 10) : initialVisitors;
-
-    // Increment visitors
-    visitors += 1;
-    localStorage.setItem(visitorsKey, visitors);
-
-    return visitors;
+      // Update the UI
+      document.getElementById("subscribers").textContent = stats.subscribers;
+      document.getElementById("visitors").textContent = stats.visitors;
+    } catch (error) {
+      console.error("Error updating visitors:", error);
+    }
   };
 
-  // Update UI
+  // Initialize the stats on page load
   document.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("subscribers").textContent = updateSubscribers();
-    document.getElementById("visitors").textContent = updateVisitors();
-
-    // Set current year
+    fetchStats();
+    incrementVisitors();
     document.getElementById("current-year").textContent = new Date().getFullYear();
   });
 </script>
