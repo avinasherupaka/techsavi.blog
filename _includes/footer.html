@@ -1,11 +1,11 @@
 <footer class="main-footer">
   <div class="stats">
     <div class="stat-item">
-      <span class="stat-number">12,345</span>
+      <span id="subscribers" class="stat-number"></span>
       <span class="stat-label">Subscribers</span>
     </div>
     <div class="stat-item">
-      <span class="stat-number">178,910</span>
+      <span id="visitors" class="stat-number"></span>
       <span class="stat-label">Visitors</span>
     </div>
   </div>
@@ -13,3 +13,56 @@
     <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
   </div>
 </footer>
+
+<script>
+  // Helper function to get current date
+  const getCurrentDate = () => new Date();
+
+  // Manage Subscribers
+  const updateSubscribers = () => {
+    const subscribersKey = "subscribers";
+    const lastUpdateKey = "subscribersLastUpdate";
+    const initialSubscribers = 12345;
+
+    // Get values from localStorage
+    const storedSubscribers = localStorage.getItem(subscribersKey);
+    const lastUpdate = localStorage.getItem(lastUpdateKey);
+
+    const now = getCurrentDate();
+    let subscribers = storedSubscribers ? parseInt(storedSubscribers, 10) : initialSubscribers;
+
+    // If a week has passed since the last update, increase subscribers
+    if (!lastUpdate || new Date(lastUpdate) < now.setDate(now.getDate() - 7)) {
+      subscribers += 15;
+      localStorage.setItem(subscribersKey, subscribers);
+      localStorage.setItem(lastUpdateKey, new Date());
+    }
+
+    return subscribers;
+  };
+
+  // Manage Visitors
+  const updateVisitors = () => {
+    const visitorsKey = "visitors";
+    const initialVisitors = 178910;
+
+    // Get values from localStorage
+    const storedVisitors = localStorage.getItem(visitorsKey);
+    let visitors = storedVisitors ? parseInt(storedVisitors, 10) : initialVisitors;
+
+    // Increment visitors
+    visitors += 1;
+    localStorage.setItem(visitorsKey, visitors);
+
+    return visitors;
+  };
+
+  // Update UI
+  document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("subscribers").textContent = updateSubscribers();
+    document.getElementById("visitors").textContent = updateVisitors();
+
+    // Set current year
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+  });
+</script>
