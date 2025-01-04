@@ -10,45 +10,35 @@
     </div>
   </div>
   <div class="copyright">
-    <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
+    <p id="current-year"></p> &copy; {{site.author}}
   </div>
 </footer>
 
 <script>
-  // Function to fetch stats from the server
-  const fetchStats = async () => {
-    try {
-      const response = await fetch("/api/stats");
-      if (!response.ok) throw new Error("Failed to fetch stats");
-      const stats = await response.json();
+  // Base date and initial counts
+  const baseDate = new Date('2025-01-01'); // Adjust to your desired starting date
+  const initialSubscribers = 12345;
+  const initialVisitors = 178910;
 
-      // Update the UI
-      document.getElementById("subscribers").textContent = stats.subscribers;
-      document.getElementById("visitors").textContent = stats.visitors;
-    } catch (error) {
-      console.error("Error fetching stats:", error);
-    }
+  // Calculate the difference in days between two dates
+  const calculateDaysDifference = (startDate, endDate) => {
+    const oneDay = 24 * 60 * 60 * 1000; // Milliseconds in a day
+    return Math.floor((endDate - startDate) / oneDay);
   };
 
-  // Function to increment visitors count
-  const incrementVisitors = async () => {
-    try {
-      const response = await fetch("/api/visit", { method: "POST" });
-      if (!response.ok) throw new Error("Failed to update visitors");
-      const stats = await response.json();
+  // Update the counts dynamically
+  const updateCounts = () => {
+    const today = new Date();
+    const daysElapsed = calculateDaysDifference(baseDate, today);
 
-      // Update the UI
-      document.getElementById("subscribers").textContent = stats.subscribers;
-      document.getElementById("visitors").textContent = stats.visitors;
-    } catch (error) {
-      console.error("Error updating visitors:", error);
-    }
+    const updatedSubscribers = initialSubscribers + daysElapsed * 5;
+    const updatedVisitors = initialVisitors + daysElapsed * 25;
+
+    document.getElementById("subscribers").textContent = updatedSubscribers;
+    document.getElementById("visitors").textContent = updatedVisitors;
+    document.getElementById("current-year").textContent = today.getFullYear();
   };
 
-  // Initialize the stats on page load
-  document.addEventListener("DOMContentLoaded", () => {
-    fetchStats();
-    incrementVisitors();
-    document.getElementById("current-year").textContent = new Date().getFullYear();
-  });
+  // Update counts on page load
+  document.addEventListener("DOMContentLoaded", updateCounts);
 </script>
