@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "I’m not becoming less concerned about AI—I’m becoming more deliberate about what I do with that concern"
-img: img/ml-future.png
+title: "My Journey from AI Doomer to Bloomer"
+img: ml-future.png
 tags: [AI, Agentic AI, AI Safety, Governance, Ethics, Security, Innovation, Society, Career, Technology]
 author: Avinash Erupaka
 ---
